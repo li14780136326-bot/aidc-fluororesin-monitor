@@ -1,0 +1,99 @@
+[
+  {
+    "date": "2026-07-08",
+    "total_articles": 12,
+    "verified_count": 4,
+    "summary_cn": "今日AIDC领域：PFAS管控加剧氟塑料线缆合规压力；RISC-V数据中心服务器平台标准1.0发布。铜缆、液冷、PCB无更新。",
+    "summary_jp": "本日、PFAS規制がフッ素樹脂高温電線市場に与える影響分析記事が公開。RISC-Vサーバープラットフォーム1.0がデータセンター向けにリリース。",
+    "active_sources": [
+      "rss",
+      "jina",
+      "v2ex",
+      "exa",
+      "reddit",
+      "zhihu",
+      "weibo",
+      "twitter",
+      "wechat"
+    ],
+    "categories": {
+      "polymer_industry": 6,
+      "pcb_substrate": 1,
+      "optical_communication": 1,
+      "connector": 1,
+      "liquid_cooling": 1,
+      "copper_interconnect": 1,
+      "AIDC_development": 1
+    }
+  },
+  {
+    "date": "2026-07-07",
+    "total_articles": 13,
+    "verified_count": 4,
+    "summary_cn": "今日AIDC领域动态：树脂价格因地缘政治上涨，Asahi Kasei在台投建先进薄膜工厂以扩产半导体封装材料。",
+    "summary_jp": "本日は樹脂価格上昇、旭化成の台湾フィルム設備投資、プラスチック完全リサイクル技術などが確認された。銅ケーブル・液冷・PCB分野に新たな動きはなかった。",
+    "active_sources": [
+      "rss",
+      "jina",
+      "v2ex",
+      "exa",
+      "reddit",
+      "zhihu",
+      "weibo",
+      "twitter",
+      "wechat"
+    ],
+    "categories": {
+      "polymer_industry": 8,
+      "pcb_substrate": 1,
+      "optical_communication": 1,
+      "connector": 1,
+      "liquid_cooling": 1,
+      "community_discussion": 1
+    }
+  },
+  {
+    "date": "2026-07-06",
+    "total_articles": 10,
+    "verified_count": 3,
+    "summary_cn": "今日半导体设备、塑料行业、高频PCB基板等领域共采集7篇相关文章。",
+    "summary_jp": "本日は半導体装置・プラスチック業界・高周波PCB基板分野で7件の情報を収集。",
+    "active_sources": [
+      "rss",
+      "jina",
+      "v2ex",
+      "exa",
+      "reddit",
+      "zhihu",
+      "weibo",
+      "twitter",
+      "wechat"
+    ],
+    "categories": {
+      "semiconductor_equipment": 2,
+      "polymer_industry": 2,
+      "pcb_substrate": 1,
+      "connector": 1,
+      "liquid_cooling": 1
+    }
+  },
+  {
+    "date": "2026-07-05",
+    "total_articles": 13,
+    "verified_count": 3,
+    "summary_cn": "今日塑料行业、高频PCB基板、高速连接器等领域共采集13篇相关文章。",
+    "summary_jp": "本日はプラスチック業界・高周波PCB基板・高速コネクタ分野で13件の情報を収集。",
+    "active_sources": [
+      "rss",
+      "jina",
+      "v2ex",
+      "exa"
+    ],
+    "categories": {
+      "polymer_industry": 10,
+      "pcb_substrate": 1,
+      "connector": 1,
+      "liquid_cooling": 1
+    }
+  }
+]
