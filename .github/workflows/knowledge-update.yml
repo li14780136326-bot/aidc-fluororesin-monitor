@@ -1,0 +1,84 @@
+name: Weekly Knowledge Graph Update
+
+on:
+  schedule:
+    - cron: '0 23 * * 0'
+  workflow_dispatch:
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  knowledge-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update knowledge base from archive
+        run: python scripts/update_knowledge_base.py
+
+      - name: AI-powered weekly synthesis
+        run: python scripts/weekly_synthesis.py
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+      - name: Update website data
+        run: python scripts/update_website.py
+
+      - name: Build site verification
+        run: python scripts/build_site.py
+
+      - name: Commit and push knowledge update
+        run: |
+          git config user.name "AIDC Monitor Bot"
+          git config user.email "bot@aidc-fluororesin-monitor.local"
+          git add \
+            knowledge_base/knowledge_base.json \
+            website/data/knowledge_index.json
+          if git diff --staged --quiet; then
+            echo "No changes — knowledge base already up to date."
+          else
+            git commit -m "Weekly knowledge graph update: $(date +%Y-%m-%d)"
+            git fetch origin main
+            git merge origin/main -X ours --no-edit || true
+            git push
+            echo "Knowledge graph updated and pushed."
+          fi
+
+      - name: Deploy to Netlify
+        if: success()
+        run: |
+          cd website
+          zip -r ../site.zip . -q
+          cd ..
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+            -H "Content-Type: application/zip" \
+            --data-binary @site.zip \
+            "https://api.netlify.com/api/v1/sites/c300235d-7cbe-4ec1-b33e-093efa9555f3/deploys")
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          echo "HTTP $HTTP_CODE"
+          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+            echo "Deploy successful!"
+            echo "$BODY" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'URL: {d.get(\"deploy_ssl_url\",\"\")}')" 2>/dev/null || true
+          else
+            echo "Deploy failed: $BODY"
+            exit 1
+          fi
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
