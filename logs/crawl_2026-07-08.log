@@ -1,0 +1,49 @@
+
+============================================================
+ AIDC + Fluororesin Daily Crawl Pipeline
+ Date: 2026-07-08
+ Project: /c/Users/15337/Desktop/aidc-fluororesin-monitor
+ Start: 2026-07-08 20:12:21
+============================================================
+
+[20:12:21] Using Python: 
+[20:12:21] Using Python: 
+[20:12:21] Activated agent-reach venv
+[20:12:21] Activated agent-reach venv
+[20:12:21] Local environment → using crawl_sources.py (full)
+[20:12:21] Local environment → using crawl_sources.py (full)
+[20:12:21] === STAGE 1: Multi-Source Crawl ===
+[20:12:21] === STAGE 1: Multi-Source Crawl ===
+[20:12:22] [WARN] Crawl had errors but continuing with partial data
+[20:12:22] [WARN] Crawl had errors but continuing with partial data
+[20:12:22] 
+[20:12:22] 
+[20:12:22] === STAGE 2: Cross-Verification ===
+[20:12:22] === STAGE 2: Cross-Verification ===
+[20:12:22] [WARN] Verification had errors, check logs
+[20:12:22] [WARN] Verification had errors, check logs
+[20:12:22] 
+[20:12:22] 
+[20:12:22] === STAGE 3: Generate Daily Reports ===
+[20:12:22] === STAGE 3: Generate Daily Reports ===
+[20:12:23] [WARN] Report generation had errors
+[20:12:23] [WARN] Report generation had errors
+[20:12:23] 
+[20:12:23] 
+[20:12:23] === STAGE 4: Update Website ===
+[20:12:23] === STAGE 4: Update Website ===
+[20:12:23] [WARN] Website data update had errors
+[20:12:23] [WARN] Website data update had errors
+[20:12:24] [WARN] Website build had errors
+[20:12:24] [WARN] Website build had errors
+
+============================================================
+[20:12:24]  Pipeline Complete!
+[20:12:24]  Pipeline Complete!
+[20:12:24]  Date: 2026-07-08
+[20:12:24]  Date: 2026-07-08
+[20:12:24]  End: 2026-07-08 20:12:24
+[20:12:24]  End: 2026-07-08 20:12:24
+[20:12:24]  Log: /c/Users/15337/Desktop/aidc-fluororesin-monitor/logs/crawl_2026-07-08.log
+[20:12:24]  Log: /c/Users/15337/Desktop/aidc-fluororesin-monitor/logs/crawl_2026-07-08.log
+============================================================
