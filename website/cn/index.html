@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIDC + 氟树脂材料 情报监测</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<script>if(sessionStorage.getItem('aidc_auth')!=='1'){location.replace('/');}</script>
+
+<div class="app-container">
+
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-logo">A/F</span>
+      <span class="nav-title">AIDC + 氟树脂材料 情报监测</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">首页</a></li>
+      <li><a href="daily.html">日报</a></li>
+      <li><a href="knowledge.html">知识图谱</a></li>
+	      <li><a href="architecture.html">架构可视化</a></li>
+    </ul>
+    <div class="nav-lang">
+      <a href="index.html" class="active">中</a>
+      <a href="../jp/index.html">日</a>
+    </div>
+  </nav>
+
+  <!-- Snapshot -->
+  <div class="section-header">
+    <span class="label">今日数据</span>
+    <span id="snapshotDate" style="font-family:var(--font-mono);font-size:12px;color:var(--text-tertiary);font-weight:400;">—</span>
+  </div>
+  <div class="stats-row" id="statsRow"></div>
+
+  <hr class="section-divider">
+
+  <!-- Category Pulse -->
+  <div class="section-header">
+    <span class="label">话题活跃度</span>
+  </div>
+  <div class="pulse-row" id="categoryPulse"></div>
+
+  <hr class="section-divider">
+
+  <!-- Key Findings + Sidebar -->
+  <div class="content-grid">
+    <div>
+      <div class="section-header">
+        <span class="label">关键发现</span>
+      </div>
+      <div id="keyFindings">
+        <div class="empty-state">
+          <svg class="state-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4"/></svg>
+          <p>数据采集中，请稍后查看</p>
+        </div>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <div class="sb-title">最近日报</div>
+        <div id="recentReports">
+          <div class="report-list-item" style="color:var(--text-tertiary);">加载中...</div>
+        </div>
+      </div>
+      <div class="sidebar-section">
+        <div class="sb-title">信源状态</div>
+        <div class="source-status-row"><span>Exa 搜索</span><span class="ok">正常</span></div>
+        <div class="source-status-row"><span>RSS 聚合</span><span class="ok">正常</span></div>
+        <div class="source-status-row"><span>Jina Reader</span><span class="ok">正常</span></div>
+        <div class="source-status-row"><span>B站搜索</span><span class="warn">部分可用</span></div>
+        <div class="source-status-row"><span>V2EX</span><span class="ok">正常</span></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <p>AIDC + Fluororesin Intelligence Monitor</p>
+    <p>数据来源: Exa 搜索 · RSS 聚合 · Jina Reader · Bilibili · V2EX</p>
+  </footer>
+</div>
+
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data-loader.js"></script>
+<script>
+(async function() {
+  var lang = 'cn', DL = window.DataLoader;
+  var reports = await DL.loadDailyIndex();
+  if (!reports || !reports.length) reports = DL.getSampleDailyIndex();
+  var latest = reports[0] || {};
+  document.getElementById('snapshotDate').textContent = latest.date || '—';
+  DL.renderStatsRow('statsRow', latest, lang);
+  DL.renderCategoryPulse('categoryPulse', latest.categories, lang);
+  DL.renderReportList('recentReports', reports, lang);
+
+  var el = document.getElementById('keyFindings');
+  if (latest.date) {
+    var rd = await DL.loadReport(latest.date);
+    if (rd && rd.key_findings && rd.key_findings.length) {
+      var h = '';
+      rd.key_findings.slice(0, 8).forEach(function(f) {
+        var imp = 'importance-' + (f.importance || 'medium');
+        var bc = f.confidence === 'verified' ? 'badge-verified' : (f.confidence === 'single_source' ? 'badge-single' : 'badge-unverified');
+        var bt = f.confidence === 'verified' ? '已验证' : (f.confidence === 'single_source' ? '单一信源' : '未验证');
+        h += '<div class="finding-item '+imp+'"><div class="finding-title"><a href="'+(f.url||'#')+'" target="_blank" rel="noopener">'+(f.title||'')+'</a></div>' +
+          '<div class="finding-meta"><span class="finding-badge '+bc+'">'+bt+'</span><span class="finding-badge badge-category">'+(window.getCategoryName(f.category,'cn')||'')+'</span><span>'+(f.source_domain||'')+'</span><span>可信度: '+(f.credibility_score||'—')+'/5</span></div></div>';
+      });
+      el.innerHTML = h;
+    }
+  } else {
+    el.innerHTML =
+      '<div class="finding-item importance-high"><div class="finding-title"><a href="#">NVIDIA Rubin 平台互联架构更新：高速铜缆占比提升至 65%</a></div><div class="finding-meta"><span class="finding-badge badge-verified">已验证</span><span class="finding-badge badge-category">铜缆互联</span><span>semianalysis.com</span><span>可信度: 4/5</span></div></div>' +
+      '<div class="finding-item importance-high"><div class="finding-title"><a href="#">永和股份 FEP 产能扩至 4200 吨/年，配套发泡氟树脂专用料</a></div><div class="finding-meta"><span class="finding-badge badge-verified">已验证</span><span class="finding-badge badge-category">氟树脂材料</span><span>eastmoney.com</span><span>可信度: 3/5</span></div></div>' +
+      '<div class="finding-item importance-medium"><div class="finding-title"><a href="#">日本 PFAS 法规修订：氟聚合物获临时豁免至 2028 年</a></div><div class="finding-meta"><span class="finding-badge badge-single">单一信源</span><span class="finding-badge badge-category">法规政策</span><span>nikkei.com</span><span>可信度: 4/5</span></div></div>' +
+      '<div class="finding-item importance-medium"><div class="finding-title"><a href="#">Rogers Corp 推出新一代 PTFE 高频 PCB 基板，Dk 低至 2.2</a></div><div class="finding-meta"><span class="finding-badge badge-verified">已验证</span><span class="finding-badge badge-category">高频PCB</span><span>rogerscorp.com</span><span>可信度: 5/5</span></div></div>' +
+      '<div class="finding-item importance-medium"><div class="finding-title"><a href="#">数据中心液冷管路 PFA 需求激增，Chemours 宣布扩产计划</a></div><div class="finding-meta"><span class="finding-badge badge-single">单一信源</span><span class="finding-badge badge-category">液冷系统</span><span>bloomberg.com</span><span>可信度: 3/5</span></div></div>';
+  }
+})();
+</script>
+</body>
+</html>
