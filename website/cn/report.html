@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日报详情 — AIDC + 氟树脂材料 情报监测</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  .briefing-body { max-width: 720px; margin: 0 auto; }
+  .briefing-body h2 { font-size: 20px; font-weight: 600; margin: 40px 0 12px; color: var(--text-primary); }
+  .briefing-body h3 { font-size: 15px; font-weight: 600; margin: 28px 0 8px; color: var(--text-primary); }
+  .briefing-body p { font-size: 14px; line-height: 1.8; color: var(--text-secondary); margin-bottom: 1em; }
+  .briefing-body ul { list-style: none; padding: 0; }
+  .briefing-body li { padding: 8px 0; border-bottom: 0.5px solid var(--border-hairline); font-size: 14px; line-height: 1.6; }
+  .briefing-body li:first-child { border-top: 0.5px solid var(--border-hairline); }
+  .briefing-body a { color: var(--accent); text-decoration: none; }
+  .briefing-body a:hover { text-decoration: underline; }
+  .briefing-body strong { font-weight: 600; color: var(--text-primary); }
+  .briefing-body blockquote { margin: 0; padding: 4px 0 4px 12px; border-left: 2px solid var(--steel-light); color: var(--text-tertiary); font-size: 13px; }
+  .briefing-body hr { border: none; border-top: 0.5px solid var(--border-hairline); margin: 32px 0; }
+  .back-link { display: inline-block; margin-top: 32px; font-size: 13px; }
+</style>
+</head>
+<body>
+<script>if(sessionStorage.getItem('aidc_auth')!=='1'){location.replace('/');}</script>
+
+<div class="app-container">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-logo">A/F</span>
+      <span class="nav-title">AIDC + 氟树脂材料 情报监测</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="daily.html">日报</a></li>
+      <li><a href="knowledge.html">知识图谱</a></li>
+    </ul>
+    <div class="nav-lang"><a href="report.html" class="active">中</a><a href="../jp/report.html">日</a></div>
+  </nav>
+
+  <h1 class="page-title" id="reportTitle">日报加载中...</h1>
+  <div id="reportMeta" style="font-size:13px;color:var(--text-tertiary);margin-bottom:24px;"></div>
+
+  <div class="briefing-body" id="reportBody">
+    <div class="empty-state"><p>加载中...</p></div>
+  </div>
+
+  <a href="daily.html" class="back-link">&larr; 返回日报列表</a>
+
+  <footer class="footer">
+    <p>AIDC + Fluororesin Intelligence Monitor</p>
+  </footer>
+</div>
+
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data-loader.js"></script>
+<script>
+(function(){
+  var date = new URLSearchParams(location.search).get('date');
+  if (!date) { document.getElementById('reportBody').innerHTML = '<div class="empty-state"><p>请指定日期参数 ?date=YYYY-MM-DD</p></div>'; return; }
+
+  document.getElementById('reportTitle').textContent = '日报 — ' + date;
+  document.title = '日报 ' + date + ' — AIDC + 氟树脂材料 情报监测';
+
+  var DL = window.DataLoader;
+  DL.loadReport(date).then(function(r){
+    if (!r) {
+      document.getElementById('reportBody').innerHTML = '<div class="empty-state"><p>该日期暂无报告数据</p></div>';
+      document.getElementById('reportMeta').textContent = '';
+      return;
+    }
+    var meta = r.meta || {};
+    document.getElementById('reportMeta').innerHTML =
+      '采集 ' + (meta.total_crawled||0) + ' 篇 | 验证通过 ' + (meta.verified_count||0) + ' 篇 | 活跃信源 ' + ((meta.active_sources||[]).join(', ')||'—');
+
+    var briefing = r.briefing_cn || r.briefing_jp || '';
+    // Simple markdown to HTML
+    var html = briefing
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/^### (.+)$/gm,'<h3>$1</h3>')
+      .replace(/^## (.+)$/gm,'<h2>$1</h2>')
+      .replace(/^# (.+)$/gm,'<h2>$1</h2>')
+      .replace(/^- (.+)$/gm,'<li>$1</li>')
+      .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')
+      .replace(/^>(.+)$/gm,'<blockquote>$1</blockquote>')
+      .replace(/\n\n/g,'</p><p>')
+      .replace(/\n/g,'<br>');
+
+    // Wrap consecutive <li> in <ul>
+    html = html.replace(/((?:<li>.*?<\/li><br>)+)/g, function(m){ return '<ul>' + m.replace(/<br>/g,'') + '</ul>'; });
+
+    document.getElementById('reportBody').innerHTML = '<p>' + html + '</p>';
+  });
+})();
+</script>
+</body>
+</html>
