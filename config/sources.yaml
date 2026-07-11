@@ -1,0 +1,646 @@
+# ============================================================
+# AIDC + 氟树脂材料 信息监测 — 信源与关键词配置 (v2.0)
+# ============================================================
+# 覆盖范围：铜缆互联 | 液冷系统 | 高频PCB | 光通讯 | 电源系统
+#           连接器 | 半导体制造 | 散热材料 | 传感器 | 电容器 | RF天线
+# ============================================================
+
+# --- RSS 订阅源 ---
+rss_feeds:
+  # 光通讯 / 数据中心
+  - url: "https://www.lightcounting.com/feed/"
+    category: optical_communication
+    language: en
+    credibility: 5
+  - url: "https://www.datacenterknowledge.com/feed"
+    category: datacenter_infrastructure
+    language: en
+    credibility: 4
+  - url: "https://www.datacenterdynamics.com/rss.xml"
+    category: datacenter_infrastructure
+    language: en
+    credibility: 4
+
+  # 中国电子 / 半导体
+  - url: "https://www.eet-china.com/rss.xml"
+    category: electronics_cn
+    language: zh
+    credibility: 3
+  - url: "https://www.esmchina.com/rss.xml"
+    category: semiconductor_cn
+    language: zh
+    credibility: 3
+
+  # 日本电子 / 材料
+  - url: "https://eetimes.jp/rss.xml"
+    category: electronics_jp
+    language: ja
+    credibility: 4
+  - url: "https://xtech.nikkei.com/rss/tech.rdf"
+    category: tech_jp
+    language: ja
+    credibility: 4
+
+  # 化工 / 材料
+  - url: "https://www.chemicalprocessing.com/rss"
+    category: chemical_industry
+    language: en
+    credibility: 4
+  - url: "https://www.plasticstoday.com/rss.xml"
+    category: polymer_industry
+    language: en
+    credibility: 3
+
+  # PCB / 电子制造
+  - url: "https://www.pcb007.com/rss.xml"
+    category: pcb_manufacturing
+    language: en
+    credibility: 4
+
+  # 冷却 / 热管理
+  - url: "https://www.coolingzone.com/rss.xml"
+    category: thermal_management
+    language: en
+    credibility: 4
+
+# --- 每日抓取网页 (Jina Reader) ---
+# 注意: 3M 已于2025年底退出PFAS/氟聚合物生产，Dyneon业务已出售，不再追踪
+daily_scrape_urls:
+  # 连接器 / 线缆
+  - url: "https://www.te.com/en/products/connectors/pcb-connectors/board-to-board-connectors.html"
+    label: "TE Connectivity board-to-board connectors"
+    category: connector
+    credibility: 4
+  - url: "https://www.amphenol-cs.com"
+    label: "Amphenol CS high-speed interconnects"
+    category: connector
+    credibility: 4
+
+  # PCB 材料
+  - url: "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/"
+    label: "Rogers Corp RO4000 high-frequency PCB laminates"
+    category: pcb_substrate
+    credibility: 5
+  - url: "https://www.agcchem.com/data-center/"
+    label: "AGC Chemicals data center materials (Fluon ETFE/PFA/PTFE)"
+    category: datacenter_infrastructure
+    credibility: 5
+
+  # 液冷 / 热管理
+  - url: "https://www.vertiv.com/en-us/products-catalog/thermal-management/"
+    label: "Vertiv thermal management products"
+    category: liquid_cooling
+    credibility: 4
+
+  # 光通讯
+  - url: "https://www.corning.com/optical-communications/worldwide/en/home.html"
+    label: "Corning optical communications"
+    category: optical_communication
+    credibility: 5
+
+# --- Exa 搜索关键词组 (按子领域分组) ---
+search_queries:
+  # ===== 铜缆互联 =====
+  - query: "AI data center high speed copper cable DAC AEC fluoropolymer insulation"
+    category: copper_interconnect
+    language: en
+    num_results: 5
+  - query: "NVIDIA Rubin Feynman copper interconnect 224G SerDes connector"
+    category: copper_interconnect
+    language: en
+    num_results: 5
+  - query: "AI数据中心 高速铜缆 DAC AEC 224G 氟树脂 绝缘"
+    category: copper_interconnect
+    language: zh
+    num_results: 5
+  - query: "AIデータセンター 高速銅ケーブル DAC AEC フッ素樹脂"
+    category: copper_interconnect
+    language: ja
+    num_results: 5
+
+  # ===== 液冷系统 =====
+  - query: "data center liquid cooling fluoropolymer tubing PFA PTFE coolant"
+    category: liquid_cooling
+    language: en
+    num_results: 5
+  - query: "液冷数据中心 氟塑料 管路 PFA 冷却液 氟化液"
+    category: liquid_cooling
+    language: zh
+    num_results: 5
+  - query: "液冷データセンター フッ素樹脂 チューブ 冷却液 フッ素系"
+    category: liquid_cooling
+    language: ja
+    num_results: 5
+
+  # ===== 高频PCB =====
+  - query: "PTFE high frequency PCB laminate low dielectric constant Rogers"
+    category: pcb_substrate
+    language: en
+    num_results: 5
+  - query: "PTFE 高频PCB 覆铜板 低介电常数 氟树脂基板"
+    category: pcb_substrate
+    language: zh
+    num_results: 5
+  - query: "PTFE 高周波基板 フッ素樹脂 低誘電率 プリント基板"
+    category: pcb_substrate
+    language: ja
+    num_results: 5
+
+  # ===== 光通讯 =====
+  - query: "optical fiber fluoropolymer coating PFA buffer cladding"
+    category: optical_communication
+    language: en
+    num_results: 5
+  - query: "光纤 氟树脂 涂层 PFA 缓冲层 光模块 绝缘"
+    category: optical_communication
+    language: zh
+    num_results: 5
+  - query: "光ファイバ フッ素樹脂 コーティング PFA 被覆"
+    category: optical_communication
+    language: ja
+    num_results: 5
+
+  # ===== 电源系统 =====
+  - query: "data center power supply FEP PTFE high temperature wire insulation"
+    category: power_system
+    language: en
+    num_results: 5
+  - query: "服务器电源 高温线缆 FEP 氟塑料 绝缘 汇流排"
+    category: power_system
+    language: zh
+    num_results: 5
+  - query: "サーバ電源 高温ケーブル FEP フッ素樹脂 絶縁"
+    category: power_system
+    language: ja
+    num_results: 5
+
+  # ===== 连接器 =====
+  - query: "high speed backplane connector fluoropolymer insert insulation"
+    category: connector
+    language: en
+    num_results: 5
+  - query: "高速背板连接器 氟树脂 绝缘嵌件 FEP PTFE"
+    category: connector
+    language: zh
+    num_results: 5
+
+  # ===== 氟树脂材料 (综合) =====
+  - query: "fluoropolymer FEP PTFE PFA ETFE foam nucleating agent extrusion"
+    category: fluororesin_material
+    language: en
+    num_results: 5
+  - query: "氟树脂 FEP PTFE 发泡 成核剂 功能母粒 高速挤出"
+    category: fluororesin_material
+    language: zh
+    num_results: 5
+  - query: "フッ素樹脂 FEP PFA 発泡 核剤 押出成形 マスターバッチ"
+    category: fluororesin_material
+    language: ja
+    num_results: 5
+
+  # ===== 散热 / 热界面材料 =====
+  - query: "PTFE thermal interface material TIM heat spreader fluoropolymer"
+    category: thermal_management
+    language: en
+    num_results: 5
+  - query: "导热材料 PTFE 氟聚合物 散热界面 导热膏"
+    category: thermal_management
+    language: zh
+    num_results: 5
+
+  # ===== 电容器 =====
+  - query: "fluoropolymer film capacitor PTFE dielectric high frequency DC link"
+    category: capacitor
+    language: en
+    num_results: 5
+  - query: "氟聚合物薄膜电容 PTFE 介电薄膜 高频电容"
+    category: capacitor
+    language: zh
+    num_results: 5
+
+  # ===== RF / 天线 =====
+  - query: "PTFE substrate RF microwave circuit antenna low loss"
+    category: rf_microwave
+    language: en
+    num_results: 5
+  - query: "PTFE 基板 射频 微波 天线 低损耗"
+    category: rf_microwave
+    language: zh
+    num_results: 5
+
+  # ===== 半导体制造相关 =====
+  - query: "PFA fluoropolymer semiconductor manufacturing ultra pure water chemical delivery"
+    category: semiconductor_equipment
+    language: en
+    num_results: 5
+  - query: "半导体 PFA 管阀件 超纯水 化学品输送 氟树脂"
+    category: semiconductor_equipment
+    language: zh
+    num_results: 5
+  - query: "半導体製造 PFA チューブ フッ素樹脂 超純水"
+    category: semiconductor_equipment
+    language: ja
+    num_results: 5
+
+  # ===== 传感器 / 保护涂层 =====
+  - query: "fluoropolymer protective coating sensor corrosion resistance industrial"
+    category: sensor_coating
+    language: en
+    num_results: 5
+
+  # ===== 公司动态 =====
+  - query: "Chemours AGC Daikin 3M fluoropolymer capacity expansion 2025 2026"
+    category: company_news
+    language: en
+    num_results: 5
+  - query: "永和股份 东岳集团 巨化股份 氟聚合物 产能 扩建 业绩"
+    category: company_news
+    language: zh
+    num_results: 5
+  - query: "ダイキン AGC 3M フッ素樹脂 生産能力 業績"
+    category: company_news
+    language: ja
+    num_results: 5
+  - query: "Rogers Corp PCB laminate earnings revenue 2025 2026"
+    category: company_news
+    language: en
+    num_results: 5
+
+  # ===== 法规政策 =====
+  - query: "PFAS regulation fluoropolymer exemption restriction update 2025 2026"
+    category: regulation
+    language: en
+    num_results: 5
+  - query: "PFAS 法规 氟聚合物 限制 豁免 最新进展 2025 2026"
+    category: regulation
+    language: zh
+    num_results: 5
+  - query: "PFAS規制 フッ素ポリマー 適用除外 最新動向"
+    category: regulation
+    language: ja
+    num_results: 5
+
+# --- B站搜索关键词 ---
+bilibili_queries:
+  - query: "AI数据中心 铜缆 液冷 光模块"
+  - query: "氟化工 氟树脂 绝缘材料 PTFE"
+  - query: "英伟达 高速互联 CPO 服务器"
+  - query: "PCB 高频板 PTFE 覆铜板"
+  - query: "液冷服务器 数据中心 冷却系统"
+
+# --- 追踪公司（按产业链位置分类）---
+tracked_companies:
+  # AI 芯片 / 平台
+  - name: "NVIDIA"
+    ticker: "NVDA"
+    sector: AI_chip
+  - name: "Broadcom"
+    ticker: "AVGO"
+    sector: AI_chip
+  # 连接器 / 线缆
+  - name: "Amphenol"
+    ticker: "APH"
+    sector: connector
+  - name: "TE Connectivity"
+    ticker: "TEL"
+    sector: connector
+  - name: "Molex"
+    ticker: null
+    sector: connector
+  - name: "立讯精密"
+    ticker: "002475.SZ"
+    sector: connector
+  # 线缆材料
+  - name: "沃尔核材"
+    ticker: "002130.SZ"
+    sector: cable_material
+  - name: "万马股份"
+    ticker: "002276.SZ"
+    sector: cable_material
+  # 氟化工
+  - name: "永和股份"
+    ticker: "605020.SH"
+    sector: fluorochemical
+  - name: "东岳集团"
+    ticker: "00189.HK"
+    sector: fluorochemical
+  - name: "巨化股份"
+    ticker: "600160.SH"
+    sector: fluorochemical
+  - name: "Chemours"
+    ticker: "CC"
+    sector: fluorochemical
+  - name: "Daikin"
+    ticker: "6367.T"
+    sector: fluorochemical
+  - name: "AGC"
+    ticker: "5201.T"
+    sector: fluorochemical
+  - name: "3M"
+    ticker: "MMM"
+    sector: fluorochemical
+  # PCB 材料
+  - name: "Rogers Corp"
+    ticker: "ROG"
+    sector: pcb_material
+  # 液冷 / 热管理
+  - name: "Vertiv"
+    ticker: "VRT"
+    sector: thermal_management
+  # 光通讯
+  - name: "Corning"
+    ticker: "GLW"
+    sector: optical_communication
+
+# --- 来源域可信度评分（扩展）---
+credibility_scores:
+  # 5: 公司官网 / 学术期刊 / 行业标准组织
+  "nvidia.com": 5
+  "broadcom.com": 5
+  "ieee.org": 5
+  "te.com": 5
+  "amphenol.com": 5
+  "molex.com": 5
+  "chemours.com": 5
+  "agc.com": 5
+  "agc-multimaterial.com": 5
+  "daikin.com": 5
+  "3m.com": 5
+  "corning.com": 5
+  "rogerscorp.com": 5
+  "vertiv.com": 5
+  "lightcounting.com": 5
+  # 4: 知名行业媒体
+  "semi.org": 4
+  "eet-china.com": 4
+  "eetimes.jp": 4
+  "nikkei.com": 4
+  "xtech.nikkei.com": 4
+  "esmchina.com": 4
+  "cablinginstall.com": 4
+  "datacenterknowledge.com": 4
+  "datacenterdynamics.com": 4
+  "chemicalprocessing.com": 4
+  "plasticstoday.com": 4
+  "pcb007.com": 4
+  "coolingzone.com": 4
+  "semiengineering.com": 4
+  "anandtech.com": 4
+  "servethehome.com": 4
+  # 3: 财经媒体 / 一般行业媒体
+  "bloomberg.com": 3
+  "reuters.com": 3
+  "sec.gov": 3
+  "36kr.com": 3
+  "jiemian.com": 3
+  "cls.cn": 3
+  "eastmoney.com": 3
+  "xueqiu.com": 3
+  # 2: 论坛 / 社区
+  "v2ex.com": 2
+  "reddit.com": 2
+  "bilibili.com": 2
+  "zhihu.com": 2
+  # 1: 不可直接验证
+  "weibo.com": 1
+  "twitter.com": 1
+  # 社交媒体扩展
+  "x.com": 2
+  "t.co": 2
+  "mp.weixin.qq.com": 4
+  "weixin.qq.com": 4
+  "sogou.com": 3
+  "rsshub.app": 3
+
+# ═══════════════════════════════════════════════════════
+# 社交媒体信源扩展 (方案C)
+# ═══════════════════════════════════════════════════════
+
+# --- Reddit 社区 RSS ---
+reddit_subreddits:
+  - subreddit: "hardware"
+    category: AIDC_development
+    credibility: 3
+    language: en
+  - subreddit: "datacenter"
+    category: datacenter_infrastructure
+    credibility: 3
+    language: en
+  - subreddit: "chipdesign"
+    category: semiconductor_equipment
+    credibility: 3
+    language: en
+  - subreddit: "networking"
+    category: copper_interconnect
+    credibility: 2
+    language: en
+  - subreddit: "sysadmin"
+    category: datacenter_infrastructure
+    credibility: 2
+    language: en
+  - subreddit: "ChemicalEngineering"
+    category: fluororesin_material
+    credibility: 2
+    language: en
+  - subreddit: "MachineLearning"
+    category: AIDC_development
+    credibility: 2
+    language: en
+
+reddit_keywords:
+  - "fluoropolymer"
+  - "PTFE"
+  - "FEP"
+  - "PFA"
+  - "ETFE"
+  - "liquid cooling"
+  - "datacenter"
+  - "data center"
+  - "PCB"
+  - "connector"
+  - "copper cable"
+  - "DAC"
+  - "AEC"
+  - "224G"
+  - "112G"
+  - "immersion"
+  - "coolant"
+  - "fluorinated"
+  - "NVLink"
+  - "GPU cluster"
+  - "optical transceiver"
+  - "サーバ"
+  - "データセンター"
+
+# --- RSSHub 通用聚合路由 ---
+rsshub:
+  enabled: true
+  instances:
+    - "https://rsshub.app"
+    - "https://rsshub.pub"
+    - "https://rsshub.rssforever.com"
+  request_delay: 2.0
+
+# --- 知乎 (via RSSHub) ---
+zhihu:
+  enabled: true
+  routes:
+    # 使用搜索路由，无需预设话题ID
+    - route: "/zhihu/search/数据中心"
+      label: "知乎搜索-数据中心"
+      category: datacenter_infrastructure
+      credibility: 3
+      language: zh
+    - route: "/zhihu/search/半导体"
+      label: "知乎搜索-半导体"
+      category: semiconductor_equipment
+      credibility: 2
+      language: zh
+    - route: "/zhihu/search/氟化工"
+      label: "知乎搜索-氟化工"
+      category: fluororesin_material
+      credibility: 2
+      language: zh
+    - route: "/zhihu/search/新材料氟树脂"
+      label: "知乎搜索-氟树脂材料"
+      category: fluororesin_material
+      credibility: 2
+      language: zh
+
+# --- 微博 (via RSSHub) ---
+weibo:
+  enabled: true
+  routes:
+    - route: "/weibo/search/keyword/氟化工"
+      label: "微博-氟化工搜索"
+      category: fluororesin_material
+      credibility: 2
+      language: zh
+    - route: "/weibo/search/keyword/数据中心液冷"
+      label: "微博-数据中心液冷搜索"
+      category: liquid_cooling
+      credibility: 2
+      language: zh
+    - route: "/weibo/search/keyword/高频PCB"
+      label: "微博-高频PCB搜索"
+      category: pcb_substrate
+      credibility: 2
+      language: zh
+    - route: "/weibo/search/keyword/氟树脂"
+      label: "微博-氟树脂搜索"
+      category: fluororesin_material
+      credibility: 2
+      language: zh
+
+# --- Twitter/X 配置 ---
+twitter:
+  enabled: true  # 需设置 TWITTER_BEARER_TOKEN 环境变量
+  accounts_to_monitor:
+    # 行业分析师
+    - username: "SemiAnalysis"
+      category: AIDC_development
+      credibility: 4
+    - username: "dylan522p"
+      category: AIDC_development
+      credibility: 4
+    - username: "ServeTheHome"
+      category: datacenter_infrastructure
+      credibility: 4
+    - username: "datacenterdyn"
+      category: datacenter_infrastructure
+      credibility: 4
+    - username: "LightCounting"
+      category: optical_communication
+      credibility: 5
+    - username: "anandtech"
+      category: semiconductor_equipment
+      credibility: 4
+    # 公司官方账号
+    - username: "nvidia"
+      category: company_news
+      credibility: 5
+    - username: "Broadcom"
+      category: company_news
+      credibility: 5
+    - username: "Amphenol"
+      category: company_news
+      credibility: 5
+    - username: "TEConnectivity"
+      category: company_news
+      credibility: 5
+    - username: "Corning"
+      category: company_news
+      credibility: 5
+    - username: "Chemours"
+      category: company_news
+      credibility: 5
+    - username: "Vertiv"
+      category: company_news
+      credibility: 5
+    - username: "AGCInc"
+      category: company_news
+      credibility: 5
+    - username: "DaikinIndustries"
+      category: company_news
+      credibility: 5
+  search_queries:
+    - query: "fluoropolymer OR PTFE OR FEP data center"
+      category: fluororesin_material
+      language: en
+    - query: "liquid cooling immersion coolant fluorinated"
+      category: liquid_cooling
+      language: en
+    - query: "copper cable DAC AEC 224G connector AI"
+      category: copper_interconnect
+      language: en
+    - query: "PFAS fluoropolymer regulation exemption EPA"
+      category: regulation
+      language: en
+  max_tweets_per_account: 5
+  max_tweets_per_search: 10
+  max_accounts_per_run: 8  # 每次只查8个账号以控制API用量
+
+# --- 微信公众号 (Sogou搜索 + RSSHub回退) ---
+wechat:
+  enabled: true
+  sogou_search_enabled: true
+  rsshub_fallback_enabled: true
+  search_terms:
+    - keyword: "氟化工 氟树脂 PTFE"
+      category: fluororesin_material
+      credibility: 4
+      language: zh
+    - keyword: "数据中心液冷 氟化液 冷却液"
+      category: liquid_cooling
+      credibility: 4
+      language: zh
+    - keyword: "高频PCB覆铜板 PTFE基板"
+      category: pcb_substrate
+      credibility: 4
+      language: zh
+    - keyword: "FEP绝缘 高速线缆 氟塑料"
+      category: copper_interconnect
+      credibility: 4
+      language: zh
+    - keyword: "氟聚合物 半导体 超纯水 PFA"
+      category: semiconductor_equipment
+      credibility: 4
+      language: zh
+    - keyword: "永和股份 东岳集团 巨化股份 氟"
+      category: company_news
+      credibility: 4
+      language: zh
+    - keyword: "PFAS 含氟材料 法规 管制"
+      category: regulation
+      credibility: 3
+      language: zh
+  sogou_request_delay: 2.5
+  max_results_per_search: 5
+
+# --- 每周深度审计 ---
+weekly_audit_topics:
+  - "Cross-verify key claims about copper interconnect and fluoropolymer insulation developments"
+  - "Verify liquid cooling fluoropolymer supply chain updates and capacity changes"
+  - "Confirm PTFE-based PCB laminate market share and technology roadmap changes"
+  - "Validate PFAS regulatory updates affecting all fluoropolymer applications in data centers"
+  - "Cross-check fluorochemical company earnings/capacity data from Chinese and Japanese sources"
