@@ -1,0 +1,28 @@
+# AIDC + Fluororesin Intelligence Monitor
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Logs (keep directory, ignore files)
+logs/*.log
+
+# Credentials
+config/credentials.json
+.github_token
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary
+*.tmp
+*.swp
