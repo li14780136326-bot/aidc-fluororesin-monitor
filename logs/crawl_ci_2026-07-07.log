@@ -1,0 +1,4 @@
+Crawl CI completed: 2026-07-07
+Sources OK: ['rss', 'jina', 'v2ex', 'exa', 'reddit', 'zhihu', 'weibo', 'twitter', 'wechat']
+Sources FAIL: []
+Raw: 32, Unique: 22
