@@ -1,0 +1,4 @@
+# Netlify redirects (placed inside website/ for drag-and-drop deploy)
+/         /index.html    200
+/cn       /cn/index.html  200
+/jp       /jp/index.html  200
