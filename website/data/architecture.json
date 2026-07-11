@@ -1,0 +1,214 @@
+{
+  "_meta": {
+    "description": "AIDC全栈架构拓扑 — 从数据中心建筑到芯片纳米互连的8层穿透视图，标注每层氟树脂应用",
+    "version": "1.0",
+    "last_edited": "2026-07-08"
+  },
+  "layers": [
+    {
+      "id": "dc-building",
+      "level": 1,
+      "name_cn": "数据中心建筑",
+      "name_jp": "データセンタービル",
+      "description_cn": "建筑外壳、电气布线、环境隔离。氟树脂从最外层开始发挥作用——PVDF涂层提供数十年耐候保护，ETFE线缆护套确保电气安全。",
+      "description_jp": "建築外装、電気配線、環境隔離。フッ素樹脂は最外層から機能する——PVDFコーティングが数十年の耐候保護を提供し、ETFEケーブル被覆が電気安全を確保する。",
+      "zoom_level": 1.0,
+      "materials": [
+        {"type": "PVDF", "role_cn": "屋顶/外墙涂层", "role_jp": "屋根・外壁コーティング", "reason_cn": "耐候性、抗紫外线、自清洁", "reason_jp": "耐候性、UV耐性、セルフクリーニング"},
+        {"type": "ETFE", "role_cn": "电气绝缘线缆护套", "role_jp": "電気絶縁ケーブル被覆", "reason_cn": "阻燃、轻量、高介电强度", "reason_jp": "難燃性、軽量、高絶縁耐力"}
+      ],
+      "topic_ids": ["topic-sensor-coating"],
+      "company_names": [],
+      "svg_key": "building"
+    },
+    {
+      "id": "rack-cabinet",
+      "level": 2,
+      "name_cn": "机柜与列间",
+      "name_jp": "ラック・キャビネット",
+      "description_cn": "机柜排列形成冷热通道。氟聚合物涂层提供绝缘与防腐保护，确保机柜在温湿度变化中保持结构稳定。",
+      "description_jp": "ラックが整列しコールド/ホットアイルを形成。フッ素ポリマーコーティングが絶縁と防食を提供し、温度・湿度変動下での構造安定性を確保する。",
+      "zoom_level": 0.85,
+      "materials": [
+        {"type": "PTFE", "role_cn": "绝缘分隔板/垫片", "role_jp": "絶縁セパレータ・ガスケット", "reason_cn": "高介电强度、耐电弧", "reason_jp": "高絶縁耐力、耐アーク性"},
+        {"type": "ETFE", "role_cn": "线缆护套/捆扎带", "role_jp": "ケーブル被覆・結束バンド", "reason_cn": "机械强度、阻燃", "reason_jp": "機械的強度、難燃性"}
+      ],
+      "topic_ids": [],
+      "company_names": [],
+      "svg_key": "rack"
+    },
+    {
+      "id": "cooling-system",
+      "level": 3,
+      "name_cn": "冷却系统",
+      "name_jp": "冷却システム",
+      "description_cn": "液冷管路贯穿机柜级别，含PVDF管路和氟化冷却液。浸没式冷却中，全氟化液直接接触电子元件，氟树脂的化学惰性在此不可替代。",
+      "description_jp": "液冷配管がラックレベルを貫通。PVDF配管とフッ素系冷却液を使用。浸漬冷却では、パーフルオロカーボン液が電子部品に直接接触——フッ素樹脂の化学的不活性が不可欠。",
+      "zoom_level": 0.72,
+      "materials": [
+        {"type": "PVDF", "role_cn": "冷却液管路/接头", "role_jp": "冷却液配管・継手", "reason_cn": "耐化学腐蚀、可热焊接", "reason_jp": "耐薬品性、熱溶着可能"},
+        {"type": "PFA", "role_cn": "高纯管路内衬", "role_jp": "高純度配管ライニング", "reason_cn": "极低析出物、耐高温", "reason_jp": "超低溶出物、高温耐性"},
+        {"type": "氟化液", "role_cn": "浸没冷却介质", "role_jp": "浸漬冷却媒体", "reason_cn": "化学惰性、不导电、高沸点", "reason_jp": "化学的不活性、非導電性、高沸点"}
+      ],
+      "topic_ids": ["topic-liquid-cooling"],
+      "company_names": ["Vertiv"],
+      "svg_key": "cooling"
+    },
+    {
+      "id": "server-blade",
+      "level": 4,
+      "name_cn": "服务器/刀片",
+      "name_jp": "サーバー・ブレード",
+      "description_cn": "单台服务器内部开始出现高频信号。PTFE基板用于高速背板，FEP绝缘线缆承载224Gbps PAM4信号。氟树脂的介电性能在高频下与FR-4的差距急剧拉大。",
+      "description_jp": "単一サーバー内で高周波信号が発生し始める。PTFE基板が高速バックプレーンに使用され、FEP絶縁ケーブルが224Gbps PAM4信号を伝送。高周波でのフッ素樹脂の誘電性能はFR-4との差が急拡大する。",
+      "zoom_level": 0.55,
+      "materials": [
+        {"type": "PTFE", "role_cn": "高速背板基材", "role_jp": "高速バックプレーン基板", "reason_cn": "Dk≈2.1, Df≈0.0004 @10GHz", "reason_jp": "Dk≈2.1, Df≈0.0004 @10GHz"},
+        {"type": "FEP", "role_cn": "内部高速线缆绝缘", "role_jp": "内部高速ケーブル絶縁", "reason_cn": "低介电、高速挤出加工", "reason_jp": "低誘電率、高速押出加工"}
+      ],
+      "topic_ids": ["topic-power-system", "topic-thermal-management"],
+      "company_names": ["Vertiv", "TE Connectivity"],
+      "svg_key": "server"
+    },
+    {
+      "id": "optical-module",
+      "level": 5,
+      "name_cn": "光模块/收发器",
+      "name_jp": "光モジュール・トランシーバー",
+      "description_cn": "QSFP-DD/OSFP封装内部，光纤缓冲层依赖PFA/FEP的精密挤出。CPO（共封装光学）将光引擎直接集成到芯片封装基板旁，氟树脂在微米级间距中提供光学级透明度与热稳定性。",
+      "description_jp": "QSFP-DD/OSFPパッケージ内部。ファイバーバッファ層はPFA/FEPの精密押出に依存。CPO（共パッケージ光学）は光エンジンをチップパッケージ基板の隣に直接統合——フッ素樹脂がミクロン単位の間隔で光学グレードの透明性と熱安定性を提供。",
+      "zoom_level": 0.38,
+      "materials": [
+        {"type": "PFA", "role_cn": "光纤缓冲层/套管", "role_jp": "ファイバーバッファ・チューブ", "reason_cn": "光学透明度、低折射率", "reason_jp": "光学的透明性、低屈折率"},
+        {"type": "FEP", "role_cn": "光纤二次被覆", "role_jp": "ファイバー二次被覆", "reason_cn": "高速薄壁挤出、低摩擦", "reason_jp": "高速薄肉押出、低摩擦"},
+        {"type": "PTFE", "role_cn": "光模块绝缘垫片", "role_jp": "光モジュール絶縁スペーサー", "reason_cn": "高频绝缘、尺寸稳定", "reason_jp": "高周波絶縁、寸法安定性"}
+      ],
+      "topic_ids": ["topic-optical-communication", "topic-cpo-optics"],
+      "company_names": ["Corning", "AGC"],
+      "svg_key": "optics"
+    },
+    {
+      "id": "interconnect",
+      "level": 6,
+      "name_cn": "互联层",
+      "name_jp": "相互接続層",
+      "description_cn": "★ 架构分叉点。此处信号路径面临关键选择：纯光（光纤到芯片）、混合（光铜协作）、纯铜（全程电互联）。三种路径对氟树脂的种类、用量和性能要求截然不同。",
+      "description_jp": "★ アーキテクチャ分岐点。信号経路は重要な選択に直面する：純光（ファイバー to チップ）、ハイブリッド（光銅協調）、純銅（全電気相互接続）。3つの経路でフッ素樹脂の種類・使用量・性能要件が大きく異なる。",
+      "zoom_level": 0.25,
+      "is_branch_point": true,
+      "materials": [],
+      "topic_ids": ["topic-copper-interconnect", "topic-connector"],
+      "company_names": ["Amphenol", "TE Connectivity"],
+      "svg_key": "interconnect"
+    },
+    {
+      "id": "pcb-substrate",
+      "level": 7,
+      "name_cn": "PCB 基板",
+      "name_jp": "PCB 基板",
+      "description_cn": "高频PCB的核心：PTFE/陶瓷复合层压板。FR-4在10GHz以上损耗急剧增大，PTFE基板（如Rogers RO4000/RT Duroid系列）成为唯一选择。纯铜架构中PTFE用量是纯光的3-5倍。",
+      "description_jp": "高周波PCBの中核：PTFE/セラミック複合ラミネート。FR-4は10GHz以上で損失が急増し、PTFE基板（Rogers RO4000/RT Duroidシリーズ等）が唯一の選択肢となる。純銅アーキテクチャではPTFE使用量が純光の3〜5倍。",
+      "zoom_level": 0.15,
+      "materials": [
+        {"type": "PTFE", "role_cn": "高频层压板基材", "role_jp": "高周波ラミネート基材", "reason_cn": "Dk≈2.1-3.5可调, Df<0.002", "reason_jp": "Dk≈2.1-3.5調整可能, Df<0.002"},
+        {"type": "PTFE/陶瓷", "role_cn": "复合基板（热膨胀匹配）", "role_jp": "複合基板（熱膨張整合）", "reason_cn": "与铜箔热膨胀系数匹配", "reason_jp": "銅箔との熱膨張係数整合"}
+      ],
+      "topic_ids": ["topic-pcb-substrate"],
+      "company_names": ["Rogers Corp"],
+      "svg_key": "pcb"
+    },
+    {
+      "id": "chip-package",
+      "level": 8,
+      "name_cn": "芯片封装 / 纳米互连",
+      "name_jp": "チップパッケージ / ナノ相互接続",
+      "description_cn": "穿透到微观尽头：芯片封装中层间介质、底部填充、RDL绝缘层中，氟聚合物以纳米级薄膜形态存在。极低介电常数（Dk<2.0）是减少RC延迟的关键——氟树脂在此接近物理极限。",
+      "description_jp": "ミクロの最終到達点：チップパッケージの層間絶縁膜、アンダーフィル、RDL絶縁層に、フッ素ポリマーがナノレベルの薄膜として存在。超低誘電率（Dk<2.0）がRC遅延低減の鍵——フッ素樹脂はここで物理限界に迫る。",
+      "zoom_level": 0.06,
+      "materials": [
+        {"type": "PTFE纳米薄膜", "role_cn": "层间低K介质", "role_jp": "層間Low-K誘電体", "reason_cn": "Dk→1.9, 纳米级平整度", "reason_jp": "Dk→1.9, ナノレベル平坦性"},
+        {"type": "PFA", "role_cn": "高纯钝化层", "role_jp": "高純度パッシベーション層", "reason_cn": "ppt级金属离子, 防潮", "reason_jp": "pptレベル金属イオン, 防湿"},
+        {"type": "氟聚合物", "role_cn": "底部填充/underfill", "role_jp": "アンダーフィル", "reason_cn": "低CTE, 应力缓冲", "reason_jp": "低CTE, 応力緩衝"}
+      ],
+      "topic_ids": ["topic-semiconductor-equipment"],
+      "company_names": ["3M"],
+      "svg_key": "chip"
+    }
+  ],
+  "branch_point": {
+    "at_layer": 6,
+    "trigger_scroll_pct": 0.5,
+    "paths": [
+      {
+        "id": "pure-optical",
+        "name_cn": "纯光架构",
+        "name_jp": "純光アーキテクチャ",
+        "description_cn": "光纤贯穿到芯片——CPO/硅光子直连，无铜缆。光模块封装含高比例PFA/FEP，PCB层级简化（仅控制板），PTFE用量最低。",
+        "description_jp": "ファイバーがチップまで貫通——CPO/シリコンフォトニクス直接接続、銅ケーブル不要。光モジュールパッケージにPFA/FEP高比率。PCB層は簡素（制御基板のみ）、PTFE使用量は最小。",
+        "material_shift_cn": "PTFE: 低（仅光模块+控制板） / FEP: 高（大量光纤缓冲层） / PFA: 高（光学级包层）",
+        "material_shift_jp": "PTFE: 低（光モジュール+制御基板のみ） / FEP: 高（大量ファイバーバッファ） / PFA: 高（光学グレードクラッド）",
+        "copper_ratio": 0,
+        "fiber_ratio": 1.0
+      },
+      {
+        "id": "hybrid",
+        "name_cn": "混合架构",
+        "name_jp": "ハイブリッド",
+        "description_cn": "当前主流——机柜间/机柜内长距用光，板级/芯片间用铜。PTFE在PCB和连接器中用量适中，PFA在光纤段需求稳定。氟树脂品类最全、供应链最复杂。",
+        "description_jp": "現状の主流——ラック間・ラック内長距離は光、ボードレベル・チップ間は銅。PTFEはPCBとコネクタに適量使用、PFAはファイバー区間で安定需要。フッ素樹脂の品種が最も多く、サプライチェーンが最も複雑。",
+        "material_shift_cn": "PTFE: 中（PCB + 连接器） / FEP: 中（光纤 + 高速铜缆绝缘） / PFA: 中（光模块封装）",
+        "material_shift_jp": "PTFE: 中（PCB + コネクタ） / FEP: 中（ファイバー + 高速銅ケーブル絶縁） / PFA: 中（光モジュールパッケージ）",
+        "copper_ratio": 0.5,
+        "fiber_ratio": 0.5
+      },
+      {
+        "id": "pure-copper",
+        "name_cn": "纯铜架构",
+        "name_jp": "純銅アーキテクチャ",
+        "description_cn": "传统电互联——全程铜缆+PCB走线。高频损耗迫使大量使用PTFE基板（3-5×纯光架构用量），FEP集中在224G高速线缆。无光纤意味着PFA需求降至最低。PCB层数多、面积大。",
+        "description_jp": "従来型電気相互接続——全行程銅ケーブル+PCBトレース。高周波損失によりPTFE基板を大量使用（純光の3〜5倍）。FEPは224G高速ケーブルに集中。ファイバー不要のためPFA需要は最小。PCB層数が多く面積も大。",
+        "material_shift_cn": "PTFE: 高（全层级PCB大量使用） / FEP: 低（仅高速线缆绝缘） / PFA: 极低（无光纤需求）",
+        "material_shift_jp": "PTFE: 高（全層PCBに大量使用） / FEP: 低（高速ケーブル絶縁のみ） / PFA: 極低（ファイバー不要）",
+        "copper_ratio": 1.0,
+        "fiber_ratio": 0
+      }
+    ]
+  },
+  "material_summary": {
+    "PTFE": {
+      "full_name_cn": "聚四氟乙烯",
+      "full_name_jp": "ポリテトラフルオロエチレン",
+      "key_property_cn": "极低介电常数 (Dk≈2.1)，高频首选",
+      "key_property_jp": "超低誘電率 (Dk≈2.1)、高周波の第一選択",
+      "layers": [2, 4, 5, 6, 7, 8]
+    },
+    "FEP": {
+      "full_name_cn": "氟化乙烯丙烯共聚物",
+      "full_name_jp": "フッ素化エチレンプロピレン",
+      "key_property_cn": "高速薄壁挤出，低摩擦系数",
+      "key_property_jp": "高速薄肉押出、低摩擦係数",
+      "layers": [4, 5, 6]
+    },
+    "PFA": {
+      "full_name_cn": "全氟烷氧基树脂",
+      "full_name_jp": "パーフルオロアルコキシ",
+      "key_property_cn": "高纯度/耐化学，光学级透明",
+      "key_property_jp": "高純度/耐薬品、光学グレード透明",
+      "layers": [3, 5, 6, 8]
+    },
+    "ETFE": {
+      "full_name_cn": "乙烯-四氟乙烯共聚物",
+      "full_name_jp": "エチレン-テトラフルオロエチレン",
+      "key_property_cn": "机械强度最高，阻燃优异",
+      "key_property_jp": "最高の機械的強度、優れた難燃性",
+      "layers": [1, 2]
+    },
+    "PVDF": {
+      "full_name_cn": "聚偏二氟乙烯",
+      "full_name_jp": "ポリフッ化ビニリデン",
+      "key_property_cn": "耐候/可热加工，成本最优",
+      "key_property_jp": "耐候/熱加工可能、最適コスト",
+      "layers": [1, 3]
+    }
+  }
+}
