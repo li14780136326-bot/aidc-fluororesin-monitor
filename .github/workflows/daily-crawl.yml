@@ -1,0 +1,104 @@
+name: Daily Crawl & Update
+
+on:
+  schedule:
+    - cron: '37 22 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Override date (YYYY-MM-DD, leave empty for today)'
+        required: false
+        default: ''
+
+env:
+  PYTHONUNBUFFERED: '1'
+
+jobs:
+  crawl-and-update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine target date
+        id: date
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            echo "target=${{ github.event.inputs.date }}" >> $GITHUB_OUTPUT
+          else
+            echo "target=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stage 1 — Multi-source crawl (CI)
+        run: python scripts/crawl_ci.py --date ${{ steps.date.outputs.target }}
+        env:
+          EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+
+      - name: Stage 2 — Cross-verification
+        run: python scripts/verify_articles.py --date ${{ steps.date.outputs.target }}
+
+      - name: Stage 3 — Generate morning briefing (AI)
+        run: python scripts/generate_report.py --date ${{ steps.date.outputs.target }} --lang all
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+      - name: Stage 4 — Update website data
+        run: python scripts/update_website.py --date ${{ steps.date.outputs.target }}
+
+      - name: Stage 5 — Build site verification
+        run: python scripts/build_site.py
+
+      - name: Commit and push daily update
+        run: |
+          git config user.name "AIDC Monitor Bot"
+          git config user.email "bot@aidc-fluororesin-monitor.local"
+          git add \
+            website/data/ \
+            knowledge_base/archive/ \
+            reports/ \
+            logs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit — pipeline produced no new data."
+          else
+            git commit -m "Daily update: ${{ steps.date.outputs.target }}"
+            git fetch origin main
+            git merge origin/main -X ours --no-edit || true
+            git push
+            echo "Changes committed and pushed."
+          fi
+
+      - name: Stage 6 — Deploy to Netlify
+        if: success()
+        run: |
+          cd website && zip -r ../site.zip . -q && cd ..
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+            -H "Content-Type: application/zip" \
+            --data-binary @site.zip \
+            "https://api.netlify.com/api/v1/sites/c300235d-7cbe-4ec1-b33e-093efa9555f3/deploys")
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          echo "HTTP $HTTP_CODE"
+          if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+            echo "Deploy successful!"
+            echo "$BODY" | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'URL: {d.get(\"deploy_ssl_url\",\"\")}')" 2>/dev/null || true
+          else
+            echo "Deploy failed: $BODY"
+            exit 1
+          fi
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
