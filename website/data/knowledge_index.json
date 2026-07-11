@@ -1,0 +1,797 @@
+{
+  "topics": [
+    {
+      "id": "topic-copper-interconnect",
+      "name": "高速铜缆互联",
+      "name_jp": "高速銅ケーブル相互接続",
+      "keywords": [
+        "DAC",
+        "AEC",
+        "ACC",
+        "有源铜缆",
+        "无源铜缆",
+        "224G",
+        "SerDes",
+        "铜连接",
+        "信号完整性",
+        "FEP绝缘",
+        "发泡氟树脂"
+      ],
+      "article_count": 12,
+      "last_updated": "Thu, 02 Jul 2026 14:20:58 GMT",
+      "recent_titles": [
+        "Amcor Partners with Kelpi to Advance Bio-based Coatings for Paper Packaging",
+        "Amcor Partners with Kelpi to Advance Bio-based Coatings for Paper Packaging",
+        "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half"
+      ]
+    },
+    {
+      "id": "topic-liquid-cooling",
+      "name": "液冷系统",
+      "name_jp": "液冷システム",
+      "keywords": [
+        "液冷",
+        "冷却液",
+        "氟化液",
+        "PFA管路",
+        "PTFE密封",
+        "冷板",
+        "浸没式冷却",
+        "coolant",
+        "fluoropolymer tubing"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    },
+    {
+      "id": "topic-pcb-substrate",
+      "name": "高频PCB基板",
+      "name_jp": "高周波PCB基板",
+      "keywords": [
+        "PTFE基板",
+        "高频覆铜板",
+        "低介电常数",
+        "Rogers",
+        "氟树脂基板",
+        "低损耗",
+        "Dk",
+        "Df",
+        "高速数字"
+      ],
+      "article_count": 3,
+      "last_updated": "2026-07-06",
+      "recent_titles": [
+        "Advanced Electronics Solutions",
+        "Advanced Electronics Solutions",
+        "RO4000® Series Laminates"
+      ]
+    },
+    {
+      "id": "topic-optical-communication",
+      "name": "光通讯",
+      "name_jp": "光通信",
+      "keywords": [
+        "光纤",
+        "PFA涂层",
+        "氟聚合物包层",
+        "光模块",
+        "CPO",
+        "LPO",
+        "光纤连接器",
+        "Corning",
+        "缓冲涂层"
+      ],
+      "article_count": 3,
+      "last_updated": "2026-07-06",
+      "recent_titles": [
+        "File Not Found | Corning.com",
+        "File Not Found | Corning.com",
+        "https://match.adsrvr.org/track/cmf/google"
+      ]
+    },
+    {
+      "id": "topic-power-system",
+      "name": "电源系统",
+      "name_jp": "電源システム",
+      "keywords": [
+        "FEP绝缘",
+        "高温线缆",
+        "汇流排",
+        "PTFE绝缘",
+        "服务器电源",
+        "busbar",
+        "UL耐温"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    },
+    {
+      "id": "topic-connector",
+      "name": "高速连接器",
+      "name_jp": "高速コネクタ",
+      "keywords": [
+        "背板连接器",
+        "氟树脂嵌件",
+        "FEP绝缘体",
+        "Amphenol",
+        "Molex",
+        "TE Connectivity",
+        "立讯精密",
+        "绝缘材料"
+      ],
+      "article_count": 5,
+      "last_updated": "2026-07-06",
+      "recent_titles": [
+        "404 | TE Connectivity",
+        "Amphenol CS",
+        "404 | TE Connectivity"
+      ]
+    },
+    {
+      "id": "topic-thermal-management",
+      "name": "散热与热管理",
+      "name_jp": "熱管理・放熱",
+      "keywords": [
+        "PTFE导热",
+        "散热界面",
+        "TIM",
+        "导热膏",
+        "热界面材料",
+        "氟聚合物散热",
+        "heat spreader"
+      ],
+      "article_count": 16,
+      "last_updated": "Thu, 02 Jul 2026 11:08:57 GMT",
+      "recent_titles": [
+        "AI-Driven Data Analytics Transform Injection Molding Manufacturing",
+        "AI-Driven Data Analytics Transform Injection Molding Manufacturing",
+        "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half"
+      ]
+    },
+    {
+      "id": "topic-capacitor",
+      "name": "电容器",
+      "name_jp": "コンデンサ",
+      "keywords": [
+        "氟聚合物薄膜电容",
+        "PTFE介电",
+        "高频电容",
+        "DC-link",
+        "薄膜电容",
+        "低损耗介质"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    },
+    {
+      "id": "topic-rf-microwave",
+      "name": "RF/微波/天线",
+      "name_jp": "RF・マイクロ波・アンテナ",
+      "keywords": [
+        "PTFE基板",
+        "射频",
+        "微波",
+        "天线",
+        "低损耗",
+        "介电性能",
+        "高频高速"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    },
+    {
+      "id": "topic-semiconductor-equipment",
+      "name": "半导体制造设备",
+      "name_jp": "半導体製造装置",
+      "keywords": [
+        "PFA管阀件",
+        "超纯水",
+        "化学品输送",
+        "氟树脂衬里",
+        "高纯",
+        "chemical delivery"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    },
+    {
+      "id": "topic-sensor-coating",
+      "name": "传感器与保护涂层",
+      "name_jp": "センサ・保護コーティング",
+      "keywords": [
+        "氟聚合物涂层",
+        "耐腐蚀",
+        "传感器保护",
+        "环境监测",
+        "防护涂层",
+        "anticorrosion"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    },
+    {
+      "id": "topic-fluororesin-material",
+      "name": "氟树脂材料技术",
+      "name_jp": "フッ素樹脂材料技術",
+      "keywords": [
+        "FEP",
+        "PTFE",
+        "PFA",
+        "ETFE",
+        "发泡",
+        "成核剂",
+        "功能母粒",
+        "挤出工艺",
+        "介电性能",
+        "熔融加工"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    },
+    {
+      "id": "topic-fluorochem-supply",
+      "name": "氟化工供应链",
+      "name_jp": "フッ素化学サプライチェーン",
+      "keywords": [
+        "永和",
+        "东岳",
+        "巨化",
+        "Chemours",
+        "Daikin",
+        "AGC",
+        "3M",
+        "产能",
+        "扩建",
+        "价格"
+      ],
+      "article_count": 4,
+      "last_updated": "2026-07-06",
+      "recent_titles": [
+        "AGC - AGC",
+        "404 Error | 3M United States",
+        "AGC - AGC"
+      ]
+    },
+    {
+      "id": "topic-pfas-regulation",
+      "name": "PFAS法规与合规",
+      "name_jp": "PFAS規制とコンプライアンス",
+      "keywords": [
+        "PFAS",
+        "PFOS",
+        "PFOA",
+        "法规限制",
+        "豁免",
+        "替代",
+        "环境",
+        "安全"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    },
+    {
+      "id": "topic-cpo-optics",
+      "name": "CPO共封装光学",
+      "name_jp": "CPO共パッケージ光学",
+      "keywords": [
+        "CPO",
+        "光进铜退",
+        "硅光",
+        "LPO",
+        "共封装",
+        "光电集成"
+      ],
+      "article_count": 0,
+      "last_updated": "",
+      "recent_titles": []
+    }
+  ],
+  "tag_cloud": [
+    {
+      "tag": "TIM",
+      "count": 10
+    },
+    {
+      "tag": "ACC",
+      "count": 7
+    },
+    {
+      "tag": "Rogers",
+      "count": 2
+    },
+    {
+      "tag": "Amphenol",
+      "count": 2
+    }
+  ],
+  "companies": [
+    {
+      "name": "Amphenol",
+      "ticker": "APH",
+      "name_jp": "Amphenol",
+      "mention_count": 3,
+      "recent_articles": [
+        {
+          "date": "2026-07-07",
+          "title": "Amphenol CS",
+          "url": "https://www.amphenol-cs.com",
+          "credibility": 4
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Amphenol CS",
+          "url": "https://www.amphenol-cs.com/products/high-speed",
+          "credibility": 4
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Amphenol CS",
+          "url": "https://www.amphenol-cs.com/products/high-speed",
+          "credibility": 4
+        }
+      ]
+    },
+    {
+      "name": "Vertiv",
+      "ticker": "VRT",
+      "name_jp": "Vertiv",
+      "mention_count": 3,
+      "recent_articles": [
+        {
+          "date": "2026-07-07",
+          "title": "Thermal Management",
+          "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+          "credibility": 4
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Thermal Management",
+          "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+          "credibility": 4
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Thermal Management",
+          "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+          "credibility": 4
+        }
+      ]
+    },
+    {
+      "name": "Corning",
+      "ticker": "GLW",
+      "name_jp": "Corning",
+      "mention_count": 3,
+      "recent_articles": [
+        {
+          "date": "2026-07-07",
+          "title": "https://match.adsrvr.org/track/cmf/google",
+          "url": "https://www.corning.com/optical-communications/worldwide/en/home.html",
+          "credibility": 5
+        },
+        {
+          "date": "2026-07-06",
+          "title": "File Not Found | Corning.com",
+          "url": "https://www.corning.com/optical-communications.html",
+          "credibility": 5
+        },
+        {
+          "date": "2026-07-05",
+          "title": "File Not Found | Corning.com",
+          "url": "https://www.corning.com/optical-communications.html",
+          "credibility": 5
+        }
+      ]
+    },
+    {
+      "name": "Rogers Corp",
+      "ticker": "ROG",
+      "name_jp": "Rogers Corp",
+      "mention_count": 3,
+      "recent_articles": [
+        {
+          "date": "2026-07-07",
+          "title": "RO4000® Series Laminates",
+          "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+          "credibility": 5
+        },
+        {
+          "date": "2026-07-06",
+          "title": "Advanced Electronics Solutions",
+          "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+          "credibility": 5
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Advanced Electronics Solutions",
+          "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+          "credibility": 5
+        }
+      ]
+    },
+    {
+      "name": "TE Connectivity",
+      "ticker": "TEL",
+      "name_jp": "TE Connectivity",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "404 | TE Connectivity",
+          "url": "https://www.te.com/en/products/connectors/high-speed-connectors.html",
+          "credibility": 4
+        },
+        {
+          "date": "2026-07-05",
+          "title": "404 | TE Connectivity",
+          "url": "https://www.te.com/en/products/connectors/high-speed-connectors.html",
+          "credibility": 4
+        }
+      ]
+    },
+    {
+      "name": "AGC",
+      "ticker": "5201.T",
+      "name_jp": "AGC",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "AGC - AGC",
+          "url": "https://www.agc-multimaterial.com/electronic-materials/",
+          "credibility": 5
+        },
+        {
+          "date": "2026-07-05",
+          "title": "AGC - AGC",
+          "url": "https://www.agc-multimaterial.com/electronic-materials/",
+          "credibility": 5
+        }
+      ]
+    },
+    {
+      "name": "3M",
+      "ticker": "MMM",
+      "name_jp": "3M",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "404 Error | 3M United States",
+          "url": "https://www.3m.com/3M/en_US/p/c/advanced-materials/fluoropolymers/",
+          "credibility": 5
+        },
+        {
+          "date": "2026-07-05",
+          "title": "404 Error | 3M United States",
+          "url": "https://www.3m.com/3M/en_US/p/c/advanced-materials/fluoropolymers/",
+          "credibility": 5
+        }
+      ]
+    },
+    {
+      "name": "Covestro",
+      "ticker": "1COV.DE",
+      "name_jp": "Covestro",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "Covestro Expands Global Production with Strategic Acquisitions",
+          "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+          "credibility": 3
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Covestro Expands Global Production with Strategic Acquisitions",
+          "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+          "credibility": 3
+        }
+      ]
+    },
+    {
+      "name": "Kebo",
+      "ticker": "—",
+      "name_jp": "Kebo AG",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+          "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+          "credibility": 3
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+          "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+          "credibility": 3
+        }
+      ]
+    },
+    {
+      "name": "Plastisud",
+      "ticker": "—",
+      "name_jp": "Plastisud Group",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+          "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+          "credibility": 3
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+          "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+          "credibility": 3
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-07-07",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "topicIds": [
+        "topic-pcb-substrate"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-07",
+      "title": "https://match.adsrvr.org/track/cmf/google",
+      "url": "https://www.corning.com/optical-communications/worldwide/en/home.html",
+      "topicIds": [
+        "topic-optical-communication"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-connector"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Toyota Supplier Expands Mississippi Plastics Operations",
+      "url": "https://www.plasticstoday.com/automotive-mobility/toyota-supplier-expands-mississippi-plastics-operations",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Continental Sells ContiTech for $4.6 Billion to Lone Star",
+      "url": "https://www.plasticstoday.com/automotive-mobility/continental-sells-contitech-for-4-6-billion-to-lone-star",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half",
+      "url": "https://www.plasticstoday.com/automotive-mobility/greene-tweed-slashes-aerospace-composite-prototyping-time-by-half",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Syensqo Licenses Composite Forming Technology to Bucci",
+      "url": "https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Scariest data center \"horror story\" you've ever experienced?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upnj8j/scariest_data_center_horror_story_youve_ever/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "I got it! I got the L3 position at AWS",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upahx8/i_got_it_i_got_the_l3_position_at_aws/",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Are sags and swells that big a deal if the site has redundancy with UPS and generators.",
+      "url": "https://www.reddit.com/r/datacenter/comments/1uppdyv/are_sags_and_swells_that_big_a_deal_if_the_site/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "AWS 6 month cooldown period",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upogbj/aws_6_month_cooldown_period/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Google Data Center Technician Level 2 Interview Questions",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upsc9u/google_data_center_technician_level_2_interview/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Looking for suggestions for a challenging Master's thesis problem in pure Data Science",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upmn4c/looking_for_suggestions_for_a_challenging_masters/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Galaxy Completes Phase I of Its Helios Data Center Campus, Delivering 133 Megawatts of Critical IT Load to CoreWeave",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upjg0u/galaxy_completes_phase_i_of_its_helios_data/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Had an interview with AWS almost 4 weeks ago and still haven’t heard back?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upb3f3/had_an_interview_with_aws_almost_4_weeks_ago_and/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Title: Best resources to learn how to build EOPs for small critical rooms?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upipi7/title_best_resources_to_learn_how_to_build_eops/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Trying to get a second opinion about some land I own that somebody might be interested in building a data center on.",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upm8r5/trying_to_get_a_second_opinion_about_some_land_i/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "AWS L3 DCO recruiters",
+      "url": "https://www.reddit.com/r/datacenter/comments/1up7pyo/aws_l3_dco_recruiters/",
+      "topicIds": [
+        "topic-thermal-management"
+      ],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Why is datacenter sentiment so negative in Ohio vs say west texas?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1uox20i/why_is_datacenter_sentiment_so_negative_in_ohio/",
+      "topicIds": [
+        "topic-thermal-management"
+      ],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Microsoft DCT timeline after interview",
+      "url": "https://www.reddit.com/r/datacenter/comments/1up5tep/microsoft_dct_timeline_after_interview/",
+      "topicIds": [
+        "topic-thermal-management"
+      ],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "[转载]信创全平台 C++17 交叉编译工具链",
+      "url": "https://www.v2ex.com/t/1225548",
+      "topicIds": [],
+      "credibility": 2
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Advanced Electronics Solutions",
+      "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+      "topicIds": [
+        "topic-pcb-substrate"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-06",
+      "title": "AGC - AGC",
+      "url": "https://www.agc-multimaterial.com/electronic-materials/",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management",
+        "topic-fluorochem-supply"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-06",
+      "title": "404 Error | 3M United States",
+      "url": "https://www.3m.com/3M/en_US/p/c/advanced-materials/fluoropolymers/",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-fluorochem-supply"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-06",
+      "title": "File Not Found | Corning.com",
+      "url": "https://www.corning.com/optical-communications.html",
+      "topicIds": [
+        "topic-optical-communication"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-06",
+      "title": "404 | TE Connectivity",
+      "url": "https://www.te.com/en/products/connectors/high-speed-connectors.html",
+      "topicIds": [
+        "topic-connector",
+        "topic-thermal-management"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "topicIds": [
+        "topic-connector",
+        "topic-thermal-management"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Recycled Resin Prices Decline as Supply Improves",
+      "url": "https://www.plasticstoday.com/resin-pricing/garrykillian-istock-via-getty-images",
+      "topicIds": [],
+      "credibility": 3
+    }
+  ],
+  "total_articles": 56,
+  "last_updated": "2026-07-08T12:34:47.322092"
+}
