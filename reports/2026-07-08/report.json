@@ -1,0 +1,322 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T12:34:47.255289",
+  "generator": "deepseek",
+  "meta": {
+    "total_crawled": 12,
+    "verified_count": 4,
+    "single_source_count": 1,
+    "excluded_count": 7,
+    "active_sources": [
+      "rss",
+      "jina",
+      "v2ex",
+      "exa",
+      "reddit",
+      "zhihu",
+      "weibo",
+      "twitter",
+      "wechat"
+    ],
+    "failed_sources": []
+  },
+  "briefing_cn": "## 今日摘要\n\n今日AIDC领域动态集中于氟树脂材料面临的PFAS合规挑战与行业应对策略；RISC-V数据中心服务器平台标准正式发布，为AI算力架构多元化提供新选项。铜缆互联、液冷系统及PCB领域无重大更新。\n\n## 分领域详述\n\n今日该领域无重大更新。\n\n### 氟树脂材料与PFAS管控\n\n**“永久化学品”监管趋严，氟塑料高温线缆行业面临转型压力。** 一篇今日发布的行业深度分析指出，全球高端线缆绝缘材料中氟塑料占比常年维持在30%以上，部分航天级线束几乎100%依赖PTFE/PFA。文章详细梳理了当前全球PFAS（全氟和多氟烷基物质）管控浪潮对氟塑料高温线缆产业的冲击，并探讨了行业在合规框架下的技术自救路线，包括替代材料研发与生产工艺改进。[来源](https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNolZGsRp-wpu3pj7QU-C8n1qXa8Fplpd9oQWzBpyFt53VP3zzjkCVUfnnYlA5fn62q6gJclUHcOd0QzMssosw_j-0vxWWTYW43wFj2vX0QNEQhd-pfrupYsVAuauIQQjR4Y6lrEMzzPhJ8J7JT3y0kpmre_XIjVQtSGIdEklUedElUZrN_iiDlqGyNrxbymxYRhRKLIVgqSFr1dbZWbKUeQ..&type=2&query=FEP%E7%BB%9D%E7%BC%98 %E9%AB%98%E9%80%9F%E7%BA%BF%E7%BC%86 %E6%B0%9F%E5%A1%91%E6%96%99&token=2ADA0ED457E5104E4445125CFB9BA52C44344B3A6A4E43C1)\n\n### 数据中心架构与算力\n\n**RISC-V数据中心服务器平台标准1.0版本正式发布。** 在意大利举行的RISC-V国际峰会上，RISC-V International宣布推出RISC-V Server Platform 1.0。该标准为任何基于RVA23的CPU提供了启动操作系统的统一规范，并明确针对数据中心应用场景。此举标志着RISC-V架构在向高性能服务器市场进军中迈出了关键一步，为AI数据中心算力架构的多元化发展提供了新的标准化基础。[来源](https://www.reddit.com/r/hardware/comments/1uqn5hw/state_of_riscv_july_2026/)\n\n### 其他领域动态\n\n- **铜缆互联**：今日无重大更新。\n- **液冷系统**：今日无重大更新。\n- **PCB（高频层压板）**：今日无重大更新。\n\n## 值得关注\n\n1.  **PFAS法规对氟树脂供应链的实质性影响**：需跟踪欧盟及美国EPA对PFAS的最新禁令时间表，以及科慕、大金、3M等主要氟聚合物供应商的合规声明与替代产品路线图。今日的分析文章表明，AIDC中广泛使用的氟塑料高温线缆（如FEP、PFA绝缘）正面临明确的合规风险。\n2.  **RISC-V服务器生态的落地进展**：RISC-V Server Platform 1.0的发布是生态成熟的关键里程碑。需关注是否有主流服务器OEM或云服务商宣布基于该标准的芯片或服务器产品计划，这将对现有x86和ARM架构在AI数据中心的竞争格局产生长期影响。\n\n<!-- SUMMARY: 今日AIDC领域：PFAS管控加剧氟塑料线缆合规压力；RISC-V数据中心服务器平台标准1.0发布。铜缆、液冷、PCB无更新。 -->",
+  "briefing_jp": "## 本日のサマリー\n\n本日（2026年7月8日）、フッ素樹脂材料分野においてPFAS規制が高温電線市場に与える影響を分析する記事が公開された。一方、銅ケーブル相互接続、液冷、PCB分野では特筆すべき新規動きは確認されなかった。RISC-Vサーバープラットフォーム1.0がデータセンター向けに正式リリースされた。\n\n## 分野別詳細\n\n**フッ素樹脂材料・PFAS規制**\n\n\n**データセンター・半導体関連**\n\n\n**銅ケーブル相互接続・液冷・PCB**\n\n本日、銅ケーブル相互接続（DAC、AECなど）、液冷システム、PCB（プリント基板）の各分野において、新たな製品発表、企業動向、規制変更など特筆すべき情報は確認されなかった。Rogers CorporationのRO4000シリーズラミネート、Corningの光ファイバー接続ソリューション、Amphenolのコネクタ製品、Vertivの熱管理製品に関する各企業のウェブサイトは本日時点で更新情報を確認できず、既存製品の紹介ページが表示された。\n\n**プラスチック・樹脂市場動向**\n\n\n## 注目ポイント\n\n*   PFAS規制に関する具体的な法案や規制当局の動き（EU、EPAなど）が今後発表されるか。フッ素樹脂メーカー（Chemours、Daikin、3Mなど）の代替材料開発に関する正式な発表があるか。\n*   RISC-Vサーバープラットフォーム1.0を採用したデータセンター向けCPUやサーバーシステムの具体的な製品発表が行われるか。\n*   樹脂価格上昇がAIDC向けケーブル・コネクタ材料のコストにどの程度波及するか。\n\n<!-- SUMMARY: 本日、PFAS規制がフッ素樹脂高温電線市場に与える影響分析記事が公開。RISC-Vサーバープラットフォーム1.0がデータセンター向けにリリース。 -->",
+  "summary_cn": "今日AIDC领域：PFAS管控加剧氟塑料线缆合规压力；RISC-V数据中心服务器平台标准1.0发布。铜缆、液冷、PCB无更新。",
+  "summary_jp": "本日、PFAS規制がフッ素樹脂高温電線市場に与える影響分析記事が公開。RISC-Vサーバープラットフォーム1.0がデータセンター向けにリリース。",
+  "category_breakdown": {
+    "polymer_industry": 6,
+    "pcb_substrate": 1,
+    "optical_communication": 1,
+    "connector": 1,
+    "liquid_cooling": 1,
+    "copper_interconnect": 1,
+    "AIDC_development": 1
+  },
+  "key_findings": [
+    {
+      "id": "8389ab79285cb286",
+      "category": "pcb_substrate",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "source_domain": "rogerscorp.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 5,
+      "snippet": "Title: RO4000® Series Laminates\n\nURL Source: https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](https://www.roger"
+    },
+    {
+      "id": "9f08012be9d0b95c",
+      "category": "optical_communication",
+      "title": "Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning",
+      "url": "https://www.corning.com/optical-communications/worldwide/en/home.html",
+      "source_domain": "corning.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 5,
+      "snippet": "Title: Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning\n\nURL Source: https://www.corning.com/optical-communications/worldwide/en/home.html\n\nMarkdown Content:\n# Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning\n\n[](javascript:void(0); \"Toggle N"
+    },
+    {
+      "id": "9d353583f3cfc4d5",
+      "category": "connector",
+      "title": "Amphenol Connectors | Cable Assemblies | Interconnects | Mobile, RF, Optics",
+      "url": "https://www.amphenol-cs.com",
+      "source_domain": "amphenol-cs.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 4,
+      "snippet": "Title: Amphenol Connectors | Cable Assemblies | Interconnects | Mobile, RF, Optics\n\nURL Source: https://www.amphenol-cs.com/\n\nPublished Time: Mon, 04 Apr 2022 07:23:49 GMT\n\nMarkdown Content:\nWe use cookies.\n\nWe use cookies. By continuing to use the websites, you will be agreeing to our [Privacy Poli"
+    },
+    {
+      "id": "f48a344471a11659",
+      "category": "liquid_cooling",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "source_domain": "vertiv.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 4,
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en"
+    },
+    {
+      "id": "89e41b6a63765371",
+      "category": "copper_interconnect",
+      "title": "＂永久化学品＂围剿下的氟塑料高温线缆:PFAS 管控浪潮与行业自救路线",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNolZGsRp-wpu3pj7QU-C8n1qXa8Fplpd9oQWzBpyFt53VP3zzjkCVUfnnYlA5fn62q6gJclUHcOd0QzMssosw_j-0vxWWTYW43wFj2vX0QNEQhd-pfrupYsVAuauIQQjR4Y6lrEMzzPhJ8J7JT3y0kpmre_XIjVQtSGIdEklUedElUZrN_iiDlqGyNrxbymxYRhRKLIVgqSFr1dbZWbKUeQ..&type=2&query=FEP%E7%BB%9D%E7%BC%98 %E9%AB%98%E9%80%9F%E7%BA%BF%E7%BC%86 %E6%B0%9F%E5%A1%91%E6%96%99&token=2ADA0ED457E5104E4445125CFB9BA52C44344B3A6A4E43C1",
+      "source_domain": "weixin.sogou.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 4,
+      "snippet": "据行业统计,全球高端线缆绝缘材料中氟塑料占比常年维持在30%以上,部分航天级线束几乎100%依赖PTFE/PFA.而据市场研究公..."
+    },
+    {
+      "id": "5daff12740f13019",
+      "category": "polymer_industry",
+      "title": "PureCycle Resin Powers Food-Contact Packaging With Recycled Plastic",
+      "url": "https://www.plasticstoday.com/packaging/purecycle-resin-powers-food-contact-packaging-with-recycled-plastic",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "Cleveland Kitchen debuts sustainable food containers made with PureCycle's PureFive resin, achieving 25% recycled content while maintaining food-safety compliance."
+    },
+    {
+      "id": "65745f27dc6447b8",
+      "category": "polymer_industry",
+      "title": "From Plastic Waste to Chocolate Wrappers: LYB, Mondelez Advance Circular Packaging",
+      "url": "https://www.plasticstoday.com/packaging/from-plastic-waste-to-chocolate-wrappers-lyb-mondelez-advance-circular-packaging",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "New Marabou flexible packaging uses chemically recycled polymers made from hard-to-recycle plastic waste, demonstrating how value-chain collaboration can scale recycled-content solutions."
+    },
+    {
+      "id": "16ae0cc1a60567b1",
+      "category": "polymer_industry",
+      "title": "Silica Capsules Enable Full Recovery of Colored Plastics",
+      "url": "https://www.plasticstoday.com/sustainability/silica-capsules-enable-full-recovery-of-colored-plastics",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Osaka Metropolitan University scientists develop room-temperature method using silica microspheres to separate colorants, enabling infinite plastic reuse without quality loss."
+    },
+    {
+      "id": "b70eed708ef6a7ea",
+      "category": "polymer_industry",
+      "title": "Arburg to Showcase Digital Solutions at Fakuma 2026",
+      "url": "https://www.plasticstoday.com/injection-molding/arburg-to-showcase-digital-solutions-at-fakuma-2026",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "German injection molding leader demonstrates comprehensive digital services, automation solutions, and AI-supported features across entire plastics processing value chain."
+    },
+    {
+      "id": "c722c9bcf731c73f",
+      "category": "polymer_industry",
+      "title": "Asahi Kasei Opens Advanced Film Facility in Taiwan",
+      "url": "https://www.plasticstoday.com/packaging/asahi-kasei-opens-advanced-film-facility-in-taiwan",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Asahi Kasei invests $12 million in state-of-the-art slitting facility to meet surging demand for advanced semiconductor packaging materials."
+    },
+    {
+      "id": "77c4d328573b1538",
+      "category": "polymer_industry",
+      "title": "Resin Prices Rise as Geopolitics Reshape Plastics Supply",
+      "url": "https://www.plasticstoday.com/resin-pricing/resin-prices-rise-as-geopolitics-reshape-plastics-supply",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "Geopolitical tensions and energy market disruptions continue to drive resin price pressures, forcing US manufacturers to rethink procurement strategies and supply chain resilience."
+    },
+    {
+      "id": "04a1cfafc3998af6",
+      "category": "AIDC_development",
+      "title": "State of RISC-V - July 2026",
+      "url": "https://www.reddit.com/r/hardware/comments/1uqn5hw/state_of_riscv_july_2026/",
+      "source_domain": "reddit.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "RISC-V International is hosting a week long summit in Italy this week, here's few updates I found interesting:  RISC-V Server Platform 1.0 released! This creates a standard for any RVA23 based CPU to boot into OS, with specific targets for datacenter applications. RVA23 based high-performance CPUs s"
+    }
+  ],
+  "articles": [
+    {
+      "id": "8389ab79285cb286",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "domain": "rogerscorp.com",
+      "credibility_score": 5,
+      "verification_status": "verified",
+      "category": "pcb_substrate",
+      "snippet": "Title: RO4000® Series Laminates\n\nURL Source: https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](https://www.roger"
+    },
+    {
+      "id": "9f08012be9d0b95c",
+      "title": "Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning",
+      "url": "https://www.corning.com/optical-communications/worldwide/en/home.html",
+      "domain": "corning.com",
+      "credibility_score": 5,
+      "verification_status": "verified",
+      "category": "optical_communication",
+      "snippet": "Title: Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning\n\nURL Source: https://www.corning.com/optical-communications/worldwide/en/home.html\n\nMarkdown Content:\n# Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning\n\n[](javascript:void(0); \"Toggle N"
+    },
+    {
+      "id": "9d353583f3cfc4d5",
+      "title": "Amphenol Connectors | Cable Assemblies | Interconnects | Mobile, RF, Optics",
+      "url": "https://www.amphenol-cs.com",
+      "domain": "amphenol-cs.com",
+      "credibility_score": 4,
+      "verification_status": "verified",
+      "category": "connector",
+      "snippet": "Title: Amphenol Connectors | Cable Assemblies | Interconnects | Mobile, RF, Optics\n\nURL Source: https://www.amphenol-cs.com/\n\nPublished Time: Mon, 04 Apr 2022 07:23:49 GMT\n\nMarkdown Content:\nWe use cookies.\n\nWe use cookies. By continuing to use the websites, you will be agreeing to our [Privacy Poli"
+    },
+    {
+      "id": "f48a344471a11659",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "domain": "vertiv.com",
+      "credibility_score": 4,
+      "verification_status": "verified",
+      "category": "liquid_cooling",
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en"
+    },
+    {
+      "id": "89e41b6a63765371",
+      "title": "＂永久化学品＂围剿下的氟塑料高温线缆:PFAS 管控浪潮与行业自救路线",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9LMx24XSulNolZGsRp-wpu3pj7QU-C8n1qXa8Fplpd9oQWzBpyFt53VP3zzjkCVUfnnYlA5fn62q6gJclUHcOd0QzMssosw_j-0vxWWTYW43wFj2vX0QNEQhd-pfrupYsVAuauIQQjR4Y6lrEMzzPhJ8J7JT3y0kpmre_XIjVQtSGIdEklUedElUZrN_iiDlqGyNrxbymxYRhRKLIVgqSFr1dbZWbKUeQ..&type=2&query=FEP%E7%BB%9D%E7%BC%98 %E9%AB%98%E9%80%9F%E7%BA%BF%E7%BC%86 %E6%B0%9F%E5%A1%91%E6%96%99&token=2ADA0ED457E5104E4445125CFB9BA52C44344B3A6A4E43C1",
+      "domain": "weixin.sogou.com",
+      "credibility_score": 4,
+      "verification_status": "single_source",
+      "category": "copper_interconnect",
+      "snippet": "据行业统计,全球高端线缆绝缘材料中氟塑料占比常年维持在30%以上,部分航天级线束几乎100%依赖PTFE/PFA.而据市场研究公..."
+    },
+    {
+      "id": "5daff12740f13019",
+      "title": "PureCycle Resin Powers Food-Contact Packaging With Recycled Plastic",
+      "url": "https://www.plasticstoday.com/packaging/purecycle-resin-powers-food-contact-packaging-with-recycled-plastic",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "Cleveland Kitchen debuts sustainable food containers made with PureCycle's PureFive resin, achieving 25% recycled content while maintaining food-safety compliance."
+    },
+    {
+      "id": "65745f27dc6447b8",
+      "title": "From Plastic Waste to Chocolate Wrappers: LYB, Mondelez Advance Circular Packaging",
+      "url": "https://www.plasticstoday.com/packaging/from-plastic-waste-to-chocolate-wrappers-lyb-mondelez-advance-circular-packaging",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "New Marabou flexible packaging uses chemically recycled polymers made from hard-to-recycle plastic waste, demonstrating how value-chain collaboration can scale recycled-content solutions."
+    },
+    {
+      "id": "16ae0cc1a60567b1",
+      "title": "Silica Capsules Enable Full Recovery of Colored Plastics",
+      "url": "https://www.plasticstoday.com/sustainability/silica-capsules-enable-full-recovery-of-colored-plastics",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Osaka Metropolitan University scientists develop room-temperature method using silica microspheres to separate colorants, enabling infinite plastic reuse without quality loss."
+    },
+    {
+      "id": "b70eed708ef6a7ea",
+      "title": "Arburg to Showcase Digital Solutions at Fakuma 2026",
+      "url": "https://www.plasticstoday.com/injection-molding/arburg-to-showcase-digital-solutions-at-fakuma-2026",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "German injection molding leader demonstrates comprehensive digital services, automation solutions, and AI-supported features across entire plastics processing value chain."
+    },
+    {
+      "id": "c722c9bcf731c73f",
+      "title": "Asahi Kasei Opens Advanced Film Facility in Taiwan",
+      "url": "https://www.plasticstoday.com/packaging/asahi-kasei-opens-advanced-film-facility-in-taiwan",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Asahi Kasei invests $12 million in state-of-the-art slitting facility to meet surging demand for advanced semiconductor packaging materials."
+    },
+    {
+      "id": "77c4d328573b1538",
+      "title": "Resin Prices Rise as Geopolitics Reshape Plastics Supply",
+      "url": "https://www.plasticstoday.com/resin-pricing/resin-prices-rise-as-geopolitics-reshape-plastics-supply",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "Geopolitical tensions and energy market disruptions continue to drive resin price pressures, forcing US manufacturers to rethink procurement strategies and supply chain resilience."
+    },
+    {
+      "id": "04a1cfafc3998af6",
+      "title": "State of RISC-V - July 2026",
+      "url": "https://www.reddit.com/r/hardware/comments/1uqn5hw/state_of_riscv_july_2026/",
+      "domain": "reddit.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "AIDC_development",
+      "snippet": "RISC-V International is hosting a week long summit in Italy this week, here's few updates I found interesting:  RISC-V Server Platform 1.0 released! This creates a standard for any RVA23 based CPU to boot into OS, with specific targets for datacenter applications. RVA23 based high-performance CPUs s"
+    }
+  ],
+  "source_domains": [
+    {
+      "domain": "plasticstoday.com",
+      "count": 6
+    },
+    {
+      "domain": "rogerscorp.com",
+      "count": 1
+    },
+    {
+      "domain": "corning.com",
+      "count": 1
+    },
+    {
+      "domain": "amphenol-cs.com",
+      "count": 1
+    },
+    {
+      "domain": "vertiv.com",
+      "count": 1
+    },
+    {
+      "domain": "weixin.sogou.com",
+      "count": 1
+    },
+    {
+      "domain": "reddit.com",
+      "count": 1
+    }
+  ]
+}
