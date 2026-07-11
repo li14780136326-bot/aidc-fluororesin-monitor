@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIDC + Fluororesin Intelligence</title>
+<style>
+  :root {
+    --bg: #F5F5F7;
+    --text: #1D1D1F;
+    --text-dim: #86868B;
+    --text-faint: #AEAEB2;
+    --accent: #3A6FA0;
+    --border: rgba(0,0,0,0.08);
+    --font: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Noto Sans SC', 'Noto Sans JP', 'Helvetica Neue', sans-serif;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    letter-spacing: -0.01em;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { text-align: center; padding: 3rem; }
+  .logo {
+    font-family: 'SF Mono', 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 14px; font-weight: 600; color: var(--text-dim);
+    letter-spacing: 0.04em; margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 32px; font-weight: 700; letter-spacing: -0.02em;
+    margin-bottom: 0.4rem; color: var(--text);
+  }
+  .subtitle {
+    font-size: 15px; color: var(--text-dim); font-weight: 400;
+    margin-bottom: 3rem; letter-spacing: 0.02em;
+  }
+  .lang-grid { display: flex; gap: 2rem; justify-content: center; }
+  .lang-card {
+    display: block; padding: 2.5rem 2rem; width: 200px;
+    color: var(--text); text-decoration: none;
+    transition: opacity 0.2s ease;
+  }
+  .lang-card:hover { opacity: 0.7; }
+  .lang-label { font-size: 48px; font-weight: 300; letter-spacing: -0.03em; display: block; margin-bottom: 0.5rem; }
+  .lang-name { font-size: 15px; font-weight: 500; }
+  .lang-desc { font-size: 12px; color: var(--text-dim); margin-top: 0.25rem; }
+  .auto-detect { margin-top: 2.5rem; font-size: 13px; color: var(--text-dim); }
+  .auto-detect span { color: var(--accent); cursor: pointer; }
+  /* Password gate */
+  .pw-overlay {
+    position: fixed; inset: 0; background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    z-index: 1000; transition: opacity 0.4s ease;
+  }
+  .pw-overlay.hidden { opacity: 0; pointer-events: none; }
+  .pw-box { text-align: center; }
+  .pw-box input {
+    border: none; border-bottom: 1px solid var(--text-dim);
+    background: transparent; font-size: 18px; text-align: center;
+    padding: 10px 16px; outline: none; color: var(--text);
+    font-family: var(--font); letter-spacing: 0.05em;
+    width: 220px; transition: border-color 0.2s;
+  }
+  .pw-box input:focus { border-bottom-color: var(--accent); }
+  .pw-hint { font-size: 12px; color: var(--text-faint); margin-top: 12px; }
+  .pw-error { font-size: 12px; color: #c44; margin-top: 8px; display: none; }
+</style>
+</head>
+<body>
+
+<div class="pw-overlay" id="pwOverlay">
+  <div class="container">
+    <div class="logo">A / F</div>
+    <h1 style="font-size:24px;margin-bottom:2rem;">AIDC + Fluororesin Intelligence</h1>
+    <div class="pw-box">
+      <input type="password" id="pwInput" placeholder="Enter password" autofocus>
+      <div class="pw-error" id="pwError">Incorrect password</div>
+      <div class="pw-hint">This site is private &nbsp;·&nbsp; 本站仅对受邀用户开放</div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="mainContent">
+  <div class="logo">A / F</div>
+  <h1>AIDC + Fluororesin Intelligence</h1>
+  <p class="subtitle">情报监测平台 &nbsp;|&nbsp; インテリジェンス・モニター</p>
+  <div class="lang-grid">
+    <a href="cn/index.html" class="lang-card">
+      <span class="lang-label">中</span>
+      <div class="lang-name">中文版</div>
+      <div class="lang-desc">简体中文 &nbsp;·&nbsp; 每日情报摘要</div>
+    </a>
+    <a href="jp/index.html" class="lang-card">
+      <span class="lang-label">日</span>
+      <div class="lang-name">日本語版</div>
+      <div class="lang-desc">日本語 &nbsp;·&nbsp; デイリーインテリジェンス</div>
+    </a>
+  </div>
+  <p class="auto-detect" id="autoMsg"></p>
+</div>
+
+<script>
+(function(){
+  var PW_HASH = '4695098bb5e9eeeda0649f3434c773080b7cb551037e2dab10f293929009783f';
+  var main = document.getElementById('mainContent');
+  var overlay = document.getElementById('pwOverlay');
+  var input = document.getElementById('pwInput');
+  var error = document.getElementById('pwError');
+
+  // Already authenticated this session
+  if (sessionStorage.getItem('aidc_auth') === '1') {
+    overlay.classList.add('hidden');
+  }
+
+  async function sha256(text) {
+    var buf = new TextEncoder().encode(text);
+    var hash = await crypto.subtle.digest('SHA-256', buf);
+    return Array.from(new Uint8Array(hash)).map(function(b){return b.toString(16).padStart(2,'0');}).join('');
+  }
+
+  input.addEventListener('keydown', async function(e) {
+    if (e.key !== 'Enter') return;
+    var h = await sha256(input.value);
+    if (h === PW_HASH) {
+      sessionStorage.setItem('aidc_auth', '1');
+      overlay.classList.add('hidden');
+      input.value = '';
+      error.style.display = 'none';
+    } else {
+      error.style.display = 'block';
+      input.value = '';
+    }
+  });
+
+  // Language auto-detect
+  var lang = (navigator.language||'').toLowerCase();
+  var isJP = lang.startsWith('ja');
+  var anchor = isJP ? 'jp/index.html' : 'cn/index.html';
+  var label = isJP ? '日本語版' : '中文版';
+  document.getElementById('autoMsg').innerHTML =
+    '检测到您的语言偏好: <span onclick="location.href=\''+anchor+'\'">跳转到 '+label+' &rarr;</span>';
+})();
+</script>
+</body>
+</html>
