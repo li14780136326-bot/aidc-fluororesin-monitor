@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日報詳細 — AIDC + フッ素樹脂材料 インテリジェンス</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  .briefing-body { max-width: 720px; margin: 0 auto; }
+  .briefing-body h2 { font-size: 20px; font-weight: 600; margin: 40px 0 12px; color: var(--text-primary); }
+  .briefing-body h3 { font-size: 15px; font-weight: 600; margin: 28px 0 8px; color: var(--text-primary); }
+  .briefing-body p { font-size: 14px; line-height: 1.8; color: var(--text-secondary); margin-bottom: 1em; }
+  .briefing-body ul { list-style: none; padding: 0; }
+  .briefing-body li { padding: 8px 0; border-bottom: 0.5px solid var(--border-hairline); font-size: 14px; line-height: 1.6; }
+  .briefing-body li:first-child { border-top: 0.5px solid var(--border-hairline); }
+  .briefing-body a { color: var(--accent); text-decoration: none; }
+  .briefing-body a:hover { text-decoration: underline; }
+  .briefing-body strong { font-weight: 600; color: var(--text-primary); }
+  .briefing-body blockquote { margin: 0; padding: 4px 0 4px 12px; border-left: 2px solid var(--steel-light); color: var(--text-tertiary); font-size: 13px; }
+  .briefing-body hr { border: none; border-top: 0.5px solid var(--border-hairline); margin: 32px 0; }
+  .back-link { display: inline-block; margin-top: 32px; font-size: 13px; }
+</style>
+</head>
+<body>
+<script>if(sessionStorage.getItem('aidc_auth')!=='1'){location.replace('/');}</script>
+
+<div class="app-container">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-logo">A/F</span>
+      <span class="nav-title">AIDC + フッ素樹脂材料 インテリジェンス</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="daily.html">日報</a></li>
+      <li><a href="knowledge.html">ナレッジマップ</a></li>
+    </ul>
+    <div class="nav-lang"><a href="../cn/report.html">中</a><a href="report.html" class="active">日</a></div>
+  </nav>
+
+  <h1 class="page-title" id="reportTitle">日報を読み込み中...</h1>
+  <div id="reportMeta" style="font-size:13px;color:var(--text-tertiary);margin-bottom:24px;"></div>
+
+  <div class="briefing-body" id="reportBody">
+    <div class="empty-state"><p>読み込み中...</p></div>
+  </div>
+
+  <a href="daily.html" class="back-link">&larr; 日報一覧に戻る</a>
+
+  <footer class="footer">
+    <p>AIDC + Fluororesin Intelligence Monitor</p>
+  </footer>
+</div>
+
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data-loader.js"></script>
+<script>
+(function(){
+  var date = new URLSearchParams(location.search).get('date');
+  if (!date) { document.getElementById('reportBody').innerHTML = '<div class="empty-state"><p>日付パラメータを指定してください ?date=YYYY-MM-DD</p></div>'; return; }
+
+  document.getElementById('reportTitle').textContent = '日報 — ' + date;
+  document.title = '日報 ' + date + ' — AIDC + フッ素樹脂材料 インテリジェンス';
+
+  var DL = window.DataLoader;
+  DL.loadReport(date).then(function(r){
+    if (!r) {
+      document.getElementById('reportBody').innerHTML = '<div class="empty-state"><p>この日付のレポートデータはありません</p></div>';
+      document.getElementById('reportMeta').textContent = '';
+      return;
+    }
+    var meta = r.meta || {};
+    document.getElementById('reportMeta').innerHTML =
+      '収集 ' + (meta.total_crawled||0) + ' 件 | 検証済み ' + (meta.verified_count||0) + ' 件 | アクティブソース ' + ((meta.active_sources||[]).join(', ')||'—');
+
+    var briefing = r.briefing_jp || r.briefing_cn || '';
+    var html = briefing
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/^### (.+)$/gm,'<h3>$1</h3>')
+      .replace(/^## (.+)$/gm,'<h2>$1</h2>')
+      .replace(/^# (.+)$/gm,'<h2>$1</h2>')
+      .replace(/^- (.+)$/gm,'<li>$1</li>')
+      .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')
+      .replace(/^>(.+)$/gm,'<blockquote>$1</blockquote>')
+      .replace(/\n\n/g,'</p><p>')
+      .replace(/\n/g,'<br>');
+    html = html.replace(/((?:<li>.*?<\/li><br>)+)/g, function(m){ return '<ul>' + m.replace(/<br>/g,'') + '</ul>'; });
+
+    document.getElementById('reportBody').innerHTML = '<p>' + html + '</p>';
+  });
+})();
+</script>
+</body>
+</html>
