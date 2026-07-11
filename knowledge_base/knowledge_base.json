@@ -1,0 +1,1410 @@
+{
+  "_meta": {
+    "project": "AIDC + 氟树脂材料 信息监测",
+    "created_at": "2026-07-05",
+    "updated_at": "2026-07-08T20:54:26.628756",
+    "format_version": "2.0",
+    "description": "持续累积的知识库。覆盖 AIDC 中氟树脂的 11 个应用领域。",
+    "total_articles": 49
+  },
+  "articles": [
+    {
+      "id": "b307811a1e5d1640",
+      "title": "Advanced Electronics Solutions",
+      "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+      "domain": "rogerscorp.com",
+      "publish_date": "2026-07-05",
+      "snippet": "Title: Advanced Electronics Solutions\n\nURL Source: https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](http",
+      "topicIds": [
+        "topic-pcb-substrate"
+      ],
+      "companies": [
+        "Rogers Corp"
+      ],
+      "credibility_score": 5,
+      "added_at": "2026-07-07T20:48:22.606452"
+    },
+    {
+      "id": "35f0205c063f0f3b",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "domain": "amphenol-cs.com",
+      "publish_date": "2026-07-05",
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/products/high-speed\n\nPublished Time: Tue, 16 Jun 2026 09:08:00 GMT\n\nMarkdown Content:\n[![Image 1: Amphenol Communications Solutions](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphenol-cs.com/)\n\n[Connectors![Image 2: ",
+      "topicIds": [
+        "topic-connector",
+        "topic-thermal-management"
+      ],
+      "companies": [
+        "Amphenol"
+      ],
+      "credibility_score": 4,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "f48a344471a11659",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "domain": "vertiv.com",
+      "publish_date": "2026-07-05",
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "companies": [
+        "Vertiv"
+      ],
+      "credibility_score": 4,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "8287755d44c81603",
+      "title": "Recycled Resin Prices Decline as Supply Improves",
+      "url": "https://www.plasticstoday.com/resin-pricing/garrykillian-istock-via-getty-images",
+      "domain": "plasticstoday.com",
+      "publish_date": "Fri, 03 Jul 2026 12:22:51 GMT",
+      "snippet": "US recycled plastics markets experienced softening in June 2026, with rPE and rPP prices declining while rPET faces ongoing structural challenges.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "3822a85d1a2cafcd",
+      "title": "Plastics by the Numbers",
+      "url": "https://www.plasticstoday.com/packaging/plastics-by-the-numbers",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 17:12:14 GMT",
+      "snippet": "Market reports on waste-derived pyrolysis oil, polyethylene, thermoformed plastics, 3D-printed packaging, advanced recycling, CO2-based plastics, and polyethylene furanoate (PEF) are featured in this slideshow.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "5a5e38b8d45d307f",
+      "title": "California's Plastic Packaging Law Forces Brands to Rethink Compliance",
+      "url": "https://www.plasticstoday.com/legislation-regulations/california-s-plastic-packaging-law-forces-brands-to-rethink-compliance",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 16:23:08 GMT",
+      "snippet": "With weeks remaining before California's binding source reduction plan deadline, packaging industry leaders warn that inadequate data infrastructure and incomplete financial modeling could cost brands dearly under SB 54's stringent compliance framework.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "ea500f50a09a7909",
+      "title": "US Manufacturing Growth Continues for Sixth Straight Month",
+      "url": "https://www.plasticstoday.com/industry-trends/us-manufacturing-growth-continues-for-sixth-straight-month",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 15:19:54 GMT",
+      "snippet": "US manufacturing expanded for the sixth consecutive month in June, with the ISM Manufacturing PMI at 53.3 percent, reflecting continued growth amid pricing pressures.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "0b767ee3d63e4566",
+      "title": "Amcor Partners with Kelpi to Advance Bio-based Coatings for Paper Packaging",
+      "url": "https://www.plasticstoday.com/packaging/amcor-partners-with-kelpi-to-advance-bio-based-coatings-for-paper-packaging",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 14:20:58 GMT",
+      "snippet": "Partnership answers Ellen MacArthur Foundation's call for accelerated innovation in fiber-based flexible packaging.",
+      "topicIds": [
+        "topic-copper-interconnect"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "2c3e0a7fc0c20dc9",
+      "title": "Arclin Launches $300K Fund for America's 250th Anniversary",
+      "url": "https://www.plasticstoday.com/materials/arclin-launches-300k-fund-for-america-s-250th-anniversary",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 13:36:44 GMT",
+      "snippet": "Arclin announces the Fabric of America Fund, a $300,000 employee-driven giving program supporting communities nationwide in honor of America's 250th anniversary.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "a09d029607f3ecb9",
+      "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+      "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 12:52:30 GMT",
+      "snippet": "Swiss injection mold specialist Kebo AG merges with France's Plastisud Group, creating a 300-employee company offering medical and pharmaceutical tooling solutions.",
+      "topicIds": [],
+      "companies": [
+        "Kebo",
+        "Plastisud"
+      ],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.607470"
+    },
+    {
+      "id": "486cd452a1af3c2e",
+      "title": "Covestro Expands Global Production with Strategic Acquisitions",
+      "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 12:15:45 GMT",
+      "snippet": "Covestro completes acquisition of HDI production sites in Thailand and Texas while announcing major MDI investment program in China and UAE.",
+      "topicIds": [],
+      "companies": [
+        "Covestro"
+      ],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.608467"
+    },
+    {
+      "id": "abf07719bc869638",
+      "title": "AI-Driven Data Analytics Transform Injection Molding Manufacturing",
+      "url": "https://www.plasticstoday.com/automation/ai-driven-data-analytics-transform-injection-molding-manufacturing",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 11:08:57 GMT",
+      "snippet": "Smart manufacturing leverages AI and real-time sensor data to optimize injection molding processes, improving part quality, throughput, and profitability.",
+      "topicIds": [
+        "topic-thermal-management"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.608467"
+    },
+    {
+      "id": "591f514ff6e43de1",
+      "title": "Trump Declines USMCA Renewal, Triggering Annual Trade Reviews",
+      "url": "https://www.plasticstoday.com/legislation-regulations/trump-declines-usmca-renewal-triggering-annual-trade-reviews",
+      "domain": "plasticstoday.com",
+      "publish_date": "Wed, 01 Jul 2026 18:52:58 GMT",
+      "snippet": "The Trump administration rejected renewing the USMCA trade agreement, choosing annual reviews instead, creating uncertainty for plastics manufacturers and North American supply chains. The Plastics Industry Association voices its support for preservation of the trade agreement.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.608467"
+    },
+    {
+      "id": "b307811a1e5d1640",
+      "title": "Advanced Electronics Solutions",
+      "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+      "domain": "rogerscorp.com",
+      "publish_date": "2026-07-06",
+      "snippet": "Title: Advanced Electronics Solutions\n\nURL Source: https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](http",
+      "topicIds": [
+        "topic-pcb-substrate"
+      ],
+      "companies": [
+        "Rogers Corp"
+      ],
+      "credibility_score": 5,
+      "added_at": "2026-07-07T20:48:22.608467"
+    },
+    {
+      "id": "35f0205c063f0f3b",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "domain": "amphenol-cs.com",
+      "publish_date": "2026-07-06",
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/products/high-speed\n\nPublished Time: Tue, 16 Jun 2026 09:08:00 GMT\n\nMarkdown Content:\n[![Image 1: Amphenol Communications Solutions](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphenol-cs.com/)\n\n[Connectors![Image 2: ",
+      "topicIds": [
+        "topic-connector",
+        "topic-thermal-management"
+      ],
+      "companies": [
+        "Amphenol"
+      ],
+      "credibility_score": 4,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "f48a344471a11659",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "domain": "vertiv.com",
+      "publish_date": "2026-07-06",
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "companies": [
+        "Vertiv"
+      ],
+      "credibility_score": 4,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "8287755d44c81603",
+      "title": "Recycled Resin Prices Decline as Supply Improves",
+      "url": "https://www.plasticstoday.com/resin-pricing/garrykillian-istock-via-getty-images",
+      "domain": "plasticstoday.com",
+      "publish_date": "Fri, 03 Jul 2026 12:22:51 GMT",
+      "snippet": "US recycled plastics markets experienced softening in June 2026, with rPE and rPP prices declining while rPET faces ongoing structural challenges.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "3822a85d1a2cafcd",
+      "title": "Plastics by the Numbers",
+      "url": "https://www.plasticstoday.com/packaging/plastics-by-the-numbers",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 17:12:14 GMT",
+      "snippet": "Market reports on waste-derived pyrolysis oil, polyethylene, thermoformed plastics, 3D-printed packaging, advanced recycling, CO2-based plastics, and polyethylene furanoate (PEF) are featured in this slideshow.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "5a5e38b8d45d307f",
+      "title": "California's Plastic Packaging Law Forces Brands to Rethink Compliance",
+      "url": "https://www.plasticstoday.com/legislation-regulations/california-s-plastic-packaging-law-forces-brands-to-rethink-compliance",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 16:23:08 GMT",
+      "snippet": "With weeks remaining before California's binding source reduction plan deadline, packaging industry leaders warn that inadequate data infrastructure and incomplete financial modeling could cost brands dearly under SB 54's stringent compliance framework.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "ea500f50a09a7909",
+      "title": "US Manufacturing Growth Continues for Sixth Straight Month",
+      "url": "https://www.plasticstoday.com/industry-trends/us-manufacturing-growth-continues-for-sixth-straight-month",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 15:19:54 GMT",
+      "snippet": "US manufacturing expanded for the sixth consecutive month in June, with the ISM Manufacturing PMI at 53.3 percent, reflecting continued growth amid pricing pressures.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "0b767ee3d63e4566",
+      "title": "Amcor Partners with Kelpi to Advance Bio-based Coatings for Paper Packaging",
+      "url": "https://www.plasticstoday.com/packaging/amcor-partners-with-kelpi-to-advance-bio-based-coatings-for-paper-packaging",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 14:20:58 GMT",
+      "snippet": "Partnership answers Ellen MacArthur Foundation's call for accelerated innovation in fiber-based flexible packaging.",
+      "topicIds": [
+        "topic-copper-interconnect"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "2c3e0a7fc0c20dc9",
+      "title": "Arclin Launches $300K Fund for America's 250th Anniversary",
+      "url": "https://www.plasticstoday.com/materials/arclin-launches-300k-fund-for-america-s-250th-anniversary",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 13:36:44 GMT",
+      "snippet": "Arclin announces the Fabric of America Fund, a $300,000 employee-driven giving program supporting communities nationwide in honor of America's 250th anniversary.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "a09d029607f3ecb9",
+      "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+      "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 12:52:30 GMT",
+      "snippet": "Swiss injection mold specialist Kebo AG merges with France's Plastisud Group, creating a 300-employee company offering medical and pharmaceutical tooling solutions.",
+      "topicIds": [],
+      "companies": [
+        "Kebo",
+        "Plastisud"
+      ],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "486cd452a1af3c2e",
+      "title": "Covestro Expands Global Production with Strategic Acquisitions",
+      "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 12:15:45 GMT",
+      "snippet": "Covestro completes acquisition of HDI production sites in Thailand and Texas while announcing major MDI investment program in China and UAE.",
+      "topicIds": [],
+      "companies": [
+        "Covestro"
+      ],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.609454"
+    },
+    {
+      "id": "abf07719bc869638",
+      "title": "AI-Driven Data Analytics Transform Injection Molding Manufacturing",
+      "url": "https://www.plasticstoday.com/automation/ai-driven-data-analytics-transform-injection-molding-manufacturing",
+      "domain": "plasticstoday.com",
+      "publish_date": "Thu, 02 Jul 2026 11:08:57 GMT",
+      "snippet": "Smart manufacturing leverages AI and real-time sensor data to optimize injection molding processes, improving part quality, throughput, and profitability.",
+      "topicIds": [
+        "topic-thermal-management"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "591f514ff6e43de1",
+      "title": "Trump Declines USMCA Renewal, Triggering Annual Trade Reviews",
+      "url": "https://www.plasticstoday.com/legislation-regulations/trump-declines-usmca-renewal-triggering-annual-trade-reviews",
+      "domain": "plasticstoday.com",
+      "publish_date": "Wed, 01 Jul 2026 18:52:58 GMT",
+      "snippet": "The Trump administration rejected renewing the USMCA trade agreement, choosing annual reviews instead, creating uncertainty for plastics manufacturers and North American supply chains. The Plastics Industry Association voices its support for preservation of the trade agreement.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "8389ab79285cb286",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "domain": "rogerscorp.com",
+      "publish_date": "",
+      "snippet": "Title: RO4000® Series Laminates\n\nURL Source: https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](https://www.roger",
+      "topicIds": [
+        "topic-pcb-substrate"
+      ],
+      "companies": [
+        "Rogers Corp"
+      ],
+      "credibility_score": 5,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "6a01827a083cfd8d",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com",
+      "domain": "amphenol-cs.com",
+      "publish_date": "",
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/\n\nMarkdown Content:\n**Account**Sign In\n\n[![Image 1: instagramIcon](blob:http://localhost/e6bcd959842455cd372540d2f2096aea)![Image 2: Amphenol Communications Solutions](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphen",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-connector"
+      ],
+      "companies": [
+        "Amphenol"
+      ],
+      "credibility_score": 4,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "f48a344471a11659",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "domain": "vertiv.com",
+      "publish_date": "",
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "companies": [
+        "Vertiv"
+      ],
+      "credibility_score": 4,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "fa06333fb58f6444",
+      "title": "Toyota Supplier Expands Mississippi Plastics Operations",
+      "url": "https://www.plasticstoday.com/automotive-mobility/toyota-supplier-expands-mississippi-plastics-operations",
+      "domain": "plasticstoday.com",
+      "publish_date": "Mon, 06 Jul 2026 18:47:18 GMT",
+      "snippet": "Auto Parts Manufacturing Mississippi announces $53 million expansion in Lee County, creating 28 jobs and enhancing plastics production capabilities.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "c39b7ce639377384",
+      "title": "Continental Sells ContiTech for $4.6 Billion to Lone Star",
+      "url": "https://www.plasticstoday.com/automotive-mobility/continental-sells-contitech-for-4-6-billion-to-lone-star",
+      "domain": "plasticstoday.com",
+      "publish_date": "Mon, 06 Jul 2026 15:50:44 GMT",
+      "snippet": "Continental sells ContiTech industrial division to Lone Star Funds, completing transformation into pure-play tire manufacturer. ContiTech develops, manufactures, and markets products, systems, and intelligent components made of rubber, plastic, metal, and fabric.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "fde2d9e959951da9",
+      "title": "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half",
+      "url": "https://www.plasticstoday.com/automotive-mobility/greene-tweed-slashes-aerospace-composite-prototyping-time-by-half",
+      "domain": "plasticstoday.com",
+      "publish_date": "Mon, 06 Jul 2026 14:10:00 GMT",
+      "snippet": "Greene Tweed's rapid prototyping breakthrough accelerates metal replacement projects with production-quality composite parts delivered in half the traditional time.",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "053a0677a8b01c8d",
+      "title": "Syensqo Licenses Composite Forming Technology to Bucci",
+      "url": "https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci",
+      "domain": "plasticstoday.com",
+      "publish_date": "Mon, 06 Jul 2026 13:30:03 GMT",
+      "snippet": "Syensqo licenses double diaphragm forming technology to Bucci Composites, advancing automated composite manufacturing for automotive structural parts and battery enclosures.",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "ed8a5885eef5acde",
+      "title": "Scariest data center \"horror story\" you've ever experienced?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upnj8j/scariest_data_center_horror_story_youve_ever/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-07T07:07:44+00:00",
+      "snippet": "Anyone got worst to share?  &#32; submitted by &#32;  /u/Notalabel_4566   [link] &#32; [comments]",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.610451"
+    },
+    {
+      "id": "9f7da7b8b86b59ea",
+      "title": "I got it! I got the L3 position at AWS",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upahx8/i_got_it_i_got_the_l3_position_at_aws/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-06T21:16:36+00:00",
+      "snippet": "Excited to officially share that I’ve accepted an Engineering Operations Technician (L3) position with AWS! This has been a goal I’ve been working toward for a long time. Countless hours of studying electrical systems, mechanical troubleshooting, interview preparation, and learning Amazon’s Leadersh",
+      "topicIds": [
+        "topic-copper-interconnect",
+        "topic-thermal-management"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "05827c9462a6c9b9",
+      "title": "Are sags and swells that big a deal if the site has redundancy with UPS and generators.",
+      "url": "https://www.reddit.com/r/datacenter/comments/1uppdyv/are_sags_and_swells_that_big_a_deal_if_the_site/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-07T08:54:31+00:00",
+      "snippet": "Ok I’ve work at two datacenters so far in my career and it’s like night and day. First one I was at acted like the building was on fire everyone the utilities sagged. I’m talking sending out emails and calling people at two am. And heaven help us if we miss the second or two of it sagging. But it’s ",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "76b866f352d4fd16",
+      "title": "AWS 6 month cooldown period",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upogbj/aws_6_month_cooldown_period/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-07T07:59:56+00:00",
+      "snippet": "I am working in AWS DataCenter as Technical Support Technician from last 4 month as Green badge and my current contract is of 6 month. I applied externally for the IT Support Specialist – DCO position as a backup option in case there isn't an opportunity within our team. I recently received an invit",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "e60211d8c962eef4",
+      "title": "Google Data Center Technician Level 2 Interview Questions",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upsc9u/google_data_center_technician_level_2_interview/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-07T11:31:05+00:00",
+      "snippet": "Hi Everybody! I'm currently in the interview process for an L2 Data Center Technician role at Google, and I have my technical interviews coming up. So I was wondering what kind of questions they would ask? It's gonna be primarily hardware and Linux. Do you guys have any good recommendations as to wh",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "a4b7f46888f6428a",
+      "title": "Looking for suggestions for a challenging Master's thesis problem in pure Data Science",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upmn4c/looking_for_suggestions_for_a_challenging_masters/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-07T06:18:13+00:00",
+      "snippet": "I have a background in Data Science and have worked on different areas related to this field. Now, I want to focus my thesis on a pure Data Science problem that has research potential and real-world impact. I am looking for suggestions on:  Interesting and challenging research problems in Data Scien",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "f78145c90f52aa30",
+      "title": "Galaxy Completes Phase I of Its Helios Data Center Campus, Delivering 133 Megawatts of Critical IT Load to CoreWeave",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upjg0u/galaxy_completes_phase_i_of_its_helios_data/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-07T03:32:32+00:00",
+      "snippet": "&#32; submitted by &#32;  /u/GalaxyHQOfficial   [link] &#32; [comments]",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "5eebd01424d03673",
+      "title": "Had an interview with AWS almost 4 weeks ago and still haven’t heard back?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upb3f3/had_an_interview_with_aws_almost_4_weeks_ago_and/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-06T21:38:46+00:00",
+      "snippet": "I sent the recruiter a follow up email within the first week and they stated it takes 5-6 days. Emailed last week and got no response. Haven’t received a rejection yet.. just confused why it’s taking so long for an answer   &#32; submitted by &#32;  /u/CryptographerEvery61   [link] &#32; [comments]",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "04c0dd29052e34ac",
+      "title": "Title: Best resources to learn how to build EOPs for small critical rooms?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upipi7/title_best_resources_to_learn_how_to_build_eops/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-07T02:57:36+00:00",
+      "snippet": "Hi all, I work in FM in Australia and I've been tasked with developing Emergency Operating Procedures (EOPs) for small computer/comms rooms typically containing UPS, STS, CRAC units, leak detection, and associated alarm monitoring. I've built my first one (an STS fault response) using an eight-step ",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "919cab4bee945de4",
+      "title": "Trying to get a second opinion about some land I own that somebody might be interested in building a data center on.",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upm8r5/trying_to_get_a_second_opinion_about_some_land_i/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-07T05:56:49+00:00",
+      "snippet": "I own a 360 acre piece of land in southern Ohio that has a double circuit 345kV power line running right through it. After a conversation with a couple online AI programs, they both agreed that my land is potentially desirable for a data center site. I figured I’d try to get a human perspective and ",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.611452"
+    },
+    {
+      "id": "1a6cf4f8ba59c9ed",
+      "title": "AWS L3 DCO recruiters",
+      "url": "https://www.reddit.com/r/datacenter/comments/1up7pyo/aws_l3_dco_recruiters/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-06T19:34:31+00:00",
+      "snippet": "What’s up with these recruiters? They take forever to reply to messages. I’ve been trying to get an interview for a long time now. I know I did well in the screening, but I don’t know if my recruiter is just unresponsive or if it’s normal for AWS recruiters to take this long to get back to people.  ",
+      "topicIds": [
+        "topic-thermal-management"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.612453"
+    },
+    {
+      "id": "7a0267486f2e1d37",
+      "title": "Why is datacenter sentiment so negative in Ohio vs say west texas?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1uox20i/why_is_datacenter_sentiment_so_negative_in_ohio/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-06T13:15:30+00:00",
+      "snippet": "&#32; submitted by &#32;  /u/Ok_Measurement921   [link] &#32; [comments]",
+      "topicIds": [
+        "topic-thermal-management"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.612453"
+    },
+    {
+      "id": "5de4ca8993c7ce2c",
+      "title": "Microsoft DCT timeline after interview",
+      "url": "https://www.reddit.com/r/datacenter/comments/1up5tep/microsoft_dct_timeline_after_interview/",
+      "domain": "reddit.com",
+      "publish_date": "2026-07-06T18:27:50+00:00",
+      "snippet": "Hey , I interviewed with Microsoft for DCT role VA part time ( sucks but that’s all they had available) on 6/15. 2 interviews both went great , the lady who conducted the tech portion really liked me.  Wanted to know if anyone knows how long it will take to receive a decision or any other info about",
+      "topicIds": [
+        "topic-thermal-management"
+      ],
+      "companies": [],
+      "credibility_score": 3,
+      "added_at": "2026-07-07T20:48:22.612453"
+    },
+    {
+      "id": "dca2587d202e0b86",
+      "title": "[转载]信创全平台 C++17 交叉编译工具链",
+      "url": "https://www.v2ex.com/t/1225548",
+      "domain": "v2ex.com",
+      "publish_date": "2026-07-07",
+      "snippet": "这套工具链原本一直想藏着掖着作为个人的“私服”使用。\r\n\r\n但转念一想，随着公司人员的流动，这些底层基建早晚也会流传出去。\r\n\r\n与其等别人缝缝补补地发出来，不如自己做个彻底的整理和开源，也算是为国产化平台的快速发展做个贡献吧。\r\n\r\n**💡 名词速查：**\r\n- **loongarch64_OA**：指代 Loongarch64 Old ABI （龙芯旧世界）\r\n- **loongarch64_NA**：指代 Loongarch64 New ABI （龙芯新世界）\r\n\r\n**获取及使用：请直接下拉至文章末尾查看下载链接。**\r\n\r\n---\r\n\r\n# 🛠️ 搭建与演进过程\r\n\r\n## 纯手工阶",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 2,
+      "added_at": "2026-07-07T20:48:22.612453"
+    },
+    {
+      "id": "c7998db37c8843f8",
+      "title": "晶圆厂的＂隐形铠甲＂:含氟聚合物如何卡住半导体制造的咽喉",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9JWn-dZy8wdGeQhID1tbZcNkVqOnCgfH1qXa8Fplpd9sEoc2-p9h-TFmhApLXKTWml-4-mhRFle6Kqv9-Mao4ke8uNRD16KQRu2qLBgIf6DgHr8Nr0hiM_70j93fl49tDBDMFEj3-IEvcoFzQ82Cfoqdo_7i2CJjIhEmERVoyQ4cfMo7cO3EXy1X1yhusD87eZ-hD4lFnU3Ra9NG5fBdA7FcvUoAZZH7Q..&type=2&query=%E6%B0%9F%E8%81%9A%E5%90%88%E7%89%A9 %E5%8D%8A%E5%AF%BC%E4%BD%93 %E8%B6%85%E7%BA%AF%E6%B0%B4 PFA&token=1F6E29A9270D67C68C8DD9790BF120BB8C40BA216A4BC28A",
+      "domain": "weixin.sogou.com",
+      "publish_date": "2026-07-05",
+      "snippet": "PFA是可熔性聚四氟乙烯,分子结构和PTFE接近,耐化学品能力... 全球半导体用氟聚合物市场规模2024 年约13.5亿美元,2025年14....",
+      "topicIds": [
+        "topic-fluororesin-material"
+      ],
+      "companies": [],
+      "credibility_score": 4,
+      "added_at": "2026-07-08T20:50:45.079493"
+    },
+    {
+      "id": "555cb5e296414809",
+      "title": "原油、氟化工、半导体:三赛道共振,哪些标的值得跟踪?",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9JWn-dZy8wdGeQhID1tbZcNkVqOnCgfH1qXa8Fplpd9fMlZd7ymAcTmJdo9p0C90-8d3kKsPq0HO6fhFNnNnLMTlQXoOQv5B8308GUFBXVg7s2MtcqYyq9gPcYqS8j-5LOJz76wiGw12BspiqLzx1fM0aLZOfTU7SaXXs0gwV8C8T_5FPVkaCziaUxXu4AKlbK0kTBteFTnJfIC7L5I48tflztgI7RZ1g..&type=2&query=%E6%B0%9F%E8%81%9A%E5%90%88%E7%89%A9 %E5%8D%8A%E5%AF%BC%E4%BD%93 %E8%B6%85%E7%BA%AF%E6%B0%B4 PFA&token=1F6E29A9270D67C68C8DD9790BF120BB8C40BA216A4BC28A",
+      "domain": "weixin.sogou.com",
+      "publish_date": "2026-07-05",
+      "snippet": "目前含氟聚合物及相关剂、物料净利润占比已经达到40%,后续占... 其中超纯水树脂业务面向面板、半导体、核电客户,已全面进入长...",
+      "topicIds": [],
+      "companies": [],
+      "credibility_score": 4,
+      "added_at": "2026-07-08T20:50:45.080493"
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic-copper-interconnect",
+      "name": "高速铜缆互联",
+      "name_jp": "高速銅ケーブル相互接続",
+      "keywords": [
+        "DAC",
+        "AEC",
+        "ACC",
+        "有源铜缆",
+        "无源铜缆",
+        "224G",
+        "SerDes",
+        "铜连接",
+        "信号完整性",
+        "FEP绝缘",
+        "发泡氟树脂"
+      ],
+      "article_count": 8
+    },
+    {
+      "id": "topic-liquid-cooling",
+      "name": "液冷系统",
+      "name_jp": "液冷システム",
+      "keywords": [
+        "液冷",
+        "冷却液",
+        "氟化液",
+        "PFA管路",
+        "PTFE密封",
+        "冷板",
+        "浸没式冷却",
+        "coolant",
+        "fluoropolymer tubing"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-pcb-substrate",
+      "name": "高频PCB基板",
+      "name_jp": "高周波PCB基板",
+      "keywords": [
+        "PTFE基板",
+        "高频覆铜板",
+        "低介电常数",
+        "Rogers",
+        "氟树脂基板",
+        "低损耗",
+        "Dk",
+        "Df",
+        "高速数字"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "topic-optical-communication",
+      "name": "光通讯",
+      "name_jp": "光通信",
+      "keywords": [
+        "光纤",
+        "PFA涂层",
+        "氟聚合物包层",
+        "光模块",
+        "CPO",
+        "LPO",
+        "光纤连接器",
+        "Corning",
+        "缓冲涂层"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-power-system",
+      "name": "电源系统",
+      "name_jp": "電源システム",
+      "keywords": [
+        "FEP绝缘",
+        "高温线缆",
+        "汇流排",
+        "PTFE绝缘",
+        "服务器电源",
+        "busbar",
+        "UL耐温"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-connector",
+      "name": "高速连接器",
+      "name_jp": "高速コネクタ",
+      "keywords": [
+        "背板连接器",
+        "氟树脂嵌件",
+        "FEP绝缘体",
+        "Amphenol",
+        "Molex",
+        "TE Connectivity",
+        "立讯精密",
+        "绝缘材料"
+      ],
+      "article_count": 3
+    },
+    {
+      "id": "topic-thermal-management",
+      "name": "散热与热管理",
+      "name_jp": "熱管理・放熱",
+      "keywords": [
+        "PTFE导热",
+        "散热界面",
+        "TIM",
+        "导热膏",
+        "热界面材料",
+        "氟聚合物散热",
+        "heat spreader"
+      ],
+      "article_count": 12
+    },
+    {
+      "id": "topic-capacitor",
+      "name": "电容器",
+      "name_jp": "コンデンサ",
+      "keywords": [
+        "氟聚合物薄膜电容",
+        "PTFE介电",
+        "高频电容",
+        "DC-link",
+        "薄膜电容",
+        "低损耗介质"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-rf-microwave",
+      "name": "RF/微波/天线",
+      "name_jp": "RF・マイクロ波・アンテナ",
+      "keywords": [
+        "PTFE基板",
+        "射频",
+        "微波",
+        "天线",
+        "低损耗",
+        "介电性能",
+        "高频高速"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-semiconductor-equipment",
+      "name": "半导体制造设备",
+      "name_jp": "半導体製造装置",
+      "keywords": [
+        "PFA管阀件",
+        "超纯水",
+        "化学品输送",
+        "氟树脂衬里",
+        "高纯",
+        "chemical delivery"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-sensor-coating",
+      "name": "传感器与保护涂层",
+      "name_jp": "センサ・保護コーティング",
+      "keywords": [
+        "氟聚合物涂层",
+        "耐腐蚀",
+        "传感器保护",
+        "环境监测",
+        "防护涂层",
+        "anticorrosion"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-fluororesin-material",
+      "name": "氟树脂材料技术",
+      "name_jp": "フッ素樹脂材料技術",
+      "keywords": [
+        "FEP",
+        "PTFE",
+        "PFA",
+        "ETFE",
+        "发泡",
+        "成核剂",
+        "功能母粒",
+        "挤出工艺",
+        "介电性能",
+        "熔融加工"
+      ],
+      "article_count": 1
+    },
+    {
+      "id": "topic-fluorochem-supply",
+      "name": "氟化工供应链",
+      "name_jp": "フッ素化学サプライチェーン",
+      "keywords": [
+        "永和",
+        "东岳",
+        "巨化",
+        "Chemours",
+        "Daikin",
+        "AGC",
+        "3M",
+        "产能",
+        "扩建",
+        "价格"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-pfas-regulation",
+      "name": "PFAS法规与合规",
+      "name_jp": "PFAS規制とコンプライアンス",
+      "keywords": [
+        "PFAS",
+        "PFOS",
+        "PFOA",
+        "法规限制",
+        "豁免",
+        "替代",
+        "环境",
+        "安全"
+      ],
+      "article_count": 0
+    },
+    {
+      "id": "topic-cpo-optics",
+      "name": "CPO共封装光学",
+      "name_jp": "CPO共パッケージ光学",
+      "keywords": [
+        "CPO",
+        "光进铜退",
+        "硅光",
+        "LPO",
+        "共封装",
+        "光电集成"
+      ],
+      "article_count": 0
+    }
+  ],
+  "tags_index": {
+    "Rogers": [
+      "b307811a1e5d1640",
+      "8389ab79285cb286"
+    ],
+    "ACC": [
+      "789240db8851cd25",
+      "3ce5503fb9a931bd",
+      "f48a344471a11659",
+      "0b767ee3d63e4566",
+      "6a01827a083cfd8d",
+      "fde2d9e959951da9",
+      "9f7da7b8b86b59ea"
+    ],
+    "TIM": [
+      "789240db8851cd25",
+      "ba82dafb8dcfc49a",
+      "35f0205c063f0f3b",
+      "f48a344471a11659",
+      "abf07719bc869638",
+      "fde2d9e959951da9",
+      "9f7da7b8b86b59ea",
+      "1a6cf4f8ba59c9ed",
+      "7a0267486f2e1d37",
+      "5de4ca8993c7ce2c"
+    ],
+    "Amphenol": [
+      "35f0205c063f0f3b",
+      "6a01827a083cfd8d"
+    ],
+    "PTFE": [
+      "c7998db37c8843f8"
+    ]
+  },
+  "cross_refs": [],
+  "collections": [],
+  "company_data": [
+    {
+      "name": "Amphenol",
+      "ticker": "APH",
+      "name_jp": "Amphenol",
+      "mention_count": 3,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "Amphenol CS",
+          "url": "https://www.amphenol-cs.com/products/high-speed",
+          "credibility": 4
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Amphenol CS",
+          "url": "https://www.amphenol-cs.com/products/high-speed",
+          "credibility": 4
+        },
+        {
+          "date": "",
+          "title": "Amphenol CS",
+          "url": "https://www.amphenol-cs.com",
+          "credibility": 4
+        }
+      ]
+    },
+    {
+      "name": "Vertiv",
+      "ticker": "VRT",
+      "name_jp": "Vertiv",
+      "mention_count": 3,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "Thermal Management",
+          "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+          "credibility": 4
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Thermal Management",
+          "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+          "credibility": 4
+        },
+        {
+          "date": "",
+          "title": "Thermal Management",
+          "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+          "credibility": 4
+        }
+      ]
+    },
+    {
+      "name": "Rogers Corp",
+      "ticker": "ROG",
+      "name_jp": "Rogers Corp",
+      "mention_count": 3,
+      "recent_articles": [
+        {
+          "date": "2026-07-06",
+          "title": "Advanced Electronics Solutions",
+          "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+          "credibility": 5
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Advanced Electronics Solutions",
+          "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+          "credibility": 5
+        },
+        {
+          "date": "",
+          "title": "RO4000® Series Laminates",
+          "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+          "credibility": 5
+        }
+      ]
+    },
+    {
+      "name": "Covestro",
+      "ticker": "1COV.DE",
+      "name_jp": "Covestro",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "Thu, 02 Jul 2026 12:15:45 GMT",
+          "title": "Covestro Expands Global Production with Strategic Acquisitions",
+          "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+          "credibility": 3
+        },
+        {
+          "date": "Thu, 02 Jul 2026 12:15:45 GMT",
+          "title": "Covestro Expands Global Production with Strategic Acquisitions",
+          "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+          "credibility": 3
+        }
+      ]
+    },
+    {
+      "name": "Kebo",
+      "ticker": "—",
+      "name_jp": "Kebo AG",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "Thu, 02 Jul 2026 12:52:30 GMT",
+          "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+          "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+          "credibility": 3
+        },
+        {
+          "date": "Thu, 02 Jul 2026 12:52:30 GMT",
+          "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+          "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+          "credibility": 3
+        }
+      ]
+    },
+    {
+      "name": "Plastisud",
+      "ticker": "—",
+      "name_jp": "Plastisud Group",
+      "mention_count": 2,
+      "recent_articles": [
+        {
+          "date": "Thu, 02 Jul 2026 12:52:30 GMT",
+          "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+          "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+          "credibility": 3
+        },
+        {
+          "date": "Thu, 02 Jul 2026 12:52:30 GMT",
+          "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+          "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+          "credibility": 3
+        }
+      ]
+    }
+  ],
+  "topic_timelines": {},
+  "all_timeline": [
+    {
+      "date": "2026-07-07",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "topicIds": [
+        "topic-pcb-substrate"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com",
+      "topicIds": [
+        "topic-connector"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "topicIds": [],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Toyota Supplier Expands Mississippi Plastics Operations",
+      "url": "https://www.plasticstoday.com/automotive-mobility/toyota-supplier-expands-mississippi-plastics-operations",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Continental Sells ContiTech for $4.6 Billion to Lone Star",
+      "url": "https://www.plasticstoday.com/automotive-mobility/continental-sells-contitech-for-4-6-billion-to-lone-star",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half",
+      "url": "https://www.plasticstoday.com/automotive-mobility/greene-tweed-slashes-aerospace-composite-prototyping-time-by-half",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Syensqo Licenses Composite Forming Technology to Bucci",
+      "url": "https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Scariest data center \"horror story\" you've ever experienced?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upnj8j/scariest_data_center_horror_story_youve_ever/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "I got it! I got the L3 position at AWS",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upahx8/i_got_it_i_got_the_l3_position_at_aws/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Are sags and swells that big a deal if the site has redundancy with UPS and generators.",
+      "url": "https://www.reddit.com/r/datacenter/comments/1uppdyv/are_sags_and_swells_that_big_a_deal_if_the_site/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "AWS 6 month cooldown period",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upogbj/aws_6_month_cooldown_period/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Google Data Center Technician Level 2 Interview Questions",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upsc9u/google_data_center_technician_level_2_interview/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Looking for suggestions for a challenging Master's thesis problem in pure Data Science",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upmn4c/looking_for_suggestions_for_a_challenging_masters/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Galaxy Completes Phase I of Its Helios Data Center Campus, Delivering 133 Megawatts of Critical IT Load to CoreWeave",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upjg0u/galaxy_completes_phase_i_of_its_helios_data/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Had an interview with AWS almost 4 weeks ago and still haven’t heard back?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upb3f3/had_an_interview_with_aws_almost_4_weeks_ago_and/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Title: Best resources to learn how to build EOPs for small critical rooms?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upipi7/title_best_resources_to_learn_how_to_build_eops/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Trying to get a second opinion about some land I own that somebody might be interested in building a data center on.",
+      "url": "https://www.reddit.com/r/datacenter/comments/1upm8r5/trying_to_get_a_second_opinion_about_some_land_i/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "AWS L3 DCO recruiters",
+      "url": "https://www.reddit.com/r/datacenter/comments/1up7pyo/aws_l3_dco_recruiters/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Why is datacenter sentiment so negative in Ohio vs say west texas?",
+      "url": "https://www.reddit.com/r/datacenter/comments/1uox20i/why_is_datacenter_sentiment_so_negative_in_ohio/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-07",
+      "title": "Microsoft DCT timeline after interview",
+      "url": "https://www.reddit.com/r/datacenter/comments/1up5tep/microsoft_dct_timeline_after_interview/",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-06",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "topicIds": [
+        "topic-pcb-substrate"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "topicIds": [
+        "topic-connector"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "topicIds": [],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-06",
+      "title": "晶圆厂的＂隐形铠甲＂:含氟聚合物如何卡住半导体制造的咽喉",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9JWn-dZy8wdGeQhID1tbZcNkVqOnCgfH1qXa8Fplpd9sEoc2-p9h-TFmhApLXKTWml-4-mhRFle6Kqv9-Mao4ke8uNRD16KQRu2qLBgIf6DgHr8Nr0hiM_70j93fl49tDBDMFEj3-IEvcoFzQ82Cfoqdo_7i2CJjIhEmERVoyQ4cfMo7cO3EXy1X1yhusD87eZ-hD4lFnU3Ra9NG5fBdA7FcvUoAZZH7Q..&type=2&query=%E6%B0%9F%E8%81%9A%E5%90%88%E7%89%A9 %E5%8D%8A%E5%AF%BC%E4%BD%93 %E8%B6%85%E7%BA%AF%E6%B0%B4 PFA&token=1F6E29A9270D67C68C8DD9790BF120BB8C40BA216A4BC28A",
+      "topicIds": [
+        "topic-fluororesin-material"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-06",
+      "title": "原油、氟化工、半导体:三赛道共振,哪些标的值得跟踪?",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9JWn-dZy8wdGeQhID1tbZcNkVqOnCgfH1qXa8Fplpd9fMlZd7ymAcTmJdo9p0C90-8d3kKsPq0HO6fhFNnNnLMTlQXoOQv5B8308GUFBXVg7s2MtcqYyq9gPcYqS8j-5LOJz76wiGw12BspiqLzx1fM0aLZOfTU7SaXXs0gwV8C8T_5FPVkaCziaUxXu4AKlbK0kTBteFTnJfIC7L5I48tflztgI7RZ1g..&type=2&query=%E6%B0%9F%E8%81%9A%E5%90%88%E7%89%A9 %E5%8D%8A%E5%AF%BC%E4%BD%93 %E8%B6%85%E7%BA%AF%E6%B0%B4 PFA&token=1F6E29A9270D67C68C8DD9790BF120BB8C40BA216A4BC28A",
+      "topicIds": [],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half",
+      "url": "https://www.plasticstoday.com/automotive-mobility/greene-tweed-slashes-aerospace-composite-prototyping-time-by-half",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-06",
+      "title": "Syensqo Licenses Composite Forming Technology to Bucci",
+      "url": "https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Advanced Electronics Solutions",
+      "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+      "topicIds": [
+        "topic-pcb-substrate"
+      ],
+      "credibility": 5
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "topicIds": [
+        "topic-connector"
+      ],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "topicIds": [],
+      "credibility": 4
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Recycled Resin Prices Decline as Supply Improves",
+      "url": "https://www.plasticstoday.com/resin-pricing/garrykillian-istock-via-getty-images",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Plastics by the Numbers",
+      "url": "https://www.plasticstoday.com/packaging/plastics-by-the-numbers",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "California's Plastic Packaging Law Forces Brands to Rethink Compliance",
+      "url": "https://www.plasticstoday.com/legislation-regulations/california-s-plastic-packaging-law-forces-brands-to-rethink-compliance",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "US Manufacturing Growth Continues for Sixth Straight Month",
+      "url": "https://www.plasticstoday.com/industry-trends/us-manufacturing-growth-continues-for-sixth-straight-month",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Amcor Partners with Kelpi to Advance Bio-based Coatings for Paper Packaging",
+      "url": "https://www.plasticstoday.com/packaging/amcor-partners-with-kelpi-to-advance-bio-based-coatings-for-paper-packaging",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Arclin Launches $300K Fund for America's 250th Anniversary",
+      "url": "https://www.plasticstoday.com/materials/arclin-launches-300k-fund-for-america-s-250th-anniversary",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+      "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Covestro Expands Global Production with Strategic Acquisitions",
+      "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "AI-Driven Data Analytics Transform Injection Molding Manufacturing",
+      "url": "https://www.plasticstoday.com/automation/ai-driven-data-analytics-transform-injection-molding-manufacturing",
+      "topicIds": [],
+      "credibility": 3
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Trump Declines USMCA Renewal, Triggering Annual Trade Reviews",
+      "url": "https://www.plasticstoday.com/legislation-regulations/trump-declines-usmca-renewal-triggering-annual-trade-reviews",
+      "topicIds": [],
+      "credibility": 3
+    }
+  ],
+  "tag_cloud": [
+    {
+      "tag": "TIM",
+      "count": 10
+    },
+    {
+      "tag": "ACC",
+      "count": 7
+    },
+    {
+      "tag": "Rogers",
+      "count": 2
+    },
+    {
+      "tag": "Amphenol",
+      "count": 2
+    },
+    {
+      "tag": "PTFE",
+      "count": 1
+    }
+  ]
+}
