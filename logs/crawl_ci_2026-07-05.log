@@ -1,0 +1,5 @@
+Crawl CI completed: 2026-07-05
+Sources OK: ['rss', 'jina', 'exa']
+Sources FAIL: ['v2ex']
+Raw: 17, Unique: 17
+  ERROR: v2ex: 'str' object has no attribute 'get'
