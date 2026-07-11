@@ -1,0 +1,19 @@
+# Netlify configuration for AIDC + Fluororesin Intelligence Monitor
+[build]
+  publish = "website"
+  command = "echo 'Static site — no build required'"
+
+[[redirects]]
+  from = "/cn"
+  to = "/cn/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/jp"
+  to = "/jp/index.html"
+  status = 200
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400, immutable"
