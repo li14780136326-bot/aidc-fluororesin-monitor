@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIDC 架构中的氟树脂 — 全栈材料穿透视图</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+<script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+<script>if(sessionStorage.getItem('aidc_auth')!=='1'){location.replace('/');}</script>
+
+<div class="app-container">
+
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-logo">A/F</span>
+      <span class="nav-title">AIDC + 氟树脂材料 情报监测</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="daily.html">日报</a></li>
+      <li><a href="knowledge.html">知识图谱</a></li>
+      <li><a href="architecture.html" class="active">架构可视化</a></li>
+    </ul>
+    <div class="nav-lang">
+      <a href="architecture.html" class="active">中</a>
+      <a href="../jp/architecture.html">日</a>
+    </div>
+  </nav>
+
+  <!-- All content rendered by architecture-viz.js -->
+  <div id="archRoot"></div>
+
+  <footer class="footer">
+    <p>AIDC + Fluororesin Intelligence Monitor — 架构可视化</p>
+    <p>架构拓扑为静态知识 · 材料/供应商数据动态更新</p>
+  </footer>
+</div>
+
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data-loader.js"></script>
+<script src="../assets/js/architecture-viz.js"></script>
+<script>
+(function() {
+  ArchViz.init({ lang: 'cn', rootId: 'archRoot', svgContainerId: 'archSvgCanvas' });
+})();
+</script>
+</body>
+</html>
