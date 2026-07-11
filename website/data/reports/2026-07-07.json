@@ -1,0 +1,338 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T15:15:01.310862",
+  "generator": "deepseek",
+  "meta": {
+    "total_crawled": 13,
+    "verified_count": 4,
+    "single_source_count": 0,
+    "excluded_count": 9,
+    "active_sources": [
+      "rss",
+      "jina",
+      "v2ex",
+      "exa",
+      "reddit",
+      "zhihu",
+      "weibo",
+      "twitter",
+      "wechat"
+    ],
+    "failed_sources": []
+  },
+  "briefing_cn": "## 今日摘要\n\n今日AIDC领域核心动态集中在氟树脂材料上游的树脂价格波动，以及半导体封装材料产能扩张；液冷与铜缆互联领域无重大更新。\n\n## 分领域详述\n\n今日该领域无重大更新。\n\n### 氟树脂材料与上游树脂市场\n\n**树脂价格因地缘政治因素上涨。** 地缘政治紧张局势和能源市场动荡持续对树脂价格施加压力，迫使美国制造商重新评估采购策略和供应链韧性。这一趋势可能影响包括氟树脂在内的多种塑料原料成本。[来源](https://www.plasticstoday.com/resin-pricing/resin-prices-rise-as-geopolitics-reshape-plastics-supply)\n\n**Asahi Kasei 在台湾开设先进薄膜工厂。** Asahi Kasei 投资1200万美元，在台湾建设了一座先进的薄膜分切工厂，以满足对先进半导体封装材料激增的需求。该工厂将提升其在关键电子材料领域的供应能力。[来源](https://www.plasticstoday.com/packaging/asahi-kasei-opens-advanced-film-facility-in-taiwan)\n\n### 液冷系统与热管理\n\n今日该领域无重大更新。\n\n### 铜缆互联与高速连接器\n\n今日该领域无重大更新。\n\n### PCB与高频层压板\n\n今日该领域无重大更新。\n\n### 其他相关动态\n\n**大陆集团以46亿美元出售ContiTech部门。** 大陆集团宣布将其工业橡胶、塑料、金属及织物制品部门ContiTech出售给Lone Star Funds，以完成向纯轮胎制造商的转型。该交易涉及的产品线包括用于工业应用的橡胶和塑料组件。[来源](https://www.plasticstoday.com/automotive-mobility/continental-sells-contitech-for-4-6-billion-to-lone-star)\n\n**Syensqo向Bucci授权复合材料成型技术。** Syensqo将其双隔膜成型（DDF）技术授权给Bucci Composites，以推进汽车结构件和电池外壳的自动化复合材料制造。该技术有助于提升高性能复合材料在AIDC相关结构件中的应用潜力。[来源](https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci)\n\n## 值得关注\n\n1.  **树脂价格走势**：地缘政治引发的树脂价格上涨是否会在未来传导至氟树脂等特种材料，影响AIDC供应链成本。\n2.  **Asahi Kasei产能**：其在台湾的先进薄膜工厂投产进度，以及对半导体封装材料市场供应格局的潜在影响。\n\n<!-- SUMMARY: 今日AIDC领域动态：树脂价格因地缘政治上涨，Asahi Kasei在台投建先进薄膜工厂以扩产半导体封装材料。 -->",
+  "briefing_jp": "## 本日のサマリー\n\n本日2026年7月7日、AIDCおよびフッ素樹脂材料分野において、樹脂価格の上昇と地政学的リスク、半導体パッケージング向けフィルム設備投資、プラスチックリサイクル技術の進展、および自動車向け複合材・成形技術のライセンス供与など、複数の重要な動きが確認された。一方、銅ケーブル相互接続、液冷システム、PCB基板、主要コネクタメーカーにおいては、本日新たな発表や動きは確認されなかった。\n\n---\n\n## 分野別詳細\n\n本日この分野に特筆すべき動きはない。\n\n### 樹脂・フッ素樹脂材料：価格上昇と供給再編の兆候\n\n\nまた、コンチネンタルは産業用ゴム・プラスチック製品部門ContiTechを、Lone Star Fundsに46億ドルで売却すると発表した。ContiTechはゴム、プラスチック、金属、ファブリックを用いた製品・システム・インテリジェントコンポーネントを開発・製造しており、同社のタイヤ専業メーカーへの変革が完了する。この売却は、自動車・産業向け樹脂材料サプライヤー業界の再編を示す動きである。[出典](https://www.plasticstoday.com/automotive-mobility/continental-sells-contitech-for-4-6-billion-to-lone-star)\n\n### 半導体パッケージング材料：旭化成が台湾に先端フィルム設備\n\n旭化成（Asahi Kasei）は、台湾に最新鋭のスリッティング（裁断）設備を開設したと発表した。投資額は1200万ドルで、先端半導体パッケージング材料に対する急増する需要に対応する。この設備は、AIDC向け高性能チップのパッケージングに使用されるフィルム材料の供給能力を強化するものとみられる。[出典](https://www.plasticstoday.com/packaging/asahi-kasei-opens-advanced-film-facility-in-taiwan)\n\n### プラスチックリサイクル技術：着色プラスチックの完全リサイクルが可能に\n\n大阪公立大学の研究チームは、シリカマイクロスフェア（シリカカプセル）を用いた室温での新技術を開発した。この技術により、着色プラスチックから着色剤を分離し、品質劣化なく無限にリサイクルすることが可能となる。フッ素樹脂を含む各種エンジニアリングプラスチックのリサイクルプロセスへの応用可能性が注目される。[出典](https://www.plasticstoday.com/sustainability/silica-capsules-enable-full-recovery-of-colored-plastics)\n\n### 自動車・複合材：Syensqoが成形技術ライセンス、Green Tweedが試作期間短縮\n\nSyensqo（旧Solvayの一部門）は、ダブルダイアフラム成形技術をBucci Compositesにライセンス供与した。この技術は、自動車の構造部品やバッテリーエンクロージャー向けの自動化複合材製造を前進させるもので、AIDC向け軽量構造部材への応用も視野に入る。[出典](https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci)\n\n\n### 自動車部品：トヨタサプライヤーがミシシッピ州でプラスチック事業拡大\n\nトヨタのサプライヤーであるAuto Parts Manufacturing Mississippiは、ミシシッピ州リー郡に5300万ドルを投資し、28人の雇用を創出する拡張計画を発表した。プラスチック生産能力の強化が目的であり、北米の自動車向け樹脂部品サプライチェーンの拡充を示す。[出典](https://www.plasticstoday.com/automotive-mobility/toyota-supplier-expands-mississippi-plastics-operations)\n\n### 射出成形・デジタル化：ArburgがFakuma 2026でデジタルソリューションを展示\n\nドイツの射出成形機メーカーArburgは、Fakuma 2026展示会において、プラスチック加工バリューチェーン全体にわたる包括的なデジタルサービス、自動化ソリューション、AI支援機能を展示することを発表した。AIDC向け精密部品の成形工程におけるデジタル化・自動化の動向として注目される。[出典](https://www.plasticstoday.com/injection-molding/arburg-to-showcase-digital-solutions-at-fakuma-2026)\n\n### 動きのなかった分野\n\n- **銅ケーブル相互接続**：本日、この分野に特筆すべき動きはない。\n- **液冷システム**：Vertivのサーマルマネジメント製品ページは確認されたが、本日新たな発表はない。\n- **PCB基板**：Rogers CorporationのRO4000シリーズ製品ページは確認されたが、本日新たな発表はない。\n- **光ファイバー接続**：Corningの光通信ページは確認されたが、本日新たな発表はない。\n- **コネクタ**：Amphenol CSの製品ページは確認されたが、本日新たな発表はない。\n\n---\n\n## 注目ポイント\n\n- 樹脂価格上昇がフッ素樹脂材料の調達コストに与える影響と、サプライチェーン再編の動きを引き続き注視する。\n- 旭化成の台湾フィルム設備稼働が、AIDC向け半導体パッケージング材料の供給にどのような影響を与えるか。\n- シリカカプセルを用いたリサイクル技術がフッ素樹脂を含むエンジニアリングプラスチックに応用されるかどうか。\n- Syensqoの成形技術ライセンスとGreene Tweedの試作短縮技術が、AIDC向け軽量・高信頼性部品の開発・製造にどの程度波及するか。\n\n<!-- SUMMARY: 本日は樹脂価格上昇、旭化成の台湾フィルム設備投資、プラスチック完全リサイクル技術などが確認された。銅ケーブル・液冷・PCB分野に新たな動きはなかった。 -->",
+  "summary_cn": "今日AIDC领域动态：树脂价格因地缘政治上涨，Asahi Kasei在台投建先进薄膜工厂以扩产半导体封装材料。",
+  "summary_jp": "本日は樹脂価格上昇、旭化成の台湾フィルム設備投資、プラスチック完全リサイクル技術などが確認された。銅ケーブル・液冷・PCB分野に新たな動きはなかった。",
+  "category_breakdown": {
+    "polymer_industry": 8,
+    "pcb_substrate": 1,
+    "optical_communication": 1,
+    "connector": 1,
+    "liquid_cooling": 1,
+    "community_discussion": 1
+  },
+  "key_findings": [
+    {
+      "id": "8389ab79285cb286",
+      "category": "pcb_substrate",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "source_domain": "rogerscorp.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 5,
+      "snippet": "Title: RO4000® Series Laminates\n\nURL Source: https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](https://www.roger"
+    },
+    {
+      "id": "9f08012be9d0b95c",
+      "category": "optical_communication",
+      "title": "Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning",
+      "url": "https://www.corning.com/optical-communications/worldwide/en/home.html",
+      "source_domain": "corning.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 5,
+      "snippet": "Title: Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning\n\nURL Source: https://www.corning.com/optical-communications/worldwide/en/home.html\n\nMarkdown Content:\n# Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning\n\n[](javascript:void(0); \"Toggle N"
+    },
+    {
+      "id": "6a01827a083cfd8d",
+      "category": "connector",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com",
+      "source_domain": "amphenol-cs.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 4,
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/\n\nPublished Time: Mon, 04 Apr 2022 07:23:49 GMT\n\nMarkdown Content:\n[![Image 1: Venia](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphenol-cs.com/)\n\n[Contact us](https://www.amphenol-cs.com/contact-us)\n\nFetching Data.."
+    },
+    {
+      "id": "f48a344471a11659",
+      "category": "liquid_cooling",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "source_domain": "vertiv.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 4,
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en"
+    },
+    {
+      "id": "16ae0cc1a60567b1",
+      "category": "polymer_industry",
+      "title": "Silica Capsules Enable Full Recovery of Colored Plastics",
+      "url": "https://www.plasticstoday.com/sustainability/silica-capsules-enable-full-recovery-of-colored-plastics",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Osaka Metropolitan University scientists develop room-temperature method using silica microspheres to separate colorants, enabling infinite plastic reuse without quality loss."
+    },
+    {
+      "id": "b70eed708ef6a7ea",
+      "category": "polymer_industry",
+      "title": "Arburg to Showcase Digital Solutions at Fakuma 2026",
+      "url": "https://www.plasticstoday.com/injection-molding/arburg-to-showcase-digital-solutions-at-fakuma-2026",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "German injection molding leader demonstrates comprehensive digital services, automation solutions, and AI-supported features across entire plastics processing value chain."
+    },
+    {
+      "id": "c722c9bcf731c73f",
+      "category": "polymer_industry",
+      "title": "Asahi Kasei Opens Advanced Film Facility in Taiwan",
+      "url": "https://www.plasticstoday.com/packaging/asahi-kasei-opens-advanced-film-facility-in-taiwan",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Asahi Kasei invests $12 million in state-of-the-art slitting facility to meet surging demand for advanced semiconductor packaging materials."
+    },
+    {
+      "id": "77c4d328573b1538",
+      "category": "polymer_industry",
+      "title": "Resin Prices Rise as Geopolitics Reshape Plastics Supply",
+      "url": "https://www.plasticstoday.com/resin-pricing/resin-prices-rise-as-geopolitics-reshape-plastics-supply",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "Geopolitical tensions and energy market disruptions continue to drive resin price pressures, forcing US manufacturers to rethink procurement strategies and supply chain resilience."
+    },
+    {
+      "id": "fa06333fb58f6444",
+      "category": "polymer_industry",
+      "title": "Toyota Supplier Expands Mississippi Plastics Operations",
+      "url": "https://www.plasticstoday.com/automotive-mobility/toyota-supplier-expands-mississippi-plastics-operations",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Auto Parts Manufacturing Mississippi announces $53 million expansion in Lee County, creating 28 jobs and enhancing plastics production capabilities."
+    },
+    {
+      "id": "c39b7ce639377384",
+      "category": "polymer_industry",
+      "title": "Continental Sells ContiTech for $4.6 Billion to Lone Star",
+      "url": "https://www.plasticstoday.com/automotive-mobility/continental-sells-contitech-for-4-6-billion-to-lone-star",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Continental sells ContiTech industrial division to Lone Star Funds, completing transformation into pure-play tire manufacturer. ContiTech develops, manufactures, and markets products, systems, and intelligent components made of rubber, plastic, metal, and fabric."
+    },
+    {
+      "id": "fde2d9e959951da9",
+      "category": "polymer_industry",
+      "title": "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half",
+      "url": "https://www.plasticstoday.com/automotive-mobility/greene-tweed-slashes-aerospace-composite-prototyping-time-by-half",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Greene Tweed's rapid prototyping breakthrough accelerates metal replacement projects with production-quality composite parts delivered in half the traditional time."
+    },
+    {
+      "id": "053a0677a8b01c8d",
+      "category": "polymer_industry",
+      "title": "Syensqo Licenses Composite Forming Technology to Bucci",
+      "url": "https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Syensqo licenses double diaphragm forming technology to Bucci Composites, advancing automated composite manufacturing for automotive structural parts and battery enclosures."
+    },
+    {
+      "id": "dca2587d202e0b86",
+      "category": "community_discussion",
+      "title": "[转载]信创全平台 C++17 交叉编译工具链",
+      "url": "https://www.v2ex.com/t/1225548",
+      "source_domain": "v2ex.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 2,
+      "snippet": "这套工具链原本一直想藏着掖着作为个人的“私服”使用。\r\n\r\n但转念一想，随着公司人员的流动，这些底层基建早晚也会流传出去。\r\n\r\n与其等别人缝缝补补地发出来，不如自己做个彻底的整理和开源，也算是为国产化平台的快速发展做个贡献吧。\r\n\r\n**💡 名词速查：**\r\n- **loongarch64_OA**：指代 Loongarch64 Old ABI （龙芯旧世界）\r\n- **loongarch64_NA**：指代 Loongarch64 New ABI （龙芯新世界）\r\n\r\n**获取及使用：请直接下拉至文章末尾查看下载链接。**\r\n\r\n---\r\n\r\n# 🛠️ 搭建与演进过程\r\n\r\n## 纯手工阶"
+    }
+  ],
+  "articles": [
+    {
+      "id": "8389ab79285cb286",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "domain": "rogerscorp.com",
+      "credibility_score": 5,
+      "verification_status": "verified",
+      "category": "pcb_substrate",
+      "snippet": "Title: RO4000® Series Laminates\n\nURL Source: https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](https://www.roger"
+    },
+    {
+      "id": "9f08012be9d0b95c",
+      "title": "Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning",
+      "url": "https://www.corning.com/optical-communications/worldwide/en/home.html",
+      "domain": "corning.com",
+      "credibility_score": 5,
+      "verification_status": "verified",
+      "category": "optical_communication",
+      "snippet": "Title: Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning\n\nURL Source: https://www.corning.com/optical-communications/worldwide/en/home.html\n\nMarkdown Content:\n# Corning Optical Communications | Fiber Optic Connectivity Solutions | Corning\n\n[](javascript:void(0); \"Toggle N"
+    },
+    {
+      "id": "6a01827a083cfd8d",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com",
+      "domain": "amphenol-cs.com",
+      "credibility_score": 4,
+      "verification_status": "verified",
+      "category": "connector",
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/\n\nPublished Time: Mon, 04 Apr 2022 07:23:49 GMT\n\nMarkdown Content:\n[![Image 1: Venia](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphenol-cs.com/)\n\n[Contact us](https://www.amphenol-cs.com/contact-us)\n\nFetching Data.."
+    },
+    {
+      "id": "f48a344471a11659",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "domain": "vertiv.com",
+      "credibility_score": 4,
+      "verification_status": "verified",
+      "category": "liquid_cooling",
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en"
+    },
+    {
+      "id": "16ae0cc1a60567b1",
+      "title": "Silica Capsules Enable Full Recovery of Colored Plastics",
+      "url": "https://www.plasticstoday.com/sustainability/silica-capsules-enable-full-recovery-of-colored-plastics",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Osaka Metropolitan University scientists develop room-temperature method using silica microspheres to separate colorants, enabling infinite plastic reuse without quality loss."
+    },
+    {
+      "id": "b70eed708ef6a7ea",
+      "title": "Arburg to Showcase Digital Solutions at Fakuma 2026",
+      "url": "https://www.plasticstoday.com/injection-molding/arburg-to-showcase-digital-solutions-at-fakuma-2026",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "German injection molding leader demonstrates comprehensive digital services, automation solutions, and AI-supported features across entire plastics processing value chain."
+    },
+    {
+      "id": "c722c9bcf731c73f",
+      "title": "Asahi Kasei Opens Advanced Film Facility in Taiwan",
+      "url": "https://www.plasticstoday.com/packaging/asahi-kasei-opens-advanced-film-facility-in-taiwan",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Asahi Kasei invests $12 million in state-of-the-art slitting facility to meet surging demand for advanced semiconductor packaging materials."
+    },
+    {
+      "id": "77c4d328573b1538",
+      "title": "Resin Prices Rise as Geopolitics Reshape Plastics Supply",
+      "url": "https://www.plasticstoday.com/resin-pricing/resin-prices-rise-as-geopolitics-reshape-plastics-supply",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "Geopolitical tensions and energy market disruptions continue to drive resin price pressures, forcing US manufacturers to rethink procurement strategies and supply chain resilience."
+    },
+    {
+      "id": "fa06333fb58f6444",
+      "title": "Toyota Supplier Expands Mississippi Plastics Operations",
+      "url": "https://www.plasticstoday.com/automotive-mobility/toyota-supplier-expands-mississippi-plastics-operations",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Auto Parts Manufacturing Mississippi announces $53 million expansion in Lee County, creating 28 jobs and enhancing plastics production capabilities."
+    },
+    {
+      "id": "c39b7ce639377384",
+      "title": "Continental Sells ContiTech for $4.6 Billion to Lone Star",
+      "url": "https://www.plasticstoday.com/automotive-mobility/continental-sells-contitech-for-4-6-billion-to-lone-star",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Continental sells ContiTech industrial division to Lone Star Funds, completing transformation into pure-play tire manufacturer. ContiTech develops, manufactures, and markets products, systems, and intelligent components made of rubber, plastic, metal, and fabric."
+    },
+    {
+      "id": "fde2d9e959951da9",
+      "title": "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half",
+      "url": "https://www.plasticstoday.com/automotive-mobility/greene-tweed-slashes-aerospace-composite-prototyping-time-by-half",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Greene Tweed's rapid prototyping breakthrough accelerates metal replacement projects with production-quality composite parts delivered in half the traditional time."
+    },
+    {
+      "id": "053a0677a8b01c8d",
+      "title": "Syensqo Licenses Composite Forming Technology to Bucci",
+      "url": "https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Syensqo licenses double diaphragm forming technology to Bucci Composites, advancing automated composite manufacturing for automotive structural parts and battery enclosures."
+    },
+    {
+      "id": "dca2587d202e0b86",
+      "title": "[转载]信创全平台 C++17 交叉编译工具链",
+      "url": "https://www.v2ex.com/t/1225548",
+      "domain": "v2ex.com",
+      "credibility_score": 2,
+      "verification_status": "unverified",
+      "category": "community_discussion",
+      "snippet": "这套工具链原本一直想藏着掖着作为个人的“私服”使用。\r\n\r\n但转念一想，随着公司人员的流动，这些底层基建早晚也会流传出去。\r\n\r\n与其等别人缝缝补补地发出来，不如自己做个彻底的整理和开源，也算是为国产化平台的快速发展做个贡献吧。\r\n\r\n**💡 名词速查：**\r\n- **loongarch64_OA**：指代 Loongarch64 Old ABI （龙芯旧世界）\r\n- **loongarch64_NA**：指代 Loongarch64 New ABI （龙芯新世界）\r\n\r\n**获取及使用：请直接下拉至文章末尾查看下载链接。**\r\n\r\n---\r\n\r\n# 🛠️ 搭建与演进过程\r\n\r\n## 纯手工阶"
+    }
+  ],
+  "source_domains": [
+    {
+      "domain": "plasticstoday.com",
+      "count": 8
+    },
+    {
+      "domain": "rogerscorp.com",
+      "count": 1
+    },
+    {
+      "domain": "corning.com",
+      "count": 1
+    },
+    {
+      "domain": "amphenol-cs.com",
+      "count": 1
+    },
+    {
+      "domain": "vertiv.com",
+      "count": 1
+    },
+    {
+      "domain": "v2ex.com",
+      "count": 1
+    }
+  ]
+}
