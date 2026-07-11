@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>主题详情 — AIDC + 氟树脂材料 情报监测</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<script>if(sessionStorage.getItem('aidc_auth')!=='1'){location.replace('/');}</script>
+
+<div class="app-container">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-logo">A/F</span>
+      <span class="nav-title">AIDC + 氟树脂材料 情报监测</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="daily.html">日报</a></li>
+      <li><a href="knowledge.html">知识图谱</a></li>
+	      <li><a href="architecture.html">架构可视化</a></li>
+    </ul>
+    <div class="nav-lang">
+      <a href="topic.html" class="active">中</a>
+      <a href="../jp/topic.html">日</a>
+    </div>
+  </nav>
+
+  <div id="topicContent">
+    <p class="kg-empty">加载中...</p>
+  </div>
+
+  <footer class="footer">
+    <p>AIDC + Fluororesin Intelligence Monitor</p>
+  </footer>
+</div>
+
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data-loader.js"></script>
+<script>
+(function() {
+  var DL = window.DataLoader;
+  var tid = new URLSearchParams(location.search).get('id');
+
+  async function init() {
+    var k = await DL.loadKnowledgeIndex();
+    if (!k || !k.topics) { document.getElementById('topicContent').innerHTML = '<p class="kg-empty">数据加载失败</p>'; return; }
+
+    var topic = (k.topics || []).find(function(t) { return t.id === tid; });
+    if (!topic) { document.getElementById('topicContent').innerHTML = '<p class="kg-empty">未找到该主题</p>'; return; }
+
+    var timeline = (k.timeline || []).filter(function(ev) { return (ev.topicIds || []).indexOf(tid) !== -1; });
+
+    var html = '<header class="kg-hero">' +
+      '<a href="knowledge.html" class="kg-back">← 返回知识图谱</a>' +
+      '<h1 class="kg-hero-title">' + (topic.name || '') + '</h1>' +
+      '<p class="kg-hero-sub">' + (topic.name_jp || '') + '</p>' +
+      '<div class="kg-topic-kw" style="margin-top:16px">' + (topic.keywords || []).slice(0,8).map(function(k){return '<span class="kg-kw-tag">'+k+'</span>';}).join('') + '</div>' +
+    '</header>';
+
+    if (timeline.length) {
+      html += '<section class="kg-section"><h2 class="kg-section-label">事件时间线</h2><div class="kg-timeline">';
+      timeline.forEach(function(ev) {
+        html += '<div class="kg-tl-item">' +
+          '<span class="kg-tl-date">' + (ev.date || '') + '</span>' +
+          '<span class="kg-tl-dot"></span>' +
+          '<div class="kg-tl-body">' +
+            '<a href="' + (ev.url || '#') + '" target="_blank" rel="noopener" class="kg-tl-title">' + (ev.title || '').substring(0, 120) + '</a>' +
+            (ev.credibility ? '<span class="kg-tl-cred">可信度 ' + ev.credibility + '/5</span>' : '') +
+          '</div>' +
+        '</div>';
+      });
+      html += '</div></section>';
+    } else {
+      html += '<section class="kg-section"><p class="kg-empty">该主题暂无事件记录</p></section>';
+    }
+
+    document.getElementById('topicContent').innerHTML = html;
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
