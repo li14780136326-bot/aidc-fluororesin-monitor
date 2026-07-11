@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>知識グラフ — AIDC・フッ素樹脂材料 インテリジェンス</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<script>if(sessionStorage.getItem('aidc_auth')!=='1'){location.replace('/');}</script>
+
+<div class="app-container">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-logo">A/F</span>
+      <span class="nav-title">AIDC・フッ素樹脂材料 インテリジェンス</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="daily.html">日報</a></li>
+      <li><a href="knowledge.html" class="active">知識グラフ</a></li>
+	      <li><a href="architecture.html">アーキテクチャ</a></li>
+    </ul>
+    <div class="nav-lang">
+      <a href="../cn/knowledge.html">中</a>
+      <a href="knowledge.html" class="active">日</a>
+    </div>
+  </nav>
+
+  <header class="kg-hero">
+    <h1 class="kg-hero-title">知識グラフ</h1>
+    <p class="kg-hero-sub" id="kgSubtitle">累計 <strong id="kgTotal">—</strong> 件の記事を追跡</p>
+  </header>
+
+  <section class="kg-synthesis" id="kgSynthesis" style="display:none">
+    <h2 class="kg-section-label">今週のインテリジェンス</h2>
+    <div class="kg-synthesis-body" id="kgSynthesisBody"></div>
+  </section>
+
+  <section class="kg-section">
+    <h2 class="kg-section-label">トピッククラスター</h2>
+    <div class="kg-topic-list" id="kgTopicList">
+      <p class="kg-empty">読み込み中...</p>
+    </div>
+  </section>
+
+  <section class="kg-section">
+    <h2 class="kg-section-label">追跡企業</h2>
+    <div class="kg-company-list" id="kgCompanyList">
+      <p class="kg-empty">読み込み中...</p>
+    </div>
+  </section>
+
+  <section class="kg-section">
+    <h2 class="kg-section-label">タグクラウド</h2>
+    <div class="kg-tag-cloud" id="kgTagCloud"></div>
+  </section>
+
+  <footer class="footer">
+    <p>AIDC + Fluororesin Intelligence Monitor</p>
+    <p>毎週月曜 07:00 (北京時間) に自動更新</p>
+  </footer>
+</div>
+
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data-loader.js"></script>
+<script>
+(function() {
+  var DL = window.DataLoader;
+  async function init() {
+    var k = await DL.loadKnowledgeIndex();
+    if (!k || !k.topics || !k.topics.length) k = DL.getSampleKnowledgeIndex();
+    document.getElementById('kgTotal').textContent = k.total_articles || 0;
+
+    var syn = k.weekly_synthesis;
+    if (syn && syn.overview_jp) {
+      document.getElementById('kgSynthesis').style.display = '';
+      var synHtml = '<p class="kg-synthesis-p">' + syn.overview_jp.replace(/\n\n/g, '</p><p class="kg-synthesis-p">') + '</p>';
+      if (syn.key_developments && syn.key_developments.length) {
+        synHtml += '<ul class="kg-synthesis-list">';
+        syn.key_developments.forEach(function(d) { synHtml += '<li>' + (d.title_jp || d.title_cn) + '</li>'; });
+        synHtml += '</ul>';
+      }
+      document.getElementById('kgSynthesisBody').innerHTML = synHtml;
+    }
+
+    var topics = (k.topics || []).filter(function(t) { return t.article_count > 0; });
+    var tl = document.getElementById('kgTopicList');
+    if (topics.length) {
+      var th = '';
+      topics.forEach(function(t) {
+        var recent = (t.recent_titles || []).slice(0, 3);
+        var kws = (t.keywords || []).slice(0, 6);
+        var dn = t.name_jp || t.name || '';
+        th += '<div class="kg-topic-row"><div class="kg-topic-main">' +
+          '<a href="topic.html?id=' + t.id + '" class="kg-topic-name">' + dn + '</a>' +
+          '<span class="kg-topic-count">' + (t.article_count || 0) + ' 件</span>' +
+          (t.last_updated ? '<span class="kg-topic-updated">更新: ' + t.last_updated.substring(0,10) + '</span>' : '') +
+          '</div>' +
+          (kws.length ? '<div class="kg-topic-kw">' + kws.map(function(k){return '<span class="kg-kw-tag">'+k+'</span>';}).join('') + '</div>' : '') +
+          (recent.length ? '<div class="kg-topic-recent">' + recent.map(function(rt){return '<a href="#" class="kg-topic-link">'+rt+'</a>';}).join('') + '</div>' : '') +
+        '</div>';
+      });
+      tl.innerHTML = th;
+    } else { tl.innerHTML = '<p class="kg-empty">トピックデータなし</p>'; }
+
+    var companies = k.companies || [];
+    var cl = document.getElementById('kgCompanyList');
+    if (companies.length) {
+      var ch = '';
+      companies.forEach(function(c) {
+        var recent = (c.recent_articles || []).slice(0, 3);
+        var dn = c.name_jp || c.name || '';
+        ch += '<div class="kg-co-row"><div class="kg-co-header">' +
+          '<span class="kg-co-name">' + dn + '</span>' +
+          '<span class="kg-co-ticker">' + (c.ticker || '') + '</span>' +
+          '<span class="kg-co-count">' + (c.mention_count || 0) + ' 件の動向</span></div>';
+        if (recent.length) {
+          ch += '<div class="kg-co-articles">';
+          recent.forEach(function(r) { ch += '<a href="' + (r.url || '#') + '" target="_blank" rel="noopener" class="kg-co-link"><span class="kg-co-date">' + (r.date || '') + '</span>' + (r.title || '').substring(0, 70) + '</a>'; });
+          ch += '</div>';
+        }
+        ch += '</div>';
+      });
+      cl.innerHTML = ch;
+    } else { cl.innerHTML = '<p class="kg-empty">より多くのデータが蓄積されると企業動向が表示されます</p>'; }
+
+    var tags = k.tag_cloud || [];
+    var tc = document.getElementById('kgTagCloud');
+    if (tags.length) {
+      var max = Math.max.apply(null, tags.map(function(t){return t.count;}));
+      tags.forEach(function(t) {
+        var w = t.count / max;
+        tc.innerHTML += '<span class="kg-tag" style="font-size:' + (0.7 + w*0.9).toFixed(2) + 'rem;opacity:' + (0.35 + w*0.55).toFixed(2) + '">' + t.tag + '</span>';
+      });
+    } else { tc.innerHTML = '<p class="kg-empty">より多くのデータが蓄積されるとタグクラウドが生成されます</p>'; }
+  }
+  init();
+})();
+</script>
+</body>
+</html>
