@@ -1,0 +1,207 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-07T23:08:47.254389",
+  "generator": "template",
+  "meta": {
+    "total_crawled": 10,
+    "verified_count": 3,
+    "single_source_count": 0,
+    "excluded_count": 2,
+    "active_sources": [
+      "rss",
+      "jina",
+      "v2ex",
+      "exa",
+      "reddit",
+      "zhihu",
+      "weibo",
+      "twitter",
+      "wechat"
+    ],
+    "failed_sources": []
+  },
+  "briefing_cn": "## 今日摘要\n\n今日半导体设备、塑料行业、高频PCB基板等领域共采集7篇相关文章，3篇经交叉验证。\n（※AI摘要暂不可用。配置 DeepSeek API Key 后将自动生成详细分析。）\n\n## 分类统计\n\n- 半导体设备: 2篇\n- 塑料行业: 2篇\n- 高频PCB基板: 1篇\n- 高速连接器: 1篇\n- 液冷与热管理: 1篇\n",
+  "briefing_jp": "## 本日のサマリー\n\n本日は半導体装置・プラスチック業界・高周波PCB基板分野を中心に7件の情報を収集、3件が検証済み。\n（※AI要約は現在利用できません。DeepSeek APIキーを設定すると詳細な分析が自動生成されます。）\n\n## カテゴリ別記事数\n\n- 半導体装置: 2件\n- プラスチック業界: 2件\n- 高周波PCB基板: 1件\n- 高速コネクタ: 1件\n- 液冷・熱管理: 1件\n",
+  "summary_cn": "今日半导体设备、塑料行业、高频PCB基板等领域共采集7篇相关文章。",
+  "summary_jp": "本日は半導体装置・プラスチック業界・高周波PCB基板分野で7件の情報を収集。",
+  "category_breakdown": {
+    "semiconductor_equipment": 2,
+    "polymer_industry": 2,
+    "pcb_substrate": 1,
+    "connector": 1,
+    "liquid_cooling": 1
+  },
+  "key_findings": [
+    {
+      "id": "8389ab79285cb286",
+      "category": "pcb_substrate",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "source_domain": "rogerscorp.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 5,
+      "snippet": "Title: RO4000® Series Laminates\n\nURL Source: https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](https://www.roger"
+    },
+    {
+      "id": "35f0205c063f0f3b",
+      "category": "connector",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "source_domain": "amphenol-cs.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 4,
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/products/high-speed\n\nPublished Time: Tue, 16 Jun 2026 09:08:00 GMT\n\nMarkdown Content:\n[![Image 1: Amphenol Communications Solutions](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphenol-cs.com/)\n\n[Connectors![Image 2: "
+    },
+    {
+      "id": "f48a344471a11659",
+      "category": "liquid_cooling",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "source_domain": "vertiv.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 4,
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en"
+    },
+    {
+      "id": "c7998db37c8843f8",
+      "category": "semiconductor_equipment",
+      "title": "晶圆厂的＂隐形铠甲＂:含氟聚合物如何卡住半导体制造的咽喉",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9JWn-dZy8wdGeQhID1tbZcNkVqOnCgfH1qXa8Fplpd9sEoc2-p9h-TFmhApLXKTWml-4-mhRFle6Kqv9-Mao4ke8uNRD16KQRu2qLBgIf6DgHr8Nr0hiM_70j93fl49tDBDMFEj3-IEvcoFzQ82Cfoqdo_7i2CJjIhEmERVoyQ4cfMo7cO3EXy1X1yhusD87eZ-hD4lFnU3Ra9NG5fBdA7FcvUoAZZH7Q..&type=2&query=%E6%B0%9F%E8%81%9A%E5%90%88%E7%89%A9 %E5%8D%8A%E5%AF%BC%E4%BD%93 %E8%B6%85%E7%BA%AF%E6%B0%B4 PFA&token=1F6E29A9270D67C68C8DD9790BF120BB8C40BA216A4BC28A",
+      "source_domain": "weixin.sogou.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 4,
+      "snippet": "PFA是可熔性聚四氟乙烯,分子结构和PTFE接近,耐化学品能力... 全球半导体用氟聚合物市场规模2024 年约13.5亿美元,2025年14...."
+    },
+    {
+      "id": "555cb5e296414809",
+      "category": "semiconductor_equipment",
+      "title": "原油、氟化工、半导体:三赛道共振,哪些标的值得跟踪?",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9JWn-dZy8wdGeQhID1tbZcNkVqOnCgfH1qXa8Fplpd9fMlZd7ymAcTmJdo9p0C90-8d3kKsPq0HO6fhFNnNnLMTlQXoOQv5B8308GUFBXVg7s2MtcqYyq9gPcYqS8j-5LOJz76wiGw12BspiqLzx1fM0aLZOfTU7SaXXs0gwV8C8T_5FPVkaCziaUxXu4AKlbK0kTBteFTnJfIC7L5I48tflztgI7RZ1g..&type=2&query=%E6%B0%9F%E8%81%9A%E5%90%88%E7%89%A9 %E5%8D%8A%E5%AF%BC%E4%BD%93 %E8%B6%85%E7%BA%AF%E6%B0%B4 PFA&token=1F6E29A9270D67C68C8DD9790BF120BB8C40BA216A4BC28A",
+      "source_domain": "weixin.sogou.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 4,
+      "snippet": "目前含氟聚合物及相关剂、物料净利润占比已经达到40%,后续占... 其中超纯水树脂业务面向面板、半导体、核电客户,已全面进入长..."
+    },
+    {
+      "id": "fde2d9e959951da9",
+      "category": "polymer_industry",
+      "title": "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half",
+      "url": "https://www.plasticstoday.com/automotive-mobility/greene-tweed-slashes-aerospace-composite-prototyping-time-by-half",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Greene Tweed's rapid prototyping breakthrough accelerates metal replacement projects with production-quality composite parts delivered in half the traditional time."
+    },
+    {
+      "id": "053a0677a8b01c8d",
+      "category": "polymer_industry",
+      "title": "Syensqo Licenses Composite Forming Technology to Bucci",
+      "url": "https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Syensqo licenses double diaphragm forming technology to Bucci Composites, advancing automated composite manufacturing for automotive structural parts and battery enclosures."
+    }
+  ],
+  "articles": [
+    {
+      "id": "8389ab79285cb286",
+      "title": "RO4000® Series Laminates",
+      "url": "https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/",
+      "domain": "rogerscorp.com",
+      "credibility_score": 5,
+      "verification_status": "verified",
+      "category": "pcb_substrate",
+      "snippet": "Title: RO4000® Series Laminates\n\nURL Source: https://www.rogerscorp.com/Advanced-Electronics-Solutions/RO4000-Series-Laminates/\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](https://www.roger"
+    },
+    {
+      "id": "35f0205c063f0f3b",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "domain": "amphenol-cs.com",
+      "credibility_score": 4,
+      "verification_status": "verified",
+      "category": "connector",
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/products/high-speed\n\nPublished Time: Tue, 16 Jun 2026 09:08:00 GMT\n\nMarkdown Content:\n[![Image 1: Amphenol Communications Solutions](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphenol-cs.com/)\n\n[Connectors![Image 2: "
+    },
+    {
+      "id": "f48a344471a11659",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "domain": "vertiv.com",
+      "credibility_score": 4,
+      "verification_status": "verified",
+      "category": "liquid_cooling",
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en"
+    },
+    {
+      "id": "c7998db37c8843f8",
+      "title": "晶圆厂的＂隐形铠甲＂:含氟聚合物如何卡住半导体制造的咽喉",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9JWn-dZy8wdGeQhID1tbZcNkVqOnCgfH1qXa8Fplpd9sEoc2-p9h-TFmhApLXKTWml-4-mhRFle6Kqv9-Mao4ke8uNRD16KQRu2qLBgIf6DgHr8Nr0hiM_70j93fl49tDBDMFEj3-IEvcoFzQ82Cfoqdo_7i2CJjIhEmERVoyQ4cfMo7cO3EXy1X1yhusD87eZ-hD4lFnU3Ra9NG5fBdA7FcvUoAZZH7Q..&type=2&query=%E6%B0%9F%E8%81%9A%E5%90%88%E7%89%A9 %E5%8D%8A%E5%AF%BC%E4%BD%93 %E8%B6%85%E7%BA%AF%E6%B0%B4 PFA&token=1F6E29A9270D67C68C8DD9790BF120BB8C40BA216A4BC28A",
+      "domain": "weixin.sogou.com",
+      "credibility_score": 4,
+      "verification_status": "single_source",
+      "category": "semiconductor_equipment",
+      "snippet": "PFA是可熔性聚四氟乙烯,分子结构和PTFE接近,耐化学品能力... 全球半导体用氟聚合物市场规模2024 年约13.5亿美元,2025年14...."
+    },
+    {
+      "id": "555cb5e296414809",
+      "title": "原油、氟化工、半导体:三赛道共振,哪些标的值得跟踪?",
+      "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9JWn-dZy8wdGeQhID1tbZcNkVqOnCgfH1qXa8Fplpd9fMlZd7ymAcTmJdo9p0C90-8d3kKsPq0HO6fhFNnNnLMTlQXoOQv5B8308GUFBXVg7s2MtcqYyq9gPcYqS8j-5LOJz76wiGw12BspiqLzx1fM0aLZOfTU7SaXXs0gwV8C8T_5FPVkaCziaUxXu4AKlbK0kTBteFTnJfIC7L5I48tflztgI7RZ1g..&type=2&query=%E6%B0%9F%E8%81%9A%E5%90%88%E7%89%A9 %E5%8D%8A%E5%AF%BC%E4%BD%93 %E8%B6%85%E7%BA%AF%E6%B0%B4 PFA&token=1F6E29A9270D67C68C8DD9790BF120BB8C40BA216A4BC28A",
+      "domain": "weixin.sogou.com",
+      "credibility_score": 4,
+      "verification_status": "single_source",
+      "category": "semiconductor_equipment",
+      "snippet": "目前含氟聚合物及相关剂、物料净利润占比已经达到40%,后续占... 其中超纯水树脂业务面向面板、半导体、核电客户,已全面进入长..."
+    },
+    {
+      "id": "fde2d9e959951da9",
+      "title": "Greene Tweed Slashes Aerospace Composite Prototyping Time by Half",
+      "url": "https://www.plasticstoday.com/automotive-mobility/greene-tweed-slashes-aerospace-composite-prototyping-time-by-half",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Greene Tweed's rapid prototyping breakthrough accelerates metal replacement projects with production-quality composite parts delivered in half the traditional time."
+    },
+    {
+      "id": "053a0677a8b01c8d",
+      "title": "Syensqo Licenses Composite Forming Technology to Bucci",
+      "url": "https://www.plasticstoday.com/automotive-mobility/syensqo-licenses-composite-forming-technology-to-bucci",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Syensqo licenses double diaphragm forming technology to Bucci Composites, advancing automated composite manufacturing for automotive structural parts and battery enclosures."
+    }
+  ],
+  "source_domains": [
+    {
+      "domain": "weixin.sogou.com",
+      "count": 2
+    },
+    {
+      "domain": "plasticstoday.com",
+      "count": 2
+    },
+    {
+      "domain": "rogerscorp.com",
+      "count": 1
+    },
+    {
+      "domain": "amphenol-cs.com",
+      "count": 1
+    },
+    {
+      "domain": "vertiv.com",
+      "count": 1
+    }
+  ]
+}
