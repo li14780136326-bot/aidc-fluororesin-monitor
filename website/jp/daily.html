@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日報アーカイブ — AIDC + フッ素樹脂材料 インテリジェンス</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<script>if(sessionStorage.getItem('aidc_auth')!=='1'){location.replace('/');}</script>
+
+<div class="app-container">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <span class="nav-logo">A/F</span>
+      <span class="nav-title">AIDC + フッ素樹脂材料 インテリジェンス</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">ホーム</a></li>
+      <li><a href="daily.html" class="active">日報</a></li>
+      <li><a href="knowledge.html">ナレッジマップ</a></li>
+	      <li><a href="architecture.html">アーキテクチャ</a></li>
+    </ul>
+    <div class="nav-lang">
+      <a href="../cn/daily.html">中</a>
+      <a href="daily.html" class="active">日</a>
+    </div>
+  </nav>
+
+  <h1 class="page-title">日報アーカイブ</h1>
+
+  <div class="filter-bar" id="filterBar">
+    <button class="filter-chip active" data-filter="all">すべて</button>
+    <button class="filter-chip" data-filter="copper_interconnect">銅ケーブル</button>
+    <button class="filter-chip" data-filter="liquid_cooling">液冷</button>
+    <button class="filter-chip" data-filter="pcb_substrate">高周波PCB</button>
+    <button class="filter-chip" data-filter="optical_communication">光通信</button>
+    <button class="filter-chip" data-filter="fluororesin_material">フッ素樹脂</button>
+    <button class="filter-chip" data-filter="power_system">電源</button>
+    <button class="filter-chip" data-filter="connector">コネクタ</button>
+    <button class="filter-chip" data-filter="thermal_management">熱管理</button>
+    <button class="filter-chip" data-filter="company_news">企業動向</button>
+    <button class="filter-chip" data-filter="regulation">規制</button>
+  </div>
+
+  <div id="reportList">
+    <div class="empty-state">
+      <svg class="state-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="17" y2="12"/></svg>
+      <p>読み込み中...</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>AIDC + Fluororesin Intelligence Monitor</p>
+  </footer>
+</div>
+
+<script src="../assets/js/i18n.js"></script>
+<script src="../assets/js/data-loader.js"></script>
+<script>
+(function() {
+  var DL = window.DataLoader, reportsData = null, activeFilter = 'all';
+  async function init() {
+    reportsData = await DL.loadDailyIndex();
+    if (!reportsData || !reportsData.length) reportsData = DL.getSampleDailyIndex();
+    render();
+  }
+  function render() {
+    var filtered = activeFilter === 'all' ? reportsData : reportsData.filter(function(r) { return r.categories && r.categories[activeFilter]; });
+    var el = document.getElementById('reportList');
+    if (!filtered.length) {
+      el.innerHTML = '<div class="empty-state"><svg class="state-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/></svg><p>このカテゴリに日報はありません</p></div>';
+      return;
+    }
+    var h = '';
+    filtered.forEach(function(r) {
+      h += '<div class="report-card">' +
+        '<div class="report-date">' + r.date + '</div>' +
+        '<div class="report-summary">' + (r.summary_jp || '') + '</div>' +
+        '<div class="report-stats"><span>収集 ' + (r.total_articles||0) + ' 件</span><span>検証済み ' + (r.verified_count||0) + ' 件</span><span>' + ((r.active_sources||[]).join(' · ')||'—') + '</span></div>' +
+        '<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:8px;">' +
+          (Object.entries(r.categories||{}).map(function(e){return '<span class="finding-badge badge-category">'+(window.getCategoryName(e[0],'jp')||e[0])+' '+e[1]+'</span>';}).join('')) +
+        '</div>' +
+        '<a href="report.html?date=' + r.date + '" class="report-link">完全な日報を見る &rarr;</a>' +
+      '</div>';
+    });
+    el.innerHTML = h;
+  }
+  document.getElementById('filterBar').addEventListener('click', function(e) {
+    if (!e.target.classList.contains('filter-chip')) return;
+    document.querySelectorAll('#filterBar .filter-chip').forEach(function(b){b.classList.remove('active');});
+    e.target.classList.add('active');
+    activeFilter = e.target.dataset.filter;
+    render();
+  });
+  init();
+})();
+</script>
+</body>
+</html>
