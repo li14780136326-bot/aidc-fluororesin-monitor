@@ -1,0 +1,323 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-07T22:52:15.104268",
+  "generator": "template",
+  "meta": {
+    "total_crawled": 13,
+    "verified_count": 3,
+    "single_source_count": 0,
+    "excluded_count": 10,
+    "active_sources": [
+      "rss",
+      "jina",
+      "v2ex",
+      "exa"
+    ],
+    "failed_sources": []
+  },
+  "briefing_cn": "## 今日摘要\n\n今日塑料行业、高频PCB基板、高速连接器等领域共采集13篇相关文章，3篇经交叉验证。\n（※AI摘要暂不可用。配置 DeepSeek API Key 后将自动生成详细分析。）\n\n## 分类统计\n\n- 塑料行业: 10篇\n- 高频PCB基板: 1篇\n- 高速连接器: 1篇\n- 液冷与热管理: 1篇\n",
+  "briefing_jp": "## 本日のサマリー\n\n本日はプラスチック業界・高周波PCB基板・高速コネクタ分野を中心に13件の情報を収集、3件が検証済み。\n（※AI要約は現在利用できません。DeepSeek APIキーを設定すると詳細な分析が自動生成されます。）\n\n## カテゴリ別記事数\n\n- プラスチック業界: 10件\n- 高周波PCB基板: 1件\n- 高速コネクタ: 1件\n- 液冷・熱管理: 1件\n",
+  "summary_cn": "今日塑料行业、高频PCB基板、高速连接器等领域共采集13篇相关文章。",
+  "summary_jp": "本日はプラスチック業界・高周波PCB基板・高速コネクタ分野で13件の情報を収集。",
+  "category_breakdown": {
+    "polymer_industry": 10,
+    "pcb_substrate": 1,
+    "connector": 1,
+    "liquid_cooling": 1
+  },
+  "key_findings": [
+    {
+      "id": "b307811a1e5d1640",
+      "category": "pcb_substrate",
+      "title": "Advanced Electronics Solutions",
+      "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+      "source_domain": "rogerscorp.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 5,
+      "snippet": "Title: Advanced Electronics Solutions\n\nURL Source: https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](http"
+    },
+    {
+      "id": "35f0205c063f0f3b",
+      "category": "connector",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "source_domain": "amphenol-cs.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 4,
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/products/high-speed\n\nPublished Time: Tue, 16 Jun 2026 09:08:00 GMT\n\nMarkdown Content:\n[![Image 1: Amphenol Communications Solutions](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphenol-cs.com/)\n\n[Connectors![Image 2: "
+    },
+    {
+      "id": "f48a344471a11659",
+      "category": "liquid_cooling",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "source_domain": "vertiv.com",
+      "importance": "high",
+      "confidence": "verified",
+      "credibility_score": 4,
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en"
+    },
+    {
+      "id": "8287755d44c81603",
+      "category": "polymer_industry",
+      "title": "Recycled Resin Prices Decline as Supply Improves",
+      "url": "https://www.plasticstoday.com/resin-pricing/garrykillian-istock-via-getty-images",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "US recycled plastics markets experienced softening in June 2026, with rPE and rPP prices declining while rPET faces ongoing structural challenges."
+    },
+    {
+      "id": "3822a85d1a2cafcd",
+      "category": "polymer_industry",
+      "title": "Plastics by the Numbers",
+      "url": "https://www.plasticstoday.com/packaging/plastics-by-the-numbers",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "Market reports on waste-derived pyrolysis oil, polyethylene, thermoformed plastics, 3D-printed packaging, advanced recycling, CO2-based plastics, and polyethylene furanoate (PEF) are featured in this slideshow."
+    },
+    {
+      "id": "5a5e38b8d45d307f",
+      "category": "polymer_industry",
+      "title": "California's Plastic Packaging Law Forces Brands to Rethink Compliance",
+      "url": "https://www.plasticstoday.com/legislation-regulations/california-s-plastic-packaging-law-forces-brands-to-rethink-compliance",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "With weeks remaining before California's binding source reduction plan deadline, packaging industry leaders warn that inadequate data infrastructure and incomplete financial modeling could cost brands dearly under SB 54's stringent compliance framework."
+    },
+    {
+      "id": "ea500f50a09a7909",
+      "category": "polymer_industry",
+      "title": "US Manufacturing Growth Continues for Sixth Straight Month",
+      "url": "https://www.plasticstoday.com/industry-trends/us-manufacturing-growth-continues-for-sixth-straight-month",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "US manufacturing expanded for the sixth consecutive month in June, with the ISM Manufacturing PMI at 53.3 percent, reflecting continued growth amid pricing pressures."
+    },
+    {
+      "id": "0b767ee3d63e4566",
+      "category": "polymer_industry",
+      "title": "Amcor Partners with Kelpi to Advance Bio-based Coatings for Paper Packaging",
+      "url": "https://www.plasticstoday.com/packaging/amcor-partners-with-kelpi-to-advance-bio-based-coatings-for-paper-packaging",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Partnership answers Ellen MacArthur Foundation's call for accelerated innovation in fiber-based flexible packaging."
+    },
+    {
+      "id": "2c3e0a7fc0c20dc9",
+      "category": "polymer_industry",
+      "title": "Arclin Launches $300K Fund for America's 250th Anniversary",
+      "url": "https://www.plasticstoday.com/materials/arclin-launches-300k-fund-for-america-s-250th-anniversary",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "single_source",
+      "credibility_score": 3,
+      "snippet": "Arclin announces the Fabric of America Fund, a $300,000 employee-driven giving program supporting communities nationwide in honor of America's 250th anniversary."
+    },
+    {
+      "id": "a09d029607f3ecb9",
+      "category": "polymer_industry",
+      "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+      "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "Swiss injection mold specialist Kebo AG merges with France's Plastisud Group, creating a 300-employee company offering medical and pharmaceutical tooling solutions."
+    },
+    {
+      "id": "486cd452a1af3c2e",
+      "category": "polymer_industry",
+      "title": "Covestro Expands Global Production with Strategic Acquisitions",
+      "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "Covestro completes acquisition of HDI production sites in Thailand and Texas while announcing major MDI investment program in China and UAE."
+    },
+    {
+      "id": "abf07719bc869638",
+      "category": "polymer_industry",
+      "title": "AI-Driven Data Analytics Transform Injection Molding Manufacturing",
+      "url": "https://www.plasticstoday.com/automation/ai-driven-data-analytics-transform-injection-molding-manufacturing",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "Smart manufacturing leverages AI and real-time sensor data to optimize injection molding processes, improving part quality, throughput, and profitability."
+    },
+    {
+      "id": "591f514ff6e43de1",
+      "category": "polymer_industry",
+      "title": "Trump Declines USMCA Renewal, Triggering Annual Trade Reviews",
+      "url": "https://www.plasticstoday.com/legislation-regulations/trump-declines-usmca-renewal-triggering-annual-trade-reviews",
+      "source_domain": "plasticstoday.com",
+      "importance": "low",
+      "confidence": "unverified",
+      "credibility_score": 3,
+      "snippet": "The Trump administration rejected renewing the USMCA trade agreement, choosing annual reviews instead, creating uncertainty for plastics manufacturers and North American supply chains. The Plastics Industry Association voices its support for preservation of the trade agreement."
+    }
+  ],
+  "articles": [
+    {
+      "id": "b307811a1e5d1640",
+      "title": "Advanced Electronics Solutions",
+      "url": "https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates",
+      "domain": "rogerscorp.com",
+      "credibility_score": 5,
+      "verification_status": "verified",
+      "category": "pcb_substrate",
+      "snippet": "Title: Advanced Electronics Solutions\n\nURL Source: https://www.rogerscorp.com/advanced-electronics-solutions/rogers-high-frequency-laminates\n\nMarkdown Content:\n[![Image 1](https://www.rogerscorp.com/-/media/project/rogerscorp/images/logo/logo-xl.png)](https://www.rogerscorp.com/)\n\n*   [English](http"
+    },
+    {
+      "id": "35f0205c063f0f3b",
+      "title": "Amphenol CS",
+      "url": "https://www.amphenol-cs.com/products/high-speed",
+      "domain": "amphenol-cs.com",
+      "credibility_score": 4,
+      "verification_status": "verified",
+      "category": "connector",
+      "snippet": "Title: Amphenol CS\n\nURL Source: https://www.amphenol-cs.com/products/high-speed\n\nPublished Time: Tue, 16 Jun 2026 09:08:00 GMT\n\nMarkdown Content:\n[![Image 1: Amphenol Communications Solutions](https://static.amphenol-cs.com/AmphenolLogo-9Bd.png)](https://www.amphenol-cs.com/)\n\n[Connectors![Image 2: "
+    },
+    {
+      "id": "f48a344471a11659",
+      "title": "Thermal Management",
+      "url": "https://www.vertiv.com/en-us/products-catalog/thermal-management/",
+      "domain": "vertiv.com",
+      "credibility_score": 4,
+      "verification_status": "verified",
+      "category": "liquid_cooling",
+      "snippet": "Title: Thermal Management\n\nURL Source: https://www.vertiv.com/en-us/products-catalog/thermal-management/\n\nPublished Time: 7/29/2025 12:10:24 PM\n\nMarkdown Content:\n[Skip To Main Content](https://www.vertiv.com/en-us/products-catalog/thermal-management/#ae-skip-to-content)\n\nThis website is AudioEye en"
+    },
+    {
+      "id": "8287755d44c81603",
+      "title": "Recycled Resin Prices Decline as Supply Improves",
+      "url": "https://www.plasticstoday.com/resin-pricing/garrykillian-istock-via-getty-images",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "US recycled plastics markets experienced softening in June 2026, with rPE and rPP prices declining while rPET faces ongoing structural challenges."
+    },
+    {
+      "id": "3822a85d1a2cafcd",
+      "title": "Plastics by the Numbers",
+      "url": "https://www.plasticstoday.com/packaging/plastics-by-the-numbers",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "Market reports on waste-derived pyrolysis oil, polyethylene, thermoformed plastics, 3D-printed packaging, advanced recycling, CO2-based plastics, and polyethylene furanoate (PEF) are featured in this slideshow."
+    },
+    {
+      "id": "5a5e38b8d45d307f",
+      "title": "California's Plastic Packaging Law Forces Brands to Rethink Compliance",
+      "url": "https://www.plasticstoday.com/legislation-regulations/california-s-plastic-packaging-law-forces-brands-to-rethink-compliance",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "With weeks remaining before California's binding source reduction plan deadline, packaging industry leaders warn that inadequate data infrastructure and incomplete financial modeling could cost brands dearly under SB 54's stringent compliance framework."
+    },
+    {
+      "id": "ea500f50a09a7909",
+      "title": "US Manufacturing Growth Continues for Sixth Straight Month",
+      "url": "https://www.plasticstoday.com/industry-trends/us-manufacturing-growth-continues-for-sixth-straight-month",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "US manufacturing expanded for the sixth consecutive month in June, with the ISM Manufacturing PMI at 53.3 percent, reflecting continued growth amid pricing pressures."
+    },
+    {
+      "id": "0b767ee3d63e4566",
+      "title": "Amcor Partners with Kelpi to Advance Bio-based Coatings for Paper Packaging",
+      "url": "https://www.plasticstoday.com/packaging/amcor-partners-with-kelpi-to-advance-bio-based-coatings-for-paper-packaging",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Partnership answers Ellen MacArthur Foundation's call for accelerated innovation in fiber-based flexible packaging."
+    },
+    {
+      "id": "2c3e0a7fc0c20dc9",
+      "title": "Arclin Launches $300K Fund for America's 250th Anniversary",
+      "url": "https://www.plasticstoday.com/materials/arclin-launches-300k-fund-for-america-s-250th-anniversary",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "single_source",
+      "category": "polymer_industry",
+      "snippet": "Arclin announces the Fabric of America Fund, a $300,000 employee-driven giving program supporting communities nationwide in honor of America's 250th anniversary."
+    },
+    {
+      "id": "a09d029607f3ecb9",
+      "title": "Kebo AG Joins Plastisud Group in Strategic Merger",
+      "url": "https://www.plasticstoday.com/injection-molding/kebo-ag-joins-plastisud-group-in-strategic-merger",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "Swiss injection mold specialist Kebo AG merges with France's Plastisud Group, creating a 300-employee company offering medical and pharmaceutical tooling solutions."
+    },
+    {
+      "id": "486cd452a1af3c2e",
+      "title": "Covestro Expands Global Production with Strategic Acquisitions",
+      "url": "https://www.plasticstoday.com/materials/covestro-expands-hdi-production-sites-plans-660-kilotonne-mdi-capacity-boost-in-china-and-uae",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "Covestro completes acquisition of HDI production sites in Thailand and Texas while announcing major MDI investment program in China and UAE."
+    },
+    {
+      "id": "abf07719bc869638",
+      "title": "AI-Driven Data Analytics Transform Injection Molding Manufacturing",
+      "url": "https://www.plasticstoday.com/automation/ai-driven-data-analytics-transform-injection-molding-manufacturing",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "Smart manufacturing leverages AI and real-time sensor data to optimize injection molding processes, improving part quality, throughput, and profitability."
+    },
+    {
+      "id": "591f514ff6e43de1",
+      "title": "Trump Declines USMCA Renewal, Triggering Annual Trade Reviews",
+      "url": "https://www.plasticstoday.com/legislation-regulations/trump-declines-usmca-renewal-triggering-annual-trade-reviews",
+      "domain": "plasticstoday.com",
+      "credibility_score": 3,
+      "verification_status": "unverified",
+      "category": "polymer_industry",
+      "snippet": "The Trump administration rejected renewing the USMCA trade agreement, choosing annual reviews instead, creating uncertainty for plastics manufacturers and North American supply chains. The Plastics Industry Association voices its support for preservation of the trade agreement."
+    }
+  ],
+  "source_domains": [
+    {
+      "domain": "plasticstoday.com",
+      "count": 10
+    },
+    {
+      "domain": "rogerscorp.com",
+      "count": 1
+    },
+    {
+      "domain": "amphenol-cs.com",
+      "count": 1
+    },
+    {
+      "domain": "vertiv.com",
+      "count": 1
+    }
+  ]
+}
